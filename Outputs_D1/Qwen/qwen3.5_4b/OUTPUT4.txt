@@ -1,0 +1,19 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "palas carboneras",
+      "cantidad": 5,
+      "unidad": null
+    },
+    {
+      "recurso": "bolsas negras grandes",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Frutillares",
+  "referencia": "casi llagando al puente fierro frente ar taller mecanico viejo",
+  "urgencia": 5
+}
+```

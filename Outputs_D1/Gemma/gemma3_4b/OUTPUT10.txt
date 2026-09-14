@@ -1,0 +1,19 @@
+```json
+{
+"suministros_solicitados": [
+  {
+    "recurso": "colchones de una plaza",
+    "cantidad": 18,
+    "unidad": null
+  },
+  {
+    "recurso": "mascarillas",
+    "cantidad": 4,
+    "unidad": "cajas"
+  }
+],
+"direccion_objetivo": "Punta de Parra",
+"referencias": "pasaje sin salida que queda detrás del almacén del sector",
+"urgencia": 3
+}
+```

@@ -1,0 +1,17 @@
+{
+"suministros_solicitados": [
+{
+"recurso": "palas",
+"cantidad": 7,
+"unidad": null
+},
+{
+"recurso": "guantes",
+"cantidad": 12,
+"unidad": "pares"
+}
+],
+"direccion_objetivo": null,
+"referencia": null,
+"urgencia": 4
+}

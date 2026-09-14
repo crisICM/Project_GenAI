@@ -1,0 +1,19 @@
+```
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "pala",
+      "cantidad": 6,
+      "unidad": null
+    },
+    {
+      "recurso": "caja de mascarillas",
+      "cantidad": 2,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "junto a la sede, frente al portón de la cancha",
+  "urgencia": 5
+}
+```

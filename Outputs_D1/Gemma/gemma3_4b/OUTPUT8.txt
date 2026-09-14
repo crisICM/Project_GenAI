@@ -1,0 +1,19 @@
+```json
+{
+"suministros_solicitados": [
+  {
+    "recurso": "leche",
+    "cantidad": 13,
+    "unidad": null
+  },
+  {
+    "recurso": "pañales",
+    "cantidad": 8,
+    "unidad": "paquetes"
+  }
+],
+"direccion_objetivo": "Coliumo, Tomé",
+"referencias": "casa de madera frente al paradero",
+"urgencia": null
+}
+```

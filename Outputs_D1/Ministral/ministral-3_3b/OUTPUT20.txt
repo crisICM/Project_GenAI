@@ -1,0 +1,12 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "equipo de despeje (arborista o maquinaria específica)"
+    }
+  ],
+  "direccion_objetivo": "Pasaje de tierra detrás de la sede de Punta de Parra, Tomé",
+  "referencias": null,
+  "urgencia": 5
+}
+```

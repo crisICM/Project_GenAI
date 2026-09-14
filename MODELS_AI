@@ -1,0 +1,6 @@
+    MODELOS                   TEMPERATURA       ExactModel
+
+    qwen3.5:4                 0.3
+    ministral-3:3b            0.3              ministral-3:3b-instruction(?)
+    gemma3:4b                 0.3
+    llama3.1:8b               0.3

@@ -1,0 +1,19 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "colchonetas",
+      "cantidad": 20,
+      "unidad": null
+    },
+    {
+      "recurso": "comida caliente o termos grandes con café/sopa",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Escuela Gabriela Mistral",
+  "referencia": "Calle Manuel Montt frente a la plaza de Bellavista",
+  "urgencia": 5
+}
+```

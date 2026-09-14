@@ -1,0 +1,19 @@
+```json
+{
+"suministros_solicitados": [
+  {
+    "recurso": "sillas",
+    "cantidad": 12,
+    "unidad": null
+  },
+  {
+    "recurso": "mesas",
+    "cantidad": 2,
+    "unidad": null
+  }
+],
+"direccion_objetivo": "Tomé Alto",
+"referencia": "Frente a la cancha (no al lado del consultorio)",
+"urgencia": 5
+}
+```

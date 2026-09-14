@@ -1,0 +1,14 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "bidones de agua",
+      "cantidad": 10,
+      "unidad": "unidad"
+    }
+  ],
+  "direccion_objetivo": "Sede Cocholgue, Tomé",
+  "referencias": "Frente a la multicancha (en la comuna de Tomé)",
+  "urgencia": 3
+}
+```

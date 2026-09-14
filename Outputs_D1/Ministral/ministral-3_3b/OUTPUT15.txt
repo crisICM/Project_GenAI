@@ -1,0 +1,24 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "bidones de agua",
+      "cantidad": 3,
+      "unidad": "de 5 litros"
+    },
+    {
+      "recurso": "cajas de mascarillas",
+      "cantidad": 2,
+      "unidad": "con 24 unidades cada una"
+    },
+    {
+      "recurso": "paquetes de velas",
+      "cantidad": 4,
+      "unidad": "de 10 unidades cada uno"
+    }
+  ],
+  "direccion_objetivo": "Coliumo, Tomé",
+  "referencias": "Patio de la casa azul frente al paradero",
+  "urgencia": 3
+}
+```

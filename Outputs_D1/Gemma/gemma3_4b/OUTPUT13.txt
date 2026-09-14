@@ -1,0 +1,24 @@
+```json
+{
+"suministros_solicitados": [
+    {
+        "recurso": "planchas de zinc",
+        "cantidad": null,
+        "unidad": null
+    },
+    {
+        "recurso": "nylon",
+        "cantidad": 20,
+        "unidad": "metros"
+    },
+    {
+        "recurso": "cinta adhesiva",
+        "cantidad": 4,
+        "unidad": null
+    }
+],
+"direccion_objetivo": "Rafael, comuna de Tomé",
+"referencias": "al lado de la sede del sector",
+"urgencia": null
+}
+```

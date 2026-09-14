@@ -1,0 +1,25 @@
+﻿model	prompt_file	output_file	status	input_tokens	output_tokens	total_seconds	done_reason	error
+qwen3.5:4b	PROMPT_01.txt	qwen3.5_4b\OUTPUT1.txt	ok	455	144	12.926	stop	
+qwen3.5:4b	PROMPT_02.txt	qwen3.5_4b\OUTPUT2.txt	ok	473	135	2.924	stop	
+qwen3.5:4b	PROMPT_03.txt	qwen3.5_4b\OUTPUT3.txt	ok	503	215	4.417	stop	
+qwen3.5:4b	PROMPT_04_TEXTO_CON_ERRORES_DE_ORTOGRAFIA.txt	qwen3.5_4b\OUTPUT4.txt	ok	493	131	2.84	stop	
+qwen3.5:4b	PROMPT_05.txt	qwen3.5_4b\OUTPUT5.txt	ok	483	150	3.171	stop	
+qwen3.5:4b	PROMPT_06.txt	qwen3.5_4b\OUTPUT6.txt	ok	447	108	2.382	stop	
+qwen3.5:4b	PROMPT_07.txt	qwen3.5_4b\OUTPUT7.txt	ok	439	138	2.934	stop	
+qwen3.5:4b	PROMPT_08_MULTIPLES_ACTUALIZACIONES.txt	qwen3.5_4b\OUTPUT8.txt	ok	471	121	2.613	stop	
+qwen3.5:4b	PROMPT_09_MEZCLA_ELEMENTOS_SOLICITADOS_Y_ELEMENTOS_NO_REQUERIDOS.txt	qwen3.5_4b\OUTPUT9.txt	ok	449	150	3.137	stop	
+qwen3.5:4b	PROMPT_10_DOS_DIRECCIONES_EN_UN_MENSAJE.txt	qwen3.5_4b\OUTPUT10.txt	ok	457	118	2.574	stop	
+qwen3.5:4b	PROMPT_11_Aviso_de_OFRECIMIENTO_no_de_SOLICITUD.txt	qwen3.5_4b\OUTPUT11.txt	ok	431	44	1.147	stop	
+qwen3.5:4b	PROMPT_12_Aviso_de_NO_NECESIDAD.txt	qwen3.5_4b\OUTPUT12.txt	ok	440	40	1.058	stop	
+qwen3.5:4b	PROMPT_13_CANTIDAD_EN_INTERVALOS.txt	qwen3.5_4b\OUTPUT13.txt	ok	447	146	3.062	stop	
+qwen3.5:4b	PROMPT_14_CANTIDADES_CON_DECIMALES.txt	qwen3.5_4b\OUTPUT14.txt	ok	445	136	2.912	stop	
+qwen3.5:4b	PROMPT_15_UNIDAD_DETALLADA.txt	qwen3.5_4b\OUTPUT15.txt	ok	446	161	3.436	stop	
+qwen3.5:4b	PROMPT_16_DIRECCION_NO_ENTREGADA_SOLO_REFERENCIAS.txt	qwen3.5_4b\OUTPUT16.txt	ok	434	92	2.085	stop	
+qwen3.5:4b	PROMPT_17_AMBIGUEDAD_EN_LA_DIRECCION.txt	qwen3.5_4b\OUTPUT17.txt	ok	447	89	1.992	stop	
+qwen3.5:4b	PROMPT_18.txt	qwen3.5_4b\OUTPUT18.txt	ok	451	119	2.61	stop	
+qwen3.5:4b	PROMPT_19_Urgencia_NO_EXPRESADO_en_suministros.txt	qwen3.5_4b\OUTPUT19.txt	ok	437	80	1.881	stop	
+qwen3.5:4b	PROMPT_20.txt	qwen3.5_4b\OUTPUT20.txt	ok	440	94	2.137	stop	
+qwen3.5:4b	PROMPT_21.txt	qwen3.5_4b\OUTPUT21.txt	ok	449	81	1.889	stop	
+qwen3.5:4b	PROMPT_22.txt	qwen3.5_4b\OUTPUT22.txt	ok	476	103	2.3	stop	
+qwen3.5:4b	PROMPT_23_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt	qwen3.5_4b\OUTPUT23.txt	ok	473	93	2.125	stop	
+qwen3.5:4b	PROMPT_24.txt	qwen3.5_4b\OUTPUT24.txt	ok	464	126	2.713	stop	

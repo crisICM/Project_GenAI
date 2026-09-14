@@ -1,0 +1,24 @@
+```json
+{
+"suministros_solicitados": [
+    {
+        "recurso": "bidones de agua",
+        "cantidad": 50,
+        "unidad": "unidad"
+    },
+    {
+        "recurso": "palas",
+        "cantidad": 20,
+        "unidad": null
+    },
+    {
+        "recurso": "mascarillas",
+        "cantidad": 3,
+        "unidad": "caja"
+    }
+],
+"direccion_objetivo": "junta de vecinos de Tomé alto",
+"referencias": "cerca de la subida del cerro",
+"urgencia": 5
+}
+```

@@ -1,0 +1,24 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "remedio losartan",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "paracetamol",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "comida no perecedera (tipo fideo o atun)",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": null,
+  "referencia": null,
+  "urgencia": 5
+}
+```

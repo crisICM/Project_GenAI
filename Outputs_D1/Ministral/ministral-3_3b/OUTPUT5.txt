@@ -1,0 +1,29 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "remedios (lisaartán)",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "paracetamol",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "caja (máximo dos)",
+      "cantidad": 2,
+      "unidad": null
+    },
+    {
+      "recurso": "comida no perecedera (fideos o atún)",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Punta de Parra, comuna de La Marina",
+  "referencias": "Calle La Marina, bajando por la línea del tren hacia la playa. El callejón donde termina la calle está cerca del final de la zona costera.",
+  "urgencia": 5
+}
+```

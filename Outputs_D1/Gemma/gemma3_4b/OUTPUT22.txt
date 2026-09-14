@@ -1,0 +1,19 @@
+```json
+{
+"suministros_solicitados": [
+  {
+    "recurso": "palas",
+    "cantidad": 10,
+    "unidad": null
+  },
+  {
+    "recurso": "carretillas",
+    "cantidad": 5,
+    "unidad": null
+  }
+],
+"direccion_objetivo": "paradero",
+"referencias": "La sede es la que está junto al paradero.",
+"urgencia": 3
+}
+```

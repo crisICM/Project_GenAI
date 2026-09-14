@@ -1,0 +1,14 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "frazádas secas",
+      "cantidad": 2,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": null,
+  "urgencia": 5
+}
+```

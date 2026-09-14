@@ -1,0 +1,29 @@
+```json
+{
+"suministros_solicitados": [
+    {
+        "recurso": "losartan",
+        "cantidad": null,
+        "unidad": null
+    },
+    {
+        "recurso": "paracetamol",
+        "cantidad": null,
+        "unidad": null
+    },
+    {
+        "recurso": "fideo",
+        "cantidad": null,
+        "unidad": null
+    },
+    {
+        "recurso": "atun",
+        "cantidad": null,
+        "unidad": null
+    }
+],
+"direccion_objetivo": "Punta de Parra",
+"referencias": "Calle la marina sin numero bajando x la linea del tren asia la playa donde termina el callejon.  Lado de la carretera vieja kon botas.",
+"urgencia": 5
+}
+```

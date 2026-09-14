@@ -1,0 +1,25 @@
+﻿model	prompt_file	output_file	status	input_tokens	output_tokens	total_seconds	done_reason	error
+ministral-3:3b	PROMPT_01.txt	ministral-3_3b\OUTPUT1.txt	ok	460	168	7.745	stop	
+ministral-3:3b	PROMPT_02.txt	ministral-3_3b\OUTPUT2.txt	ok	476	219	2.892	stop	
+ministral-3:3b	PROMPT_03.txt	ministral-3_3b\OUTPUT3.txt	ok	511	199	2.622	stop	
+ministral-3:3b	PROMPT_04_TEXTO_CON_ERRORES_DE_ORTOGRAFIA.txt	ministral-3_3b\OUTPUT4.txt	ok	505	173	2.3	stop	
+ministral-3:3b	PROMPT_05.txt	ministral-3_3b\OUTPUT5.txt	ok	492	221	2.903	stop	
+ministral-3:3b	PROMPT_06.txt	ministral-3_3b\OUTPUT6.txt	ok	454	121	1.621	stop	
+ministral-3:3b	PROMPT_07.txt	ministral-3_3b\OUTPUT7.txt	ok	441	138	1.836	stop	
+ministral-3:3b	PROMPT_08_MULTIPLES_ACTUALIZACIONES.txt	ministral-3_3b\OUTPUT8.txt	ok	478	126	1.692	stop	
+ministral-3:3b	PROMPT_09_MEZCLA_ELEMENTOS_SOLICITADOS_Y_ELEMENTOS_NO_REQUERIDOS.txt	ministral-3_3b\OUTPUT9.txt	ok	454	149	1.979	stop	
+ministral-3:3b	PROMPT_10_DOS_DIRECCIONES_EN_UN_MENSAJE.txt	ministral-3_3b\OUTPUT10.txt	ok	461	129	1.726	stop	
+ministral-3:3b	PROMPT_11_Aviso_de_OFRECIMIENTO_no_de_SOLICITUD.txt	ministral-3_3b\OUTPUT11.txt	ok	431	82	1.099	stop	
+ministral-3:3b	PROMPT_12_Aviso_de_NO_NECESIDAD.txt	ministral-3_3b\OUTPUT12.txt	ok	445	49	0.687	stop	
+ministral-3:3b	PROMPT_13_CANTIDAD_EN_INTERVALOS.txt	ministral-3_3b\OUTPUT13.txt	ok	450	217	2.846	stop	
+ministral-3:3b	PROMPT_14_CANTIDADES_CON_DECIMALES.txt	ministral-3_3b\OUTPUT14.txt	ok	448	154	2.046	stop	
+ministral-3:3b	PROMPT_15_UNIDAD_DETALLADA.txt	ministral-3_3b\OUTPUT15.txt	ok	453	175	2.296	stop	
+ministral-3:3b	PROMPT_16_DIRECCION_NO_ENTREGADA_SOLO_REFERENCIAS.txt	ministral-3_3b\OUTPUT16.txt	ok	437	149	1.974	stop	
+ministral-3:3b	PROMPT_17_AMBIGUEDAD_EN_LA_DIRECCION.txt	ministral-3_3b\OUTPUT17.txt	ok	451	126	1.686	stop	
+ministral-3:3b	PROMPT_18.txt	ministral-3_3b\OUTPUT18.txt	ok	464	122	1.631	stop	
+ministral-3:3b	PROMPT_19_Urgencia_NO_EXPRESADO_en_suministros.txt	ministral-3_3b\OUTPUT19.txt	ok	441	82	1.126	stop	
+ministral-3:3b	PROMPT_20.txt	ministral-3_3b\OUTPUT20.txt	ok	446	86	1.202	stop	
+ministral-3:3b	PROMPT_21.txt	ministral-3_3b\OUTPUT21.txt	ok	454	101	1.389	stop	
+ministral-3:3b	PROMPT_22.txt	ministral-3_3b\OUTPUT22.txt	ok	477	103	1.405	stop	
+ministral-3:3b	PROMPT_23_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt	ministral-3_3b\OUTPUT23.txt	ok	486	93	1.276	stop	
+ministral-3:3b	PROMPT_24.txt	ministral-3_3b\OUTPUT24.txt	ok	475	121	1.637	stop	

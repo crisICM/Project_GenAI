@@ -1,0 +1,14 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "agua",
+      "cantidad": 40,
+      "unidad": "botellas"
+    }
+  ],
+  "direccion_objetivo": "centro de Tomé",
+  "referencias": null,
+  "urgencia": 1
+}
+```

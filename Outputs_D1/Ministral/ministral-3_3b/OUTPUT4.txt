@@ -1,0 +1,24 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "bota de trabajo",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "pala carbonera",
+      "cantidad": 5,
+      "unidad": null
+    },
+    {
+      "recurso": "bolsa negra de consorcio",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Frutillares (Bajo)",
+  "referencias": "Frente al taller mecánico viejo, cerca del puente de hierro en Frutillares Bajo, camino a Concepción por la Cuesta Caracol.",
+  "urgencia": 3
+}
+```

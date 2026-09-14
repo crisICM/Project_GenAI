@@ -1,0 +1,17 @@
+{
+"suministros_solicitados": [
+{
+"recurso": "frascas",
+"cantidad": 2,
+"unidad": null
+},
+{
+"recurso": "linternas con pilas",
+"cantidad": 6,
+"unidad": null
+}
+],
+"direccion_objetivo": "Dichato Tome",
+"referencia": "Frente a la cancha en la casa del portón verde",
+"urgencia": 4
+}

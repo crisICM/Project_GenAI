@@ -1,0 +1,19 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "colchones",
+      "cantidad": 18,
+      "unidad": null
+    },
+    {
+      "recurso": "mascarillas",
+      "cantidad": 4,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Punta de Parra, Tomé",
+  "referencias": "El lugar afectado es el pasaje sin salida detrás del almacén del sector",
+  "urgencia": 5
+}
+```

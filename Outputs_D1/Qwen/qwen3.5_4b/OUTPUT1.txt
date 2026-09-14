@@ -1,0 +1,24 @@
+```json
+{
+"suministros_solicitados": [
+{
+"recurso": "bidones de agua",
+"cantidad": 50,
+"unidad": "litros"
+},
+{
+"recurso": "palas",
+"cantidad": 20,
+"unidad": null
+},
+{
+"recurso": "mascarillas",
+"cantidad": 3,
+"unidad": "cajas"
+}
+],
+"direccion_objetivo": "Tomé Alto",
+"referencia": "Junta de vecinos, cerca de la subida del cerro",
+"urgencia": 5
+}
+```

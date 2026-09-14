@@ -1,0 +1,29 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "bidones de agua",
+      "cantidad": 8,
+      "unidad": null
+    },
+    {
+      "recurso": "pañales de niño (talla XG)",
+      "cantidad": 2,
+      "unidad": "paquetes"
+    },
+    {
+      "recurso": "sacos de arena",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "palas",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "cerro Estánque",
+  "referencias": "cerca de los estanques de Esbío, arriba del todo (Pasaje 3, Casa 12)",
+  "urgencia": 5
+}
+```

@@ -1,0 +1,19 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "palas",
+      "cantidad": 6,
+      "unidad": null
+    },
+    {
+      "recurso": "mascarillas",
+      "cantidad": 2,
+      "unidad": "cajas"
+    }
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "junto a la sede, frente al portón de la cancha",
+  "urgencia": null
+}
+```

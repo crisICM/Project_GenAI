@@ -1,0 +1,14 @@
+```json
+{
+"suministros_solicitados": [
+    {
+        "recurso": "bidones de agua",
+        "cantidad": 10,
+        "unidad": "bidones"
+    }
+],
+"direccion_objetivo": "Tomé",
+"referencias": "frente a la multicancha de Cocholgue",
+"urgencia": 3
+}
+```

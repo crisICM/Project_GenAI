@@ -1,0 +1,19 @@
+```json
+{
+"suministros_solicitados": [
+    {
+        "recurso": "linternas",
+        "cantidad": 6,
+        "unidad": null
+    },
+    {
+        "recurso": "frazadas",
+        "cantidad": 10,
+        "unidad": null
+    }
+],
+"direccion_objetivo": "Tomé",
+"referencias": "frente a una escuela",
+"urgencia": 3
+}
+```

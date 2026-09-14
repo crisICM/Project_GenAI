@@ -1,0 +1,14 @@
+```json
+{
+    "suministros_solicitados": [
+        {
+            "recurso": "frazadas",
+            "cantidad": 2,
+            "unidad": "secas"
+        }
+    ],
+    "direccion_objetivo": "Tomé Alto",
+    "referencias": "detrás de la cancha",
+    "urgencia": 5
+}
+```

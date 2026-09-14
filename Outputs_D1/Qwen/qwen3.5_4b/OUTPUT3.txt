@@ -1,0 +1,29 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "bidones de agua",
+      "cantidad": 8,
+      "unidad": null
+    },
+    {
+      "recurso": "pañales de niño talla XG",
+      "cantidad": 2,
+      "unidad": "paquetes"
+    },
+    {
+      "recurso": "saco de arena",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "palas",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Cerro Estanque",
+  "referencia": "Pasaje 3, Casa 12, cerca de los estanques de ESSBio. Acceso por calle Vicuña Mackena está tapada en barro.",
+  "urgencia": 5
+}
+```

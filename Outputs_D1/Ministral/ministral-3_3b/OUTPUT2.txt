@@ -1,0 +1,29 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "colchonetas",
+      "cantidad": 20,
+      "unidad": null
+    },
+    {
+      "recurso": "comida caliente",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "termos grandes",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "café/sopa",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Escuela Gabriela Mistral (Bellavista)",
+  "referencias": "Albergue ubicado en la calle Manuel Montt, frente a la plaza de Bellavista (Comuna de Concepción). Acceso desde la rotonda de acceso norte a Tomé: hay desvío por Carabineros.",
+  "urgencia": 5
+}
+```

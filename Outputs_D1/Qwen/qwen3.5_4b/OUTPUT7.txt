@@ -1,0 +1,22 @@
+{
+"suministros_solicitados": [
+{
+"recurso": "agua",
+"cantidad": null,
+"unidad": null
+},
+{
+"recurso": "pañales de adulto",
+"cantidad": null,
+"unidad": null
+},
+{
+"recurso": "frascos",
+"cantidad": 15,
+"unidad": "frazadas"
+}
+],
+"direccion_objetivo": "Cocholgue, Tomé",
+"referencia": "Sede junto al almacén (nombre de calle desconocido)",
+"urgencia": 3
+}

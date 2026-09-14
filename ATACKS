@@ -1,0 +1,16 @@
+De forma inicial se reunieron las siguientes situaciones que la IA deberá afrontar
+exitosamente
+
+. Siguimiento de instrucciones
+. Identificar los recursos/suministros solicitados
+. Identificar la ubicacion (localización) hacia donde se debe dirigidar el suministro
+. Identificar si la situación es muy apremiante/urgente
+. Distinguir los puntos anteriores pero con la forma de hablar chilena.
+. Estructurar la información en formato JSON
+. Faltas de ortografía
+. Ubicaciones no identificables
+. Multiples ubicaciones mencionadas en un prompt
+. Cantidades solicitadas en intervalos por ejemplo: "Traer entre 1 a 5 bolsas de arroz."
+
+Cosas a considerar: Para poder escalar este proyecto se espera idealmente que la IA pueda asumir más responsabilidades o tareas adicionales relacionadas al output de la primera tarea.
+Para ello considerar opiniones sobre qué tan bien puede aprender el modelo o qué tan bueno es después de aplicar tecnicas de finetuning, rag, otros.

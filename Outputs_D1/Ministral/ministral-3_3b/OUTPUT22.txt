@@ -1,0 +1,17 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "pala",
+      "cantidad": 8
+    },
+    {
+      "recurso": "carretilla",
+      "cantidad": 5
+    }
+  ],
+  "direccion_objetivo": "sede de Rafael, Tomé",
+  "referencias": "La sede está junto al paradero",
+  "urgencia": 3
+}
+```

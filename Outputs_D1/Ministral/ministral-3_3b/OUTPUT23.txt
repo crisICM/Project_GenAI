@@ -1,0 +1,14 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "cajas de alimentos",
+      "cantidad": 10,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Dichato, Tomé",
+  "referencias": "Casa de portón rojo detrás de la sede municipal",
+  "urgencia": 3
+}
+```

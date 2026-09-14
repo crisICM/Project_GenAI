@@ -1,0 +1,24 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "arroz",
+      "cantidad": 2,
+      "unidad": "kg"
+    },
+    {
+      "recurso": "sal",
+      "cantidad": 1,
+      "unidad": "kg"
+    },
+    {
+      "recurso": "aceite de oliva",
+      "cantidad": 3,
+      "unidad": "litros"
+    }
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "Sede junto a la escalera (lugar donde se recibió la ayuda)",
+  "urgencia": 3
+}
+```

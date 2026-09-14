@@ -1,0 +1,12 @@
+{
+"suministros_solicitados": [
+{
+"recurso": "bidón de agua",
+"cantidad": 10,
+"unidad": 5
+}
+],
+"direccion_objetivo": "Cocholgue, Tomé",
+"referencia": "frente a la multicancha",
+"urgencia": 3
+}

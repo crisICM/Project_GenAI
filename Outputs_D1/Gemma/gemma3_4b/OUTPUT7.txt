@@ -1,0 +1,24 @@
+```json
+{
+"suministros_solicitados": [
+    {
+        "recurso": "agua",
+        "cantidad": null,
+        "unidad": null
+    },
+    {
+        "recurso": "pañales de adulto",
+        "cantidad": null,
+        "unidad": null
+    },
+    {
+        "recurso": "frazadas",
+        "cantidad": 15,
+        "unidad": null
+    }
+],
+"direccion_objetivo": "Cocholgue, Tomé",
+"referencias": null,
+"urgencia": 3
+}
+```

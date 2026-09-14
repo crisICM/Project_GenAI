@@ -1,0 +1,19 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "frasadas",
+      "cantidad": 10,
+      "unidad": null
+    },
+    {
+      "recurso": "linternas",
+      "cantidad": 6,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Dichato",
+  "referencias": "Frente a la cancha en la casa del portón verde",
+  "urgencia": 3
+}
+```

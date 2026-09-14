@@ -1,0 +1,19 @@
+```json
+{
+"suministros_solicitados": [
+    {
+        "recurso": "pala",
+        "cantidad": 7,
+        "unidad": null
+    },
+    {
+        "recurso": "guante",
+        "cantidad": 12,
+        "unidad": "par"
+    }
+],
+"direccion_objetivo": "al lado del negocio, subiendo",
+"referencias": null,
+"urgencia": 3
+}
+```

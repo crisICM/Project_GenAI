@@ -1,0 +1,24 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "pala",
+      "cantidad": 8,
+      "unidad": null
+    },
+    {
+      "recurso": "carretilla",
+      "cantidad": 5,
+      "unidad": null
+    },
+    {
+      "recurso": "pala",
+      "cantidad": 2,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Rafael",
+  "referencias": "Junto al paradero",
+  "urgencia": 5
+}
+```

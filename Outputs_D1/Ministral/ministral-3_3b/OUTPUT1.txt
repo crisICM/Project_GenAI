@@ -1,0 +1,24 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "bidones de agua",
+      "cantidad": 50,
+      "unidad": "unidades (5 litros cada uno)"
+    },
+    {
+      "recurso": "palas",
+      "cantidad": 20,
+      "unidad": null
+    },
+    {
+      "recurso": "mascarillas",
+      "cantidad": 3,
+      "unidad": "cajas"
+    }
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "Cerca de la subida del cerro, en la junta de vecinos. Camino principal cortado.",
+  "urgencia": 5
+}
+```

@@ -1,0 +1,14 @@
+```json
+{
+"suministros_solicitados": [
+{
+"recurso": "equipo para despejar",
+"cantidad": null,
+"unidad": null
+}
+],
+"direccion_objetivo": "Tomé",
+"referencias": "pasaje de tierra detrás de la sede de Punta de Parra",
+"urgencia": 3
+}
+```

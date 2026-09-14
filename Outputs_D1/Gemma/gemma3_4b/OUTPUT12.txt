@@ -1,0 +1,19 @@
+```json
+{
+"suministros_solicitados": [
+{
+"recurso": "alimentos",
+"cantidad": 12,
+"unidad": "cajas"
+},
+{
+"recurso": "frazadas",
+"cantidad": 20,
+"unidad": null
+}
+],
+"direccion_objetivo": "Dichato, Tomé",
+"referencias": null,
+"urgencia": null
+}
+```

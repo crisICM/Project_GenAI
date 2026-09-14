@@ -1,0 +1,25 @@
+﻿model	prompt_file	output_file	status	input_tokens	output_tokens	total_seconds	done_reason	error
+gemma3:4b	PROMPT_01.txt	gemma3_4b\OUTPUT1.txt	ok	456	162	11.7	stop	
+gemma3:4b	PROMPT_02.txt	gemma3_4b\OUTPUT2.txt	ok	474	156	2.555	stop	
+gemma3:4b	PROMPT_03.txt	gemma3_4b\OUTPUT3.txt	ok	504	156	2.591	stop	
+gemma3:4b	PROMPT_04_TEXTO_CON_ERRORES_DE_ORTOGRAFIA.txt	gemma3_4b\OUTPUT4.txt	ok	496	164	2.698	stop	
+gemma3:4b	PROMPT_05.txt	gemma3_4b\OUTPUT5.txt	ok	483	196	3.189	stop	
+gemma3:4b	PROMPT_06.txt	gemma3_4b\OUTPUT6.txt	ok	446	122	2.065	stop	
+gemma3:4b	PROMPT_07.txt	gemma3_4b\OUTPUT7.txt	ok	440	144	2.398	stop	
+gemma3:4b	PROMPT_08_MULTIPLES_ACTUALIZACIONES.txt	gemma3_4b\OUTPUT8.txt	ok	473	123	2.111	stop	
+gemma3:4b	PROMPT_09_MEZCLA_ELEMENTOS_SOLICITADOS_Y_ELEMENTOS_NO_REQUERIDOS.txt	gemma3_4b\OUTPUT9.txt	ok	451	150	2.484	stop	
+gemma3:4b	PROMPT_10_DOS_DIRECCIONES_EN_UN_MENSAJE.txt	gemma3_4b\OUTPUT10.txt	ok	456	131	2.225	stop	
+gemma3:4b	PROMPT_11_Aviso_de_OFRECIMIENTO_no_de_SOLICITUD.txt	gemma3_4b\OUTPUT11.txt	ok	430	79	1.407	stop	
+gemma3:4b	PROMPT_12_Aviso_de_NO_NECESIDAD.txt	gemma3_4b\OUTPUT12.txt	ok	440	106	1.839	stop	
+gemma3:4b	PROMPT_13_CANTIDAD_EN_INTERVALOS.txt	gemma3_4b\OUTPUT13.txt	ok	448	153	2.535	stop	
+gemma3:4b	PROMPT_14_CANTIDADES_CON_DECIMALES.txt	gemma3_4b\OUTPUT14.txt	ok	445	156	2.572	stop	
+gemma3:4b	PROMPT_15_UNIDAD_DETALLADA.txt	gemma3_4b\OUTPUT15.txt	ok	446	176	2.884	stop	
+gemma3:4b	PROMPT_16_DIRECCION_NO_ENTREGADA_SOLO_REFERENCIAS.txt	gemma3_4b\OUTPUT16.txt	ok	436	115	1.955	stop	
+gemma3:4b	PROMPT_17_AMBIGUEDAD_EN_LA_DIRECCION.txt	gemma3_4b\OUTPUT17.txt	ok	449	115	1.959	stop	
+gemma3:4b	PROMPT_18.txt	gemma3_4b\OUTPUT18.txt	ok	451	114	1.947	stop	
+gemma3:4b	PROMPT_19_Urgencia_NO_EXPRESADO_en_suministros.txt	gemma3_4b\OUTPUT19.txt	ok	437	80	1.451	stop	
+gemma3:4b	PROMPT_20.txt	gemma3_4b\OUTPUT20.txt	ok	441	87	1.549	stop	
+gemma3:4b	PROMPT_21.txt	gemma3_4b\OUTPUT21.txt	ok	451	94	1.658	stop	
+gemma3:4b	PROMPT_22.txt	gemma3_4b\OUTPUT22.txt	ok	478	119	2.018	stop	
+gemma3:4b	PROMPT_23_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt	gemma3_4b\OUTPUT23.txt	ok	474	96	1.687	stop	
+gemma3:4b	PROMPT_24.txt	gemma3_4b\OUTPUT24.txt	ok	465	122	2.099	stop	

@@ -1,0 +1,24 @@
+```json
+{
+"suministros_solicitados": [
+    {
+        "recurso": "bota d jebe",
+        "cantidad": null,
+        "unidad": null
+    },
+    {
+        "recurso": "carboneras",
+        "cantidad": 5,
+        "unidad": "palas"
+    },
+    {
+        "recurso": "bolsas negras grand",
+        "cantidad": null,
+        "unidad": null
+    }
+],
+"direccion_objetivo": "Frutillares",
+"referencias": "bajo casi llegando al puente fierro frente al taller mecanico viejo, x la cuesta caracol",
+"urgencia": 5
+}
+```

@@ -1,0 +1,19 @@
+```json
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "palas",
+      "cantidad": 7,
+      "unidad": null
+    },
+    {
+      "recurso": "pares de guantes",
+      "cantidad": 12,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "sector donde la señora que prestó el patio (sin especificar comuna/city)",
+  "referencias": "Lado del negocio al que sube hacia el patio prestado por la señora (ubicación aproximada en el área mencionada)",
+  "urgencia": 4
+}
+```

@@ -1,0 +1,14 @@
+```
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "bidones de agua",
+      "cantidad": 10,
+      "unidad": "litros"
+    }
+  ],
+  "direccion_objetivo": "Cocholgue",
+  "referencias": "Frente a la multicancha",
+  "urgencia": 3
+}
+```
