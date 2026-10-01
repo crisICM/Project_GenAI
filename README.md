@@ -4,15 +4,15 @@
 
 | Archivo o carpeta | Función |
 | --- | --- |
-| `Run_AI_D1.py` | Versión base interactiva, con el prompt de sistema incluido en el código. |
-| `Run_AI_D2.py` | Solución interactiva que carga las instrucciones desde `Instruction_2.txt`. |
-| `Instruction_2.txt` | Reglas de extracción, rúbrica de urgencia y ejemplos completos. |
-| `Run_Prompts.py` | Ejecuta la solución sobre todos los archivos de prueba y guarda las respuestas y los datos de ejecución. |
+| `Run_AI_D1.py` | Código que permite interactuar con el modelo IA con instrucciones de sus respuestas predeterminadas. En particular D1 significa que es la versión base, usada para la entrega 1  |
+| `Run_AI_D2.py` | Actualización con las mejoras respecto a D1. Este lee las instrucciones desde el archivo Instructions_2 |
+| `Instruction_2.txt` | Instrucciones de extracción para el modelo. Este es el utilizado para esta entrega y los nuevos resultados |
+| `Run_Prompts.py` | Ejecuta la solución sobre todos prompts de prueba y guarda las respuestas y los datos de ejecución. |
 | `Prompts_Separados/` | Los 21 mensajes individuales utilizados por el programa de pruebas. |
 | `Prompts_deposito.txt` | Mensajes reunidos para consultarlos o copiarlos. No es el archivo de entrada del programa de pruebas. |
-| `Rubrica.txt` | Respuestas de referencia y comentarios para evaluar manualmente. |
-| `Outputs_D2/` | Ejecuciones previamente guardadas de Qwen, Ministral y Gemma. |
-| `MODELS_AI` | Notas sobre los modelos. La configuración utilizada está definida en los programas Python. |
+| `Rubrica.txt` | Respuestas de referencia y comentarios para evaluar manualmente la calidad de respuesta de los modelos frente a los prompts o mensajes de emergencia. |
+| `Outputs_D2/` | Resultados obtenidos de Qwen, Ministral y Gemma. |
+| `MODELS_AI` | Nombre de los modelos usados. |
 
 ## Instalación
 
