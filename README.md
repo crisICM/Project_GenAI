@@ -42,8 +42,9 @@ Descarga el modelo utilizado en la demostración:
 ollama pull ministral-3:3b
 ```
 
-## 3 Reproducción del video
+## 3 Reproductibilidad del video
 
+Link del video: https://drive.google.com/file/d/1hzm5N7h-Jtmf-oEKKrAkn3vlxcKA_Y-L/view?usp=drive_link
 Ejecuta los siguientes comandos **desde la carpeta `Deliverable_2`**. 
 
 Dentro de la carpeta se encuentran distintos archivos .py
