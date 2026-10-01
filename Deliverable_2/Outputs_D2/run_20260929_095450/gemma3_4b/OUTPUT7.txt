@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "pañales", "cantidad": 8, "unidad": null},
+    {"recurso": "agua", "cantidad": 50, "unidad": "litros"}
+  ],
+  "direccion_objetivo": "Sede vecinal (subiendo por la quebrada vieja, dos curvas después del almacén que cerró el año pasado, no la sede nueva de la cancha)",
+  "referencias": null,
+  "urgencia": 4
+}

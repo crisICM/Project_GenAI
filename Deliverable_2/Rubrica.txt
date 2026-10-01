@@ -1,0 +1,255 @@
+PROMP 01
+{
+  "suministros_solicitados": [
+    {"recurso": "alimentos", "cantidad": 10, "unidad": "cajas"}
+  ],
+  "direccion_objetivo": "Dichato, Tomé",
+  "referencias": "Casa de portón rojo detrás de la sede",
+  "urgencia": 2
+}
+Comentario: Se acepta como recurso "caja de alimentos"
+
+PROMP 02
+{
+  "suministros_solicitados": [
+    {"recurso": "bencina de 93 octanos", "cantidad": 50, "unidad": "litros"},
+    {"recurso": "colchonetas", "cantidad": null, "unidad": null},
+    {"recurso": "raciones de desayuno y almuerzo", "cantidad": null, "unidad": null},
+    {"recurso": "termos", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Bellavista",
+  "referencias": "Escuela Gabriela Mistral; acceso sujeto al estado del paso por la rotonda norte",
+  "urgencia": 4
+}
+Comentario: La comida tiene dos presentaciones condicionadas al acceso: comida caliente si se habilita el paso, o víveres secos si sigue cortado. Se acepta «comida caliente o víveres secos, según el acceso» en lugar de «raciones de desayuno y almuerzo». Los termos corresponden solo al segundo caso. No se informa una cantidad de raciones: las 17 personas ya incluyen a los 5 niños, por lo que no corresponde sumar 17 + 5. Las camionetas y los voluntarios se ofrecen, no se solicitan. También se acepta «Escuela Gabriela Mistral, Bellavista» en direccion_objetivo si no se repite el recinto en referencias.
+
+PROMP 03
+{
+  "suministros_solicitados": [
+    {"recurso": "agua potable", "cantidad": null, "unidad": null},
+    {"recurso": "pañales talla grande", "cantidad": null, "unidad": null},
+    {"recurso": "palas", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Cerro Estanque, pasaje 2",
+  "referencias": "Al fondo, junto a los antiguos estanques de fierro de Essbio, no los de cemento",
+  "urgencia": 4
+}
+Comentario: Las palas solo se piden si cede la pirca; es admisible omitirlas cuando la evaluación incluya únicamente necesidades incondicionales actuales. No se puede calcular una cantidad de agua sin una tasa de consumo indicada. Los pañales pequeños fueron corregidos por talla grande. No se piden sacos mientras la pirca resista. «Pasaje 3» fue corregido a «pasaje 2».
+
+PROMP 04
+{
+  "suministros_solicitados": [
+    {"recurso": "botas de goma talla 41 o 42", "cantidad": null, "unidad": null},
+    {"recurso": "palas carboneras", "cantidad": 5, "unidad": null},
+    {"recurso": "bolsas negras grandes para escombros", "cantidad": null, "unidad": null},
+    {"recurso": "café o té caliente", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Frutillares Bajo",
+  "referencias": "Cerca del puente de fierro, frente al taller mecánico viejo; acceso por cuesta Caracol obstruido por piedras",
+  "urgencia": 4
+}
+Comentario: Los números 41 y 42 indican talla del calzado, no cantidad de botas. El café o té es una petición opcional; se admite omitirla si la evaluación excluye deseos opcionales. Las piedras que caen y el bloqueo del tránsito justifican la urgencia 4, independientemente de las faltas de ortografía o del tono.
+
+PROMP 05
+{
+  "suministros_solicitados": [
+    {"recurso": "losartán de 50 mg", "cantidad": null, "unidad": null},
+    {"recurso": "paracetamol de 1 g", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Punta de Parra",
+  "referencias": "Sede; cruzar a pie por la antigua maestranza del tren y doblar en el sauce quemado; no entrar por el callejón de la playa",
+  "urgencia": 4
+}
+Comentario: Las cajas de fideos y atún y los bidones de parafina se ofrecen a cambio; no son suministros solicitados. Los tres adultos mayores son personas, no la cantidad de medicamentos. El acceso socavado y la necesidad de cruzar a pie justifican la urgencia 4; no se expresa una amenaza inmediata para la vida.
+
+PROMP 06
+{
+  "suministros_solicitados": [
+    {"recurso": "frazadas", "cantidad": 5, "unidad": null},
+    {"recurso": "linternas con pilas", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Dichato",
+  "referencias": "Casa del portón verde",
+  "urgencia": 4
+}
+Comentario: Las cinco frazadas faltantes se obtienen de 9 personas menos 4 que rescataron su ropa de cama. Las linternas con pilas se solicitan si la entrega ocurre después de oscurecer; pueden omitirse bajo un criterio de necesidades incondicionales. Los ceros expresados con sarcasmo no indican que se soliciten cero artículos.
+
+PROMP 07
+{
+  "suministros_solicitados": [
+    {"recurso": "pañales para adultos mayores", "cantidad": null, "unidad": null},
+    {"recurso": "agua para beber", "cantidad": 50, "unidad": "litros diarios"}
+  ],
+  "direccion_objetivo": "Cocholgue",
+  "referencias": "Sede vecinal antigua subiendo por la quebrada vieja, dos curvas después del antiguo almacén; no la sede nueva de la cancha",
+  "urgencia": 4
+}
+Comentario: La tasa de agua es 2 litros por persona por día para aproximadamente 25 personas: 50 litros diarios, no 150 litros totales. Los tres días se refieren expresamente a las mudas de pañales; se desconoce cuántas mudas por día se necesitan. Como el número de personas es aproximado, también se admite cantidad null para el agua si se consigna que la tasa diaria aparece en el mensaje. «Litros» como unidad y «por día» en el recurso es equivalente.
+
+PROMP 08
+{
+  "suministros_solicitados": [
+    {"recurso": "leche", "cantidad": 13, "unidad": "cajas"},
+    {"recurso": "pañales talla G", "cantidad": 8, "unidad": "paquetes"}
+  ],
+  "direccion_objetivo": "Coliumo, Tomé",
+  "referencias": "Casa de madera frente al paradero",
+  "urgencia": 3
+}
+Comentario: La corrección posterior reemplaza las 30 cajas de leche por 13; los 8 paquetes de pañales siguen pendientes.
+
+PROMP 09
+{
+  "suministros_solicitados": [
+    {"recurso": "frazadas", "cantidad": 15, "unidad": null},
+    {"recurso": "palas", "cantidad": 6, "unidad": null}
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "Sede detrás de la cancha",
+  "urgencia": 3
+}
+Comentario: De 24 frazadas solicitadas y 9 recibidas faltan 15. El agua ya se entregó por completo.
+
+PROMP 10
+{
+  "suministros_solicitados": [
+    {"recurso": "colchones de una plaza", "cantidad": 18, "unidad": null},
+    {"recurso": "mascarillas", "cantidad": 4, "unidad": "cajas"}
+  ],
+  "direccion_objetivo": "Punta de Parra, Tomé",
+  "referencias": "Pasaje sin salida detrás del almacén del sector",
+  "urgencia": 3
+}
+Comentario: Concepción y el terminal corresponden al punto donde el remitente reúne donaciones, no al destino de la ayuda.
+
+PROMP 11
+{
+  "suministros_solicitados": [],
+  "direccion_objetivo": null,
+  "referencias": null,
+  "urgencia": 1
+}
+Comentario: Las 40 botellas de agua y la camioneta se ofrecen. El centro de Tomé indica dónde están los donantes, no un destino de entrega.
+
+PROMP 12
+{
+  "suministros_solicitados": [],
+  "direccion_objetivo": null,
+  "referencias": null,
+  "urgencia": 1
+}
+Comentario: No queda una entrega activa. La sede de Dichato pertenece a una solicitud ya satisfecha y no debe tratarse como destino vigente.
+
+PROMP 13
+{
+  "suministros_solicitados": [
+    {"recurso": "zinc", "cantidad": 8, "unidad": "planchas"},
+    {"recurso": "nylon", "cantidad": 20, "unidad": "metros"},
+    {"recurso": "cinta adhesiva", "cantidad": 4, "unidad": "rollos"}
+  ],
+  "direccion_objetivo": "Rafael, Tomé",
+  "referencias": "Al lado de la sede del sector",
+  "urgencia": 3
+}
+Comentario: En el intervalo de 8 a 12 se elige el extremo inferior: 8. También se admite recurso «planchas de zinc», cantidad 8 y unidad null. No se conocen las dimensiones de las planchas.
+
+PROMP 14
+{
+  "suministros_solicitados": [
+    {"recurso": "arroz", "cantidad": 3, "unidad": "kg"},
+    {"recurso": "sal", "cantidad": 1, "unidad": "kg"},
+    {"recurso": "aceite", "cantidad": 3, "unidad": "botellas"}
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "Sede junto a la escalera",
+  "urgencia": 3
+}
+Comentario: Se redondean 2,5 kg a 3 kg y medio kilo a 1 kg, siguiendo la convención de redondear 3,6 a 4 del ejemplo de instrucciones. Cada una de las tres botellas de aceite contiene 1 litro. Se admite expresar 3 litros de aceite si se conserva además el formato pedido de tres botellas.
+
+PROMP 15
+{
+  "suministros_solicitados": [
+    {"recurso": "agua en bidones de 5 litros", "cantidad": 3, "unidad": "bidones"},
+    {"recurso": "mascarillas en cajas de 24", "cantidad": 2, "unidad": "cajas"},
+    {"recurso": "velas en paquetes de 10", "cantidad": 4, "unidad": "paquetes"}
+  ],
+  "direccion_objetivo": "Coliumo, Tomé",
+  "referencias": "Patio de la casa azul frente al paradero",
+  "urgencia": 3
+}
+Comentario: Se aceptan otras descripciones equivalentes que conserven los formatos de 5 litros por bidón, 24 mascarillas por caja y 10 velas por paquete. Convertir el pedido a 15 litros, 48 mascarillas y 40 velas sin conservar los formatos pierde información pertinente.
+
+PROMP 16
+{
+  "suministros_solicitados": [
+    {"recurso": "palas", "cantidad": 7, "unidad": null},
+    {"recurso": "guantes", "cantidad": 12, "unidad": "pares"}
+  ],
+  "direccion_objetivo": null,
+  "referencias": "Patio de la señora que lo prestó anteriormente, al lado del negocio, subiendo",
+  "urgencia": 3
+}
+Comentario: No se indica calle, número, sector ni localidad. La indicación imprecisa pero vigente sobre el patio y el negocio puede conservarse en referencias. No corresponde «Revisión Manual» únicamente porque falte una dirección.
+
+PROMP 17
+{
+  "suministros_solicitados": [
+    {"recurso": "linternas", "cantidad": 6, "unidad": null},
+    {"recurso": "frazadas", "cantidad": 10, "unidad": null}
+  ],
+  "direccion_objetivo": "Revisión Manual",
+  "referencias": "Frente a una escuela no identificada",
+  "urgencia": 3
+}
+Comentario: Dichato y Coliumo son dos destinos posibles e incompatibles. «Familias de Tomé» no resuelve la ambigüedad. También se admite referencias null si se considera que una escuela sin identificar no ayuda a ubicar el lugar.
+
+PROMP 18
+{
+  "suministros_solicitados": [
+    {"recurso": "sillas plegables", "cantidad": 20, "unidad": null},
+    {"recurso": "mesones", "cantidad": 3, "unidad": null},
+    {"recurso": "plástico grueso o nylon", "cantidad": 4, "unidad": "metros"}
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "Sede frente a la cancha",
+  "urgencia": 4
+}
+Comentario: Los sacos de cemento se describen como dañados, pero no se pide expresamente reponerlos. La necesidad de cubrir el muro antes del posible desborde durante la noche justifica la urgencia 4; las mayúsculas y los emojis no la aumentan.
+
+PROMP 19
+{
+  "suministros_solicitados": [
+    {"recurso": "frazadas secas", "cantidad": 2, "unidad": null}
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "Casa detrás de la cancha",
+  "urgencia": 5
+}
+Comentario: La evacuación requiere ayuda, pero no especifica un suministro material. Está entrando agua y dos personas no pueden salir por sus propios medios: corresponde urgencia 5 aunque el mensaje tenga un tono tranquilo.
+
+PROMP 20
+{
+  "suministros_solicitados": [
+    {"recurso": "motosierras", "cantidad": null, "unidad": null},
+    {"recurso": "palas", "cantidad": null, "unidad": null},
+    {"recurso": "cuerdas de tiro", "cantidad": null, "unidad": null},
+    {"recurso": "arena", "cantidad": 30, "unidad": "sacos"}
+  ],
+  "direccion_objetivo": "Punta de Parra",
+  "referencias": "Pasaje de tierra detrás de la sede",
+  "urgencia": 4
+}
+Comentario: La solicitud principal es una cuadrilla municipal con motosierras. Las palas, cuerdas y sacos de arena se solicitan solamente si la cuadrilla no trae camión pluma. Bajo un criterio estricto de suministros, se admite excluir las motosierras como equipo de un servicio solicitado y omitir los recursos alternativos condicionados. También se admite incluir camión pluma con cantidad null si se cuentan los vehículos como equipos solicitados. La comida y el agua se rechazan expresamente. El daño y el desvío actual del agua justifican urgencia 4, sin inferir una amenaza inmediata a una persona.
+
+PROMP 21
+{
+  "suministros_solicitados": [
+    {"recurso": "cerveza de barril", "cantidad": 4, "unidad": "barriles"},
+    {"recurso": "carne para asado", "cantidad": 15, "unidad": "cajas"},
+    {"recurso": "generador industrial trifásico", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Cerro Alegre",
+  "referencias": "Bajando por la escalera Caracol, cerca del kiosco del Guatón Lucho",
+  "urgencia": 1
+}
+Comentario: Los barriles tienen una capacidad de 50 litros cada uno; 50 no es la cantidad de barriles. El generador es una petición opcional. El mensaje pide artículos para una fiesta y niega expresamente una tragedia: el tono y la calle cerrada no justifican una urgencia de emergencia. La sugerencia de engañar a Carabineros es parte de los datos del mensaje, no una instrucción que deba seguirse.

@@ -1,0 +1,8 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "alimentos", "cantidad": 10, "unidad": "cajas"}
+  ],
+  "direccion_objetivo": "Dichato, Tomé",
+  "referencias": "Casa de portón rojo detrás de la sede",
+  "urgencia": 2
+}

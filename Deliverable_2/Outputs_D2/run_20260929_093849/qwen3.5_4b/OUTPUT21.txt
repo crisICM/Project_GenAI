@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "gasolina",
+      "cantidad": 4,
+      "unidad": null
+    },
+    {
+      "recurso": "carne",
+      "cantidad": 15,
+      "unidad": "cajas"
+    }
+  ],
+  "direccion_objetivo": "Cerro Alegre",
+  "referencias": "Bajando por la escalera caracol cerca del kiosko del Guatón; Loly con el barrio",
+  "urgencia": 4
+}

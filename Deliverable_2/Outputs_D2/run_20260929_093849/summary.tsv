@@ -1,0 +1,22 @@
+﻿model	prompt_file	output_file	status	input_tokens	output_tokens	total_seconds	done_reason	error
+qwen3.5:4b	PROMPT_01_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt	qwen3.5_4b\OUTPUT1.txt	ok	2181	88	1.849	stop	
+qwen3.5:4b	PROMPT_02_Ofrecimiento_solicitud entrelazados + cálculo per cápita + condición logística de entrega..txt	qwen3.5_4b\OUTPUT2.txt	ok	2240	119	2.069	stop	
+qwen3.5:4b	PROMPT_03_Transcripción ruidosa de audio (ASR) con autocorrección sobre la marcha + tasa de consumo temporal..txt	qwen3.5_4b\OUTPUT3.txt	ok	2249	137	2.352	stop	
+qwen3.5:4b	PROMPT_04_TEXTO_CON_ERRORES_DE_ORTOGRAFIA.txt	qwen3.5_4b\OUTPUT4.txt	ok	2201	113	1.983	stop	
+qwen3.5:4b	PROMPT_05_Trueque_intercambio comunitario + toponimia informal e histórica..txt	qwen3.5_4b\OUTPUT5.txt	ok	2220	165	2.774	stop	
+qwen3.5:4b	PROMPT_06_Negación_sarcasmo + ambigüedad condicionada de inventario.txt	qwen3.5_4b\OUTPUT6.txt	ok	2232	87	1.571	stop	
+qwen3.5:4b	PROMPT_07_Magnitudes dependientes de tasa de consumo + georreferenciación relativa compleja sin topónimo exacto..txt	qwen3.5_4b\OUTPUT7.txt	ok	2211	149	2.509	stop	
+qwen3.5:4b	PROMPT_08_MULTIPLES_ACTUALIZACIONES.txt	qwen3.5_4b\OUTPUT8.txt	ok	2179	99	1.844	stop	
+qwen3.5:4b	PROMPT_09_MEZCLA_ELEMENTOS_SOLICITADOS_Y_ELEMENTOS_NO_REQUERIDOS.txt	qwen3.5_4b\OUTPUT9.txt	ok	2157	95	1.742	stop	
+qwen3.5:4b	PROMPT_10_DOS_DIRECCIONES_EN_UN_MENSAJE.txt	qwen3.5_4b\OUTPUT10.txt	ok	2165	108	1.867	stop	
+qwen3.5:4b	PROMPT_11_Aviso_de_OFRECIMIENTO_no_de_SOLICITUD.txt	qwen3.5_4b\OUTPUT11.txt	ok	2139	40	0.894	stop	
+qwen3.5:4b	PROMPT_12_Aviso_de_NO_NECESIDAD.txt	qwen3.5_4b\OUTPUT12.txt	ok	2148	40	0.88	stop	
+qwen3.5:4b	PROMPT_13_CANTIDAD_EN_INTERVALOS.txt	qwen3.5_4b\OUTPUT13.txt	ok	2155	131	2.234	stop	
+qwen3.5:4b	PROMPT_14_CANTIDADES_CON_DECIMALES.txt	qwen3.5_4b\OUTPUT14.txt	ok	2153	111	1.908	stop	
+qwen3.5:4b	PROMPT_15_UNIDAD_DETALLADA.txt	qwen3.5_4b\OUTPUT15.txt	ok	2154	115	1.985	stop	
+qwen3.5:4b	PROMPT_16_DIRECCION_NO_ENTREGADA_SOLO_REFERENCIAS.txt	qwen3.5_4b\OUTPUT16.txt	ok	2142	107	1.932	stop	
+qwen3.5:4b	PROMPT_17_AMBIGUEDAD_EN_LA_DIRECCION.txt	qwen3.5_4b\OUTPUT17.txt	ok	2155	40	0.835	stop	
+qwen3.5:4b	PROMPT_18_Falso positivo de urgencia con solapamiento de necesidad real oculta..txt	qwen3.5_4b\OUTPUT18.txt	ok	2245	140	2.442	stop	
+qwen3.5:4b	PROMPT_19_Urgencia_NO_EXPRESADO_en_suministros.txt	qwen3.5_4b\OUTPUT19.txt	ok	2145	95	1.666	stop	
+qwen3.5:4b	PROMPT_20_Requerimiento mixto de servicio municipal con condición resolutoria sobre suministros..txt	qwen3.5_4b\OUTPUT20.txt	ok	2221	143	2.421	stop	
+qwen3.5:4b	PROMPT_21_FALSA ALARMA.txt	qwen3.5_4b\OUTPUT21.txt	ok	2300	133	2.289	stop	

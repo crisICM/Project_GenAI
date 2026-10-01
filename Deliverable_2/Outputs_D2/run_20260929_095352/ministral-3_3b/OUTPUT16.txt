@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "palas", "cantidad": 7, "unidad": null},
+    {"recurso": "guantes", "cantidad": 12, "unidad": "pares"}
+  ],
+  "direccion_objetivo": "Revisión Manual",
+  "referencias": "Al lado del negocio subiendo al patio prestado por la señora anterior; zona con mucho barro",
+  "urgencia": 3
+}

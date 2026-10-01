@@ -1,0 +1,10 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "bencina de 93", "cantidad": 50, "unidad": "litros"},
+    {"recurso": "colchonetas", "cantidad": null, "unidad": null},
+    {"recurso": "raciones de desayuno/almuerzo (secas)", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Escuela Gabriela Mistral",
+  "referencias": "Rotonda Norte o acceso por Carabineros (según disponibilidad)",
+  "urgencia": 4
+}

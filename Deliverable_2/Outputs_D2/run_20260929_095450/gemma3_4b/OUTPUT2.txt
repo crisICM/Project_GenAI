@@ -1,0 +1,10 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "bencina", "cantidad": 50, "unidad": "litros"},
+    {"recurso": "colchonetas", "cantidad": 17, "unidad": null},
+    {"recurso": "raciones de desayuno/almuerzo", "cantidad": 17, "unidad": null}
+  ],
+  "direccion_objetivo": "Rotonda norte",
+  "referencias": "Paso por la rotonda norte",
+  "urgencia": 4
+}

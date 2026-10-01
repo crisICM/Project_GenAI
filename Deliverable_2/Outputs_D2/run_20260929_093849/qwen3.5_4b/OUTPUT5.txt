@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "Losartán de 50mg",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "Paracetamol de 1g",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Punta de Parra",
+  "referencias": "Cruzamiento por donde estaba la antigua maestranza del tren antes del maremoto del 2010 y doblar en el sauce quemado; evitar callejón de la playa debido a socavación de quebrada",
+  "urgencia": 5
+}

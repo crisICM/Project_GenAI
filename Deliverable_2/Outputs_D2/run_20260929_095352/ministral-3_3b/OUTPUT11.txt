@@ -1,0 +1,6 @@
+{
+  "suministros_solicitados": [],
+  "direccion_objetivo": null,
+  "referencias": null,
+  "urgencia": 1
+}

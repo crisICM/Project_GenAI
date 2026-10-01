@@ -1,0 +1,12 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "frazadas secas",
+      "cantidad": 2,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Tomé Alto",
+  "referencias": "Detrás de la cancha; casa con dos personas atrapadas por el agua",
+  "urgencia": 5
+}

@@ -1,0 +1,6 @@
+{
+  "suministros_solicitados": [],
+  "direccion_objetivo": "Dichato, Tomé",
+  "referencias": null,
+  "urgencia": 1
+}

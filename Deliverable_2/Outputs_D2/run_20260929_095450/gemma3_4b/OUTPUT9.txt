@@ -1,0 +1,8 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "palas", "cantidad": 6, "unidad": null}
+  ],
+  "direccion_objetivo": "Tomé Alto; detrás de la cancha",
+  "referencias": null,
+  "urgencia": 4
+}

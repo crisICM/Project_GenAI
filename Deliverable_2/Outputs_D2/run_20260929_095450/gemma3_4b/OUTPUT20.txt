@@ -1,0 +1,12 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "motosierras", "cantidad": null, "unidad": null},
+    {"recurso": "camión pluma", "cantidad": null, "unidad": null},
+    {"recurso": "palas", "cantidad": null, "unidad": null},
+    {"recurso": "cuerdas de tiro", "cantidad": null, "unidad": null},
+    {"recurso": "sacos de arena", "cantidad": 30, "unidad": null}
+  ],
+  "direccion_objetivo": "Punta de Parra, pasaje de tierra detrás de la sede",
+  "referencias": "Pino caído sobre techumbre del garaje; poste eléctrico caído",
+  "urgencia": 5
+}

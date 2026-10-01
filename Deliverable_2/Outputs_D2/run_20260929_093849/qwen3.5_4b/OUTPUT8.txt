@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "leche", "cantidad": 13, "unidad": "cajas"},
+    {"recurso": "pañales talla G", "cantidad": 8, "unidad": "paquetes"}
+  ],
+  "direccion_objetivo": null,
+  "referencias": "Casa de madera frente al paradero",
+  "urgencia": 4
+}

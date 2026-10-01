@@ -1,0 +1,10 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "agua", "cantidad": 15, "unidad": "litros"},
+    {"recurso": "mascarillas", "cantidad": 48, "unidad": "cajas"},
+    {"recurso": "velas", "cantidad": 40, "unidad": "paquetes"}
+  ],
+  "direccion_objetivo": null,
+  "referencias": null,
+  "urgencia": 3
+}

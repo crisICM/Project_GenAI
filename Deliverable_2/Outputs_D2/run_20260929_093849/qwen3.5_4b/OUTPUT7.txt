@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "mudas de pañales",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "agua para beber",
+      "cantidad": 50,
+      "unidad": "litros"
+    }
+  ],
+  "direccion_objetivo": "Cocholgue",
+  "referencias": "Sede vecinal subiendo por la quebrada vieja; dos curvas después del almacén que cerró el año pasado (no la sede nueva de la cancha)",
+  "urgencia": 5
+}

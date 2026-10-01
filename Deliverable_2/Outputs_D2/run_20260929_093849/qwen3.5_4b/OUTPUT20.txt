@@ -1,0 +1,10 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "palas", "cantidad": null, "unidad": null},
+    {"recurso": "cuerdas de tiro", "cantidad": null, "unidad": null},
+    {"recurso": "sacos de arena", "cantidad": 30, "unidad": "sacos"}
+  ],
+  "direccion_objetivo": "Punta de Parra",
+  "referencias": "Pasaje de tierra detrás de la sede; frente a casa con poste eléctrico caído y agua desviada al interior por lluvia",
+  "urgencia": 5
+}

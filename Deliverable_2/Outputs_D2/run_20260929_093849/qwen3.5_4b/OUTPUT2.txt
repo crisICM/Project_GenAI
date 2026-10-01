@@ -1,0 +1,10 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "bencina de 93", "cantidad": 50, "unidad": "litros"},
+    {"recurso": "colchonetas", "cantidad": null, "unidad": null},
+    {"recurso": "comida caliente lista para repartir", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": null,
+  "referencias": null,
+  "urgencia": 5
+}

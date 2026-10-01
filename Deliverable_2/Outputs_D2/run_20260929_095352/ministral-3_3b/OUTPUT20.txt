@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "cuerdas de tiro", "cantidad": null},
+    {"recurso": "sacos de arena", "cantidad": 30, "unidad": null}
+  ],
+  "direccion_objetivo": "Punta de Parra",
+  "referencias": "Pasaje de tierra detrás de la sede del garaje",
+  "urgencia": 5
+}

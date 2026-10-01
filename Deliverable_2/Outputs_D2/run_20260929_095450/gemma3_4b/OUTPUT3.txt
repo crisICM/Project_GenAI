@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "pañales", "cantidad": 5, "unidad": null},
+    {"recurso": "palas", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Cerro Estanque pasaje 2 al fondo donde estaban los estanques viejos de essbio no los de cemento",
+  "referencias": "Estanques viejos de Essbio (hierro)",
+  "urgencia": 5
+}

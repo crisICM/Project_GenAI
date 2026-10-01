@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "palas de carbón", "cantidad": 5, "unidad": null},
+    {"recurso": "bolsas negras grandes (de consorcio)", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Frutillares",
+  "referencias": "Bajo casi llegando al puente de fierro frente al taller mecánico viejo",
+  "urgencia": 4
+}

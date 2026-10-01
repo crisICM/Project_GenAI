@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "linternas", "cantidad": 6, "unidad": null},
+    {"recurso": "frazadas", "cantidad": 10, "unidad": null}
+  ],
+  "direccion_objetivo": "frente a una escuela, Dichato o Coliumo",
+  "referencias": null,
+  "urgencia": 3
+}

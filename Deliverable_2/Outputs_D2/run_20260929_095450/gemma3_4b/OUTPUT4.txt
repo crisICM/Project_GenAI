@@ -1,0 +1,10 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "bota de jebe", "cantidad": 5, "unidad": null},
+    {"recurso": "palas carboneras", "cantidad": null, "unidad": "grandes"},
+    {"recurso": "bolsas negras", "cantidad": null, "unidad": "grandes"}
+  ],
+  "direccion_objetivo": "Frutillares bajo casi llegando al puente Fierro frente al taller mecanico viejo",
+  "referencias": "Taller mecanico viejo",
+  "urgencia": 5
+}

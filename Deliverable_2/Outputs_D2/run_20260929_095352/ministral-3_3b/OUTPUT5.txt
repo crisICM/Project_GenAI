@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "Losartán", "cantidad": null, "unidad": null},
+    {"recurso": "Paracetamol", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Sede (Punta de Parra)",
+  "referencias": "Antigua maestranza del tren antes del maremoto del 2010; sauce quemado",
+  "urgencia": 5
+}

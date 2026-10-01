@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "pañales completos", "cantidad": 8, "unidad": null},
+    {"recurso": "agua para beber", "cantidad": 50, "unidad": "litros"}
+  ],
+  "direccion_objetivo": "Cocholgue",
+  "referencias": "Sede vecinal en la quebrada vieja (dos curvas después del almacén cerrado el año pasado)",
+  "urgencia": 4
+}

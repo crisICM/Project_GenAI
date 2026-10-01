@@ -1,0 +1,22 @@
+﻿model	prompt_file	output_file	status	input_tokens	output_tokens	total_seconds	done_reason	error
+gemma3:4b	PROMPT_01_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt	gemma3_4b\OUTPUT1.txt	ok	2135	80	16.909	stop	
+gemma3:4b	PROMPT_02_Ofrecimiento_solicitud entrelazados + cálculo per cápita + condición logística de entrega..txt	gemma3_4b\OUTPUT2.txt	ok	2190	131	2.126	stop	
+gemma3:4b	PROMPT_03_Transcripción ruidosa de audio (ASR) con autocorrección sobre la marcha + tasa de consumo temporal..txt	gemma3_4b\OUTPUT3.txt	ok	2202	123	2.008	stop	
+gemma3:4b	PROMPT_04_TEXTO_CON_ERRORES_DE_ORTOGRAFIA.txt	gemma3_4b\OUTPUT4.txt	ok	2157	138	2.232	stop	
+gemma3:4b	PROMPT_05_Trueque_intercambio comunitario + toponimia informal e histórica..txt	gemma3_4b\OUTPUT5.txt	ok	2170	131	2.088	stop	
+gemma3:4b	PROMPT_06_Negación_sarcasmo + ambigüedad condicionada de inventario.txt	gemma3_4b\OUTPUT6.txt	ok	2183	99	1.61	stop	
+gemma3:4b	PROMPT_07_Magnitudes dependientes de tasa de consumo + georreferenciación relativa compleja sin topónimo exacto..txt	gemma3_4b\OUTPUT7.txt	ok	2160	123	1.948	stop	
+gemma3:4b	PROMPT_08_MULTIPLES_ACTUALIZACIONES.txt	gemma3_4b\OUTPUT8.txt	ok	2134	103	1.667	stop	
+gemma3:4b	PROMPT_09_MEZCLA_ELEMENTOS_SOLICITADOS_Y_ELEMENTOS_NO_REQUERIDOS.txt	gemma3_4b\OUTPUT9.txt	ok	2112	74	1.26	stop	
+gemma3:4b	PROMPT_10_DOS_DIRECCIONES_EN_UN_MENSAJE.txt	gemma3_4b\OUTPUT10.txt	ok	2117	113	1.808	stop	
+gemma3:4b	PROMPT_11_Aviso_de_OFRECIMIENTO_no_de_SOLICITUD.txt	gemma3_4b\OUTPUT11.txt	ok	2091	46	0.843	stop	
+gemma3:4b	PROMPT_12_Aviso_de_NO_NECESIDAD.txt	gemma3_4b\OUTPUT12.txt	ok	2101	48	0.871	stop	
+gemma3:4b	PROMPT_13_CANTIDAD_EN_INTERVALOS.txt	gemma3_4b\OUTPUT13.txt	ok	2109	128	2.066	stop	
+gemma3:4b	PROMPT_14_CANTIDADES_CON_DECIMALES.txt	gemma3_4b\OUTPUT14.txt	ok	2106	134	2.13	stop	
+gemma3:4b	PROMPT_15_UNIDAD_DETALLADA.txt	gemma3_4b\OUTPUT15.txt	ok	2107	128	2.022	stop	
+gemma3:4b	PROMPT_16_DIRECCION_NO_ENTREGADA_SOLO_REFERENCIAS.txt	gemma3_4b\OUTPUT16.txt	ok	2097	108	1.732	stop	
+gemma3:4b	PROMPT_17_AMBIGUEDAD_EN_LA_DIRECCION.txt	gemma3_4b\OUTPUT17.txt	ok	2110	102	1.687	stop	
+gemma3:4b	PROMPT_18_Falso positivo de urgencia con solapamiento de necesidad real oculta..txt	gemma3_4b\OUTPUT18.txt	ok	2193	129	2.058	stop	
+gemma3:4b	PROMPT_19_Urgencia_NO_EXPRESADO_en_suministros.txt	gemma3_4b\OUTPUT19.txt	ok	2098	106	1.717	stop	
+gemma3:4b	PROMPT_20_Requerimiento mixto de servicio municipal con condición resolutoria sobre suministros..txt	gemma3_4b\OUTPUT20.txt	ok	2171	183	2.864	stop	
+gemma3:4b	PROMPT_21_FALSA ALARMA.txt	gemma3_4b\OUTPUT21.txt	ok	2251	127	2.08	stop	

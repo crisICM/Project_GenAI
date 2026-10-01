@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "agua", "cantidad": null, "unidad": null},
+    {"recurso": "pañales talla grande verdes", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Cerro Estanque, Pasaje 2 al fondo (donde estaban los estanques viejos de hierro)",
+  "referencias": "Al fondo donde se ubicaban los antiguos tanques de agua del ESSBIO; verificar si la pirca aguanta para recibir sacos",
+  "urgencia": 5
+}

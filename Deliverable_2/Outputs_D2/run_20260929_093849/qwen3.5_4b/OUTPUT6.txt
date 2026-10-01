@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "frazadas", "cantidad": null, "unidad": null},
+    {"recurso": "linternas con pilas", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": null,
+  "referencias": null,
+  "urgencia": 5
+}

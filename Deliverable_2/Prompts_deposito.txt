@@ -1,0 +1,85 @@
+<PROMPT_01_CANTIDAD_ESPECIFICADA_NO_DIRECTA>
+Comparto el mensaje de ayer: “En Dichato, Tomé, necesitamos 25 frazadas y 10 cajas de alimentos, recibir frente a la cancha”. ACTUALIZACIÓN DE HOY: las frazadas ya se completaron, no lleven más. Las 10 cajas de alimentos siguen pendientes. Ya no estamos frente a la cancha, ahora recibimos en la casa de portón rojo detrás de la sede, aquí mismo en Dichato.
+</>
+
+<PROMPT_02_SOLICITUD DE COMIDA + OFRECIMIENTO DE AYUDA + CONDICION LOGISTA>
+Aviso Escuela Gabriela Mistral (Bellavista): tenemos a disposición 3 camionetas de vecinos y 15 voluntarios para faenas de despeje, pero estamos de brazos cruzados porque nos faltan 50 litros de bencina de 93 para mover los vehículos. Además, anoche recibimos a 4 familias completas (en total 17 personas, entre ellos 5 niños) y estamos sin colchonetas para ellos ni raciones de desayuno/almuerzo; si logran habilitar el paso por la rotonda norte envíen la comida caliente lista para repartir, pero si sigue cortado por Carabineros traigan solo víveres secos y termos porque no tenemos gas para cocinar acá.
+</>
+
+<PROMPT_03_TRANSCRIPCION DE AUDIO + CORRECION SOBRE LA MARCHA>
+..aló sí mira eh transcribo lo que me dice la vecina... SOS cerro estanque pasaje 3 o sea no perdón pasaje 2 al fondo donde estaban los estanques viejos de essbio los de fierro no los de cemento... somos 6 adultos y 3 guaguas llevamos dos días enteros sin una sola gota de agua calculen lo básico para aguantar 48 horas más porfa... y pañales traigan no espera pañales chicos no que ya no le quedan de esos son talla grande de los verdes... el barro viene bajando si ven que la pirca aguanta no manden sacos pero si cede vamos a necesitar palas a morir... cortó cortó la llamada no sé si alcanzó a escuchar
+</>
+
+<PROMPT_04_TEXTO_CON_ERRORES_DE_ORTOGRAFIA>
+cabros alhuien k tenga bota d jebe n° 41 o 42?? Tamos en Frutillares bajo casi llagando al puente fierro frente ar taller mecanico viejo. Nesesito minimo unas 5 palas carboneras y bolsas negras grand de consorcio pa sacar los escombros k dejo el deslizamiento. Abran el paso si bienen d concepcion x la cuesta caracol xq hay piedra cayendo y los furgone no pasan, si tienen cafe o te caliente se agradece caleta pal frio
+</>
+
+<PROMPT_05_SOLICITUD DE INTERCAMBIO + URGENCIA>
+Punta de Parra urgente: en la sede nos sobraron 12 cajas de fideos, 8 de atún y tenemos 4 bidones de parafina que no vamos a ocupar; los cambiamos pelo a pelo a quien traiga Losartán de 50mg y Paracetamol de 1g para tres adultos mayores postrados. No traten de entrar por el callejón de la playa porque la quebrada socavó el paso; tienen que cruzar a pie por donde estaba la antigua maestranza del tren antes del maremoto del 2010 y doblar en el sauce quemado.
+</>
+
+<PROMPT_06_SOLICITUDES CON CANTIDAD IMPLICITA + TONO SARCASMO>
+Impecable la gestión municipal, un aplauso por las cero frazadas y las cero linternas que prometieron mandar anoche a Dichato, se nos inundó hasta el techo y todavía estamos alumbrándonos con la pantalla del celular. En la casa del portón verde somos 9 damnificados: 4 lograron rescatar su ropa de cama, así que calculen cuántos quedamos durmiendo en el suelo húmedo. Si el camión municipal llega antes de que oscurezca traigan solo las frazadas que faltan, pero si llegan tarde sumen linternas con pilas porque la matriz de la cancha explotó y no hay luz en toda la cuadra.
+</>
+
+<PROMPT_07_CALCULO DE CANTIDAD REQUERIDO IMPLICITO>
+Buenas noches desde Cocholgue. No tenemos catastro exacto todavía, pero en la sede vecinal (la que está subiendo por la quebrada vieja, dos curvas después del almacén que cerró el año pasado, no la sede nueva de la cancha) hay 8 adultos mayores postrados que requieren mudas de pañales completas para al menos tres días. De agua para beber no manden botellas chicas: calculen un consumo mínimo de 2 litros diarios por persona para unas 25 personas que tenemos resguardadas hasta que baje el caudal del estero.
+</>
+
+<PROMPT_08_MULTIPLES_ACTUALIZACIONES>
+[18:02] Estamos en Coliumo, Tomé. Anoten 30 cajas de leche y 8 paquetes de pañales talla G.
+[18:06] Perdón me equivoqué con la leche, son 13 cajas, no 30.
+[18:08] Los pañales siguen siendo los 8 paquetes. Llevar a la casa de madera frente al paradero.
+</>
+
+<PROMPT_09_MEZCLA_ELEMENTOS_SOLICITADOS_Y_ELEMENTOS_NO_REQUERIDOS>
+Actualizo lo de la sede en Tomé Alto: de las 24 frazadas que pedimos nos entregaron 9, faltan las demás. De los 10 bidones de agua de 5 litros llegaron todos, agua ya no manden. Las 6 palas que solicitamos todavía no llegan. Estamos detrás de la cancha.
+</>
+
+<PROMPT_10_DOS_DIRECCIONES_EN_UN_MENSAJE>
+Yo vivo en Concepción y recibo donaciones cerca del terminal, pero la ayuda es para las familias de Punta de Parra, Tomé. Allá necesitan 18 colchones de una plaza y 4 cajas de mascarillas. El lugar afectado es el pasaje sin salida que queda detrás del almacén del sector; mi casa en Conce es solo para juntar las cosas.
+</>
+
+<PROMPT_11_AVISO_DE_OFRECIMIENTO_NO_DE_SOLICITUD>
+Tenemos 40 botellas de agua para donar y una camioneta disponible en el centro de Tomé. No estamos pidiendo nada para nosotros. Si alguna agrupación necesita que le llevemos estas cosas, escríbanos por interno y coordinamos.
+</>
+
+<PROMPT_12_AVISO_de_NO_NECESIDAD>
+Gracias a todos!! En nuestra sede de Dichato, Tomé, ya llegaron las 12 cajas de alimentos y las 20 frazadas que habíamos pedido. Quedó todo cubierto, por favor no sigan compartiendo la solicitud de ayer. Por ahora no necesitamos más suministros.
+</>
+
+<PROMPT_13_CANTIDAD_EN_INTERVALOS>
+En Rafael, comuna de Tomé, estamos juntando cosas para las casas que se llovieron. Nos sirven entre 8 y 12 planchas de zinc, unos 20 metros de nylon y exactamente 4 rollos de cinta adhesiva. No tengo todavía las medidas del zinc. Estamos al lado de la sede del sector.
+</>
+
+<PROMPT_14_CANTIDADES_CON_DECIMALES>
+Para la olla común en Tomé Alto nos faltan 2,5 kg de arroz, medio kilo de sal y 3 botellas de aceite de 1 litro. Ojo que son cantidades chicas, no sacos. Recibimos en la sede junto a la escalera, se nos mojó parte de la despensa.
+</>
+
+<PROMPT_15_UNIDAD_DETALLADA>
+Pedido para Coliumo, Tomé: 3 bidones de 5 litros de agua, 2 cajas con 24 mascarillas cada una y 4 paquetes de 10 velas. Porfa respeten esos formatos porque vamos a repartir por casa. Estamos en el patio de la casa azul frente al paradero.
+</>
+
+<PROMPT_16_DIRECCION_NO_ENTREGADA_SOLO_REFERENCIAS>
+Porfa traigan 7 palas y 12 pares de guantes, estamos donde la señora que prestó el patio la otra vez. Al lado del negocio, subiendo. No tengo la ubicación en el celu, ustedes cachan dónde es. Todavía queda mucho barro.
+</>
+
+<PROMPT_17_AMBIGUEDAD_EN_LA_DIRECCION>
+Me pasaron un pedido de 6 linternas y 10 frazadas para unas familias de Tomé, pero no entendí si están en Dichato o en Coliumo. Dice que es frente a una escuela, tampoco sé cuál. Antes de mandar el vehículo voy a confirmar bien, esos dos nombres salían en el audio.
+</>
+
+<PROMPT_18_SOLICITUDES CON URGENCIAS DISTINTAS>
+ES EL COLMO LA DESCOORDINACIÓN LLEVAMOS HORAS ESPERANDO!!!! 😡😡😡 Mañana a primera hora tenemos la reunión comunitaria y nos faltan 20 sillas plegables y 3 mesones para armar el puesto de mando en la sede frente a la cancha de Tomé Alto. Y por si fuera poco con el berrinche del presidente de la junta, afuera en el patio se nos mojaron 5 sacos de cemento que eran para reforzar el canalón; si llueve de nuevo esta noche se va a desbordar hacia la sede, así que mientras consiguen las mesas necesitamos con verdadera prioridad 4 metros de plástico grueso o nylon para tapar el muro antes de que ceda.
+</>
+
+<PROMPT_19_URGENCIA EXPRESA CON TONO TRANQUILO>
+Buenas noches. Estamos en una casa de Tomé Alto, detrás de la cancha. Está entrando agua y hay dos personas que no pueden salir por sus propios medios. Por favor envíen ayuda para evacuarlas. También necesitamos 2 frazadas secas. No tenemos cómo trasladarnos.
+</>
+
+<PROMPT_20_REQUERIMIENTO CON CONDICIONES.>
+En Punta de Parra, pasaje de tierra detrás de la sede: un pino cayó sobre la techumbre del garaje y cortó los cables del tendido eléctrico. No manden comida ni agua, lo que urge es una cuadrilla municipal con motosierras para trozar el tronco antes de que el peso parta la viga principal. Si la cuadrilla no viene con camión pluma para levantar el poste caído, avisen altiro para solicitar palas, cuerdas de tiro y 30 sacos de arena, porque con el poste atravesado el agua de lluvia se está desviando directo al interior de la casa.
+</>
+
+<PROMPT_21_FALSA ALARMA>
+URJENTE CABROS SE NOS VIENE LA NOXE ENSIMA aca en cerro alegre bajando x la eskalera caracol serca del kiosko del guatón lucho tamos asta el loly con el barrial. Nesesitamos con suma urjensia 4 barriles de schop de 50 litro bien elao y unas 15 cajas de carne pal asao de desestrés xq con el temporal se nos cortó la sed mas q la luz y los cabros tan q se mueren del aburrimiento po wn. Si pueden manden tanbien un generador industrial trifásico pero solo pa enchufar el playstation 5 y un parlante jbl gigante pa tirar la kaza x la ventana. Los pacos tienen serrao el paso pero diganle k traen la carne kumpa y pasan soplado jajaja viva el webeo cabros no se asusten k aca la unica trajedia e k se enfrie la parrilla
+</>

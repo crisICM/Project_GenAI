@@ -1,0 +1,10 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "sillas plegables", "cantidad": 20, "unidad": null},
+    {"recurso": "mesones", "cantidad": 3, "unidad": null},
+    {"recurso": "plástico grueso o nylon", "cantidad": 4, "unidad": "metros"}
+  ],
+  "direccion_objetivo": "Sede frente a la cancha de Tomé Alto",
+  "referencias": "Puesto de mando",
+  "urgencia": 5
+}

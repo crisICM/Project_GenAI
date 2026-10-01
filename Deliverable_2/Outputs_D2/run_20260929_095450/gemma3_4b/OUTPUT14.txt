@@ -1,0 +1,10 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "arroz", "cantidad": 2.5, "unidad": "kg"},
+    {"recurso": "sal", "cantidad": 0.5, "unidad": "kg"},
+    {"recurso": "aceite", "cantidad": 3, "unidad": "botellas"}
+  ],
+  "direccion_objetivo": "Sede junto a la escalera, Tomé Alto",
+  "referencias": "Se nos mojó parte de la despensa",
+  "urgencia": 3
+}

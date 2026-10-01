@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "palas carboneras", "cantidad": 5, "unidad": null},
+    {"recurso": "bolsas negras grandes de consorcio", "cantidad": null, "unidad": null}
+  ],
+  "direccion_objetivo": "Frutillares Bajo",
+  "referencias": "Casi llegando al puente Fierro; frente a taller mecánico viejo",
+  "urgencia": 5
+}

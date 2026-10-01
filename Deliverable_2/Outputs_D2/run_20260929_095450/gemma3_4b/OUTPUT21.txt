@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "schop", "cantidad": 4, "unidad": "barriles"},
+    {"recurso": "carne", "cantidad": 15, "unidad": "cajas"}
+  ],
+  "direccion_objetivo": "Cerro Alegre, bajando x la escalera caracol cerca del kiosko del guatón, serca del barrial Loly",
+  "referencias": "Kiosko del guatón",
+  "urgencia": 5
+}

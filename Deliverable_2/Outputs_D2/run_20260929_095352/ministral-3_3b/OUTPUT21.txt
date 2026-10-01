@@ -1,0 +1,9 @@
+{
+  "suministros_solicitados": [
+    {"recurso": "jabón (bariles de 50 litros)", "cantidad": 4, "unidad": null},
+    {"recurso": "carne para asar", "cantidad": 15, "unidad": "cajas"}
+  ],
+  "direccion_objetivo": "Cerro Alegre",
+  "referencias": "Bajando por la escalera caracol cerca del kiosko del guatón Lucho; zona del loly con el barrio",
+  "urgencia": 5
+}
