@@ -6,7 +6,7 @@
 | --- | --- |
 | `Run_AI_D1.py` | Código que permite interactuar con el modelo IA con instrucciones de sus respuestas predeterminadas. En particular D1 significa que es la versión base, usada para la entrega 1  |
 | `Run_AI_D2.py` | Actualización con las mejoras respecto a D1. Este lee las instrucciones desde el archivo Instructions_2 |
-| `Instruction_2.txt` | Instrucciones de extracción para el modelo. Este es el utilizado para esta entrega y los nuevos resultados |
+| `Instruction_2.txt` | Instrucciones de extracción para el modelo. Este es el utilizado para la entrega 2 y los nuevos resultados |
 | `Run_Prompts.py` | Ejecuta la solución sobre todos prompts de prueba y guarda las respuestas y los datos de ejecución. |
 | `Prompts_Separados/` | Los 21 mensajes individuales utilizados por el programa de pruebas. |
 | `Prompts_deposito.txt` | Mensajes reunidos para consultarlos o copiarlos. No es el archivo de entrada del programa de pruebas. |
@@ -18,7 +18,7 @@
 
 Instala Python, Git y [Ollama](https://ollama.com/download).
 
-La grabación utiliza Windows, VS Code y Python 3.14.7.
+En particular para la grabación se utiliza Windows, VS Code y Python 3.14.7.
 
 ### 1. Clonar el repositorio
 
