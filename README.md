@@ -77,7 +77,7 @@ Ambos programas muestran las respuestas en la terminal y no las guardan automát
 
 Para probar otro mensaje independiente se puede seguir escribiendo mientras el programa está ejecutandose, esto es útil para probar distintas variaciones de un mismo prompt o distintos.
 
-## Ejecutar los 21 mensajes de prueba
+## Ejecución de los 21 mensajes de prueba (prompts)
 
 Actualmente, `Run_Prompts.py` utiliza **`gemma3:4b`** de forma predeterminada, a diferencia de la demostración interactiva. Pero este se puede cambiar facilmente modificando la linea que indica el modelo a usar.
 
@@ -113,7 +113,7 @@ La numeración de las respuestas continúa entre modelos; consulta `summary.tsv`
 
 **`status=ok` significa que la respuesta pudo interpretarse como JSON, no que la información extraída sea correcta.**
 
-Evalúa el contenido utilizando `Rubrica.txt` e `Instruction_2.txt`.
+Se debe evaluar las respuestas utilizando `Rubrica.txt`.
 
 El programa de pruebas ejecuta únicamente la solución; no ejecuta automáticamente la versión base.
 
