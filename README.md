@@ -1,156 +1,243 @@
-# Deliverable 2 — Emergency request extraction
+# Deliverable 2 — Extracción de solicitudes de emergencia
 
-This system converts informal emergency messages in Spanish into JSON containing the supplies still requested, their quantities and units, the current delivery location, practical location references, and an urgency level from 1 to 5. Inference runs locally through Ollama.
+Este sistema transforma mensajes informales de emergencia en español en un objeto JSON que contiene los suministros todavía solicitados, sus cantidades y unidades, el destino vigente de entrega, las referencias para reconocer el lugar y un nivel de urgencia del 1 al 5. La inferencia se ejecuta localmente mediante Ollama.
 
-The demonstration compares a simple prompting baseline (`Run_AI_D1.py`) with the structured instructions and examples used in Deliverable 2 (`Run_AI_D2.py`). Both interactive scripts use **`ministral-3:3b`**. The instructions address errors involving updates, offers versus requests, quantities, location references, and urgency.
+La demostración compara una versión base con instrucciones simples (`Run_AI_D1.py`) y la solución del Deliverable 2 con instrucciones estructuradas y ejemplos (`Run_AI_D2.py`). Ambos programas interactivos utilizan **`ministral-3:3b`**.
 
-## Important files
+Las instrucciones buscan reducir errores al interpretar actualizaciones, distinguir ofrecimientos de solicitudes y extraer cantidades, referencias y urgencia.
 
-| File or folder | Purpose |
+## Archivos importantes
+
+| Archivo o carpeta | Función |
 | --- | --- |
-| [`Run_AI_D1.py`](Run_AI_D1.py) | Interactive baseline with an embedded system prompt. |
-| [`Run_AI_D2.py`](Run_AI_D2.py) | Interactive solution loading `Instruction_2.txt`. |
-| [`Instruction_2.txt`](Instruction_2.txt) | Extraction rules, urgency rubric, and complete examples. |
-| [`Run_Prompts.py`](Run_Prompts.py) | Runs the solution on every test file and saves responses and execution metadata. |
-| [`Prompts_Separados/`](Prompts_Separados/) | The 21 individual test messages read by the batch runner. |
-| [`Prompts_deposito.txt`](Prompts_deposito.txt) | Combined messages for browsing or copying; not the batch runner's input source. |
-| [`Rubrica.txt`](Rubrica.txt) | Reference outputs and comments for manual evaluation. |
-| [`Outputs_D2/`](Outputs_D2/) | Previously saved runs for Qwen, Ministral, and Gemma. |
-| [`MODELS_AI`](MODELS_AI) | Model notes; execution settings are defined in the Python scripts. |
+| `Run_AI_D1.py` | Versión base interactiva, con el prompt de sistema incluido en el código. |
+| `Run_AI_D2.py` | Solución interactiva que carga las instrucciones desde `Instruction_2.txt`. |
+| `Instruction_2.txt` | Reglas de extracción, rúbrica de urgencia y ejemplos completos. |
+| `Run_Prompts.py` | Ejecuta la solución sobre todos los archivos de prueba y guarda las respuestas y los datos de ejecución. |
+| `Prompts_Separados/` | Los 21 mensajes individuales utilizados por el programa de pruebas. |
+| `Prompts_deposito.txt` | Mensajes reunidos para consultarlos o copiarlos. No es el archivo de entrada del programa de pruebas. |
+| `Rubrica.txt` | Respuestas de referencia y comentarios para evaluar manualmente. |
+| `Outputs_D2/` | Ejecuciones previamente guardadas de Qwen, Ministral y Gemma. |
+| `MODELS_AI` | Notas sobre los modelos. La configuración utilizada está definida en los programas Python. |
 
-## Setup
+## Instalación
 
-Install Python, Git, and [Ollama](https://ollama.com/download). The recording uses Windows, VS Code, and Python 3.14.7. VS Code is optional; the scripts run from a terminal. Allow enough RAM/VRAM and disk space for the downloaded model. No paid API key is needed for this local workflow.
+Instala Python, Git y [Ollama](https://ollama.com/download).
 
-Clone the repository and enter this folder:
+La grabación utiliza Windows, VS Code y Python 3.14.7. VS Code es opcional: los programas también se ejecutan desde una terminal.
+
+Debes disponer de suficiente memoria RAM/VRAM y espacio en disco para el modelo descargado. Esta ejecución local no requiere una clave de API pagada.
+
+### 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/crisICM/Project_GenAI.git
 cd Project_GenAI/Deliverable_2
 ```
 
-Create a virtual environment:
+### 2. Crear un entorno virtual
 
 ```bash
 python -m venv .venv
 ```
 
-Activate it using the command for your terminal:
+### 3. Activar el entorno virtual
 
-Windows PowerShell:
+Utiliza el comando correspondiente a tu terminal.
+
+**Windows PowerShell:**
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-Windows Command Prompt:
+**Símbolo del sistema de Windows (CMD):**
 
 ```bat
 .venv\Scripts\activate.bat
 ```
 
-Linux/macOS:
+**Linux/macOS:**
 
 ```bash
 source .venv/bin/activate
 ```
 
-On systems where Python is named `python3`, use `python3 -m venv .venv`. After activation, use `python` for the remaining commands.
+Si tu sistema utiliza el comando `python3`, crea el entorno con:
 
-Install the Python dependency:
+```bash
+python3 -m venv .venv
+```
+
+Después de activarlo, utiliza `python` para los comandos restantes.
+
+### 4. Instalar la dependencia de Python
 
 ```bash
 python -m pip install ollama
 ```
 
-The other imports are from Python's standard library. Keep the Ollama application running. If it is not already serving requests, run this in a separate terminal and leave it open:
+Los demás módulos importados pertenecen a la biblioteca estándar de Python.
+
+### 5. Iniciar Ollama y descargar el modelo
+
+Mantén abierta la aplicación Ollama. Si el servidor todavía no está funcionando, ejecuta lo siguiente en otra terminal y déjala abierta:
 
 ```bash
 ollama serve
 ```
 
-Download and check the demonstration model:
+Descarga el modelo utilizado en la demostración:
 
 ```bash
 ollama pull ministral-3:3b
+```
+
+Comprueba que esté disponible:
+
+```bash
 ollama list
 ```
 
-## Reproduce the video comparison
+## Reproducir la comparación del video
 
-Run these commands **from `Deliverable_2`**. The interactive solution reads `Instruction_2.txt` relative to the current working directory.
+Ejecuta los siguientes comandos **desde la carpeta `Deliverable_2`**. La solución interactiva busca `Instruction_2.txt` en el directorio de trabajo actual.
 
-1. Start the baseline:
+### 1. Ejecutar la versión base
 
-   ```bash
-   python Run_AI_D1.py
-   ```
+```bash
+python Run_AI_D1.py
+```
 
-2. At `You:`, paste the following message as **one line** and press Enter. It is test 06 in `Prompts_Separados/`, and is the message used in the recording:
+Cuando aparezca `You:`, pega el siguiente mensaje en **una sola línea** y presiona Enter.
 
-   ```text
-   Impecable la gestión municipal, un aplauso por las cero frazadas y las cero linternas que prometieron mandar anoche a Dichato, se nos inundó hasta el techo y todavía estamos alumbrándonos con la pantalla del celular. En la casa del portón verde somos 9 damnificados: 4 lograron rescatar su ropa de cama, así que calculen cuántos quedamos durmiendo en el suelo húmedo. Si el camión municipal llega antes de que oscurezca traigan solo las frazadas que faltan, pero si llegan tarde sumen linternas con pilas porque la matriz de la cancha explotó y no hay luz en toda la cuadra.
-   ```
+Corresponde a la prueba 06 de `Prompts_Separados/` y es el mensaje utilizado en la grabación:
 
-3. Wait for `ANSWER:` and the generated JSON. Type `exit` to end the baseline session.
+```text
+Impecable la gestión municipal, un aplauso por las cero frazadas y las cero linternas que prometieron mandar anoche a Dichato, se nos inundó hasta el techo y todavía estamos alumbrándonos con la pantalla del celular. En la casa del portón verde somos 9 damnificados: 4 lograron rescatar su ropa de cama, así que calculen cuántos quedamos durmiendo en el suelo húmedo. Si el camión municipal llega antes de que oscurezca traigan solo las frazadas que faltan, pero si llegan tarde sumen linternas con pilas porque la matriz de la cancha explotó y no hay luz en toda la cuadra.
+```
 
-4. Start the solution:
+Espera a que aparezcan `ANSWER:` y el JSON generado. Escribe `exit` para cerrar la sesión.
 
-   ```bash
-   python Run_AI_D2.py
-   ```
+### 2. Ejecutar la solución del Deliverable 2
 
-5. Paste the **same message**, wait for the JSON, and type `exit`.
+```bash
+python Run_AI_D2.py
+```
 
-Both scripts print responses to the terminal; they do not save them automatically. Each keeps conversation history until exit. Restart the script before testing another independent message.
+Pega **el mismo mensaje**, espera el JSON y escribe `exit`.
 
-### What the recording shows
+Ambos programas muestran las respuestas en la terminal y no las guardan automáticamente. Conservan el historial de conversación hasta que se cierran.
 
-The baseline returns blankets and flashlights with unknown quantities, `Dichato` as the destination, no references, and urgency 5. The solution returns a quantity of 5 blankets, but also incorrectly uses `Revisión Manual` as a resource with `linternas` as its unit, and replaces the destination with `Revisión Manual`.
+Para probar otro mensaje independiente, reinicia el programa.
 
-This example illustrates a quantity improvement and a remaining failure involving conditional requests and location extraction. It is not a fully correct solution output. Inspect whether the model preserves the known location and the green-gate reference, represents the flashlight request correctly, and justifies the urgency using the rubric in `Instruction_2.txt`.
+### Qué muestra la grabación
 
-Exact responses can vary: the interactive scripts do not set a seed, and their generation settings differ. This comparison reproduces the submitted configurations; it does not isolate the prompt change from all other settings.
+La versión base devuelve frazadas y linternas con cantidades desconocidas, `Dichato` como destino, ninguna referencia y urgencia 5.
 
-## Run all 21 test messages
+La solución devuelve una cantidad de 5 frazadas, pero también utiliza incorrectamente `Revisión Manual` como recurso y `linternas` como unidad, y reemplaza el destino por `Revisión Manual`.
 
-`Run_Prompts.py` currently defaults to **`gemma3:4b`**, which differs from the interactive demonstration. To evaluate the demonstration model, replace the `MODELS` list in that file with:
+Este ejemplo muestra una mejora en la cantidad extraída y un fallo que persiste al interpretar solicitudes condicionales y extraer la ubicación. La respuesta de la solución no es completamente correcta.
+
+Al revisarla, comprueba si conserva la ubicación conocida y la referencia al portón verde, representa correctamente la solicitud de linternas y justifica la urgencia según la rúbrica de `Instruction_2.txt`.
+
+Las respuestas exactas pueden variar: los programas interactivos no fijan una semilla y sus parámetros de generación son diferentes. Esta comparación reproduce las configuraciones entregadas; no permite aislar el efecto del cambio de instrucciones respecto de los demás parámetros.
+
+## Ejecutar los 21 mensajes de prueba
+
+Actualmente, `Run_Prompts.py` utiliza **`gemma3:4b`** de forma predeterminada, a diferencia de la demostración interactiva.
+
+Para evaluar el modelo del video, reemplaza la lista `MODELS` de ese archivo por:
 
 ```python
 MODELS = ["ministral-3:3b"]
 ```
 
-Then run:
+Luego ejecuta:
 
 ```bash
 python Run_Prompts.py
 ```
 
-To keep the current Gemma default, first run `ollama pull gemma3:4b`. For a three-model run, download the other models and set:
+Si prefieres mantener la configuración actual con Gemma, descarga primero ese modelo:
+
+```bash
+ollama pull gemma3:4b
+```
+
+### Probar los tres modelos
+
+Además de Ministral, descarga los modelos restantes:
 
 ```bash
 ollama pull qwen3.5:4b
 ollama pull gemma3:4b
 ```
 
+Configura la lista en `Run_Prompts.py`:
+
 ```python
 MODELS = ["qwen3.5:4b", "ministral-3:3b", "gemma3:4b"]
 ```
 
-Each test starts with a fresh conversation. Results are written to a new `Outputs_D2/run_YYYYMMDD_HHMMSS/` folder, with model subfolders containing `OUTPUT*.txt` and a `summary.tsv` mapping each response to its input. The summary records JSON parsing status, token counts, duration, stop reason, and errors. Output numbering continues across models; use the summary to identify inputs.
+Ejecuta nuevamente:
 
-**`status=ok` means the response parsed as JSON, not that its extracted information is correct.** Evaluate content against `Rubrica.txt` and `Instruction_2.txt`. The batch runner evaluates the solution only; it does not automatically run the baseline.
+```bash
+python Run_Prompts.py
+```
 
-## Troubleshooting and reproducibility
+### Dónde se guardan los resultados
 
-| Problem | Action |
+Cada prueba comienza con una conversación nueva.
+
+Los resultados se guardan en una carpeta nueva:
+
+```text
+Outputs_D2/run_YYYYMMDD_HHMMSS/
+```
+
+Esta carpeta contiene:
+
+- Subcarpetas por modelo con las respuestas en archivos `OUTPUT*.txt`.
+- Un archivo `summary.tsv` que relaciona cada respuesta con su mensaje de entrada.
+
+El resumen registra el estado de validación del JSON, los conteos de tokens, la duración, el motivo de finalización y los errores.
+
+La numeración de las respuestas continúa entre modelos; consulta `summary.tsv` para identificar sus entradas.
+
+**`status=ok` significa que la respuesta pudo interpretarse como JSON, no que la información extraída sea correcta.**
+
+Evalúa el contenido utilizando `Rubrica.txt` e `Instruction_2.txt`.
+
+El programa de pruebas ejecuta únicamente la solución; no ejecuta automáticamente la versión base.
+
+## Solución de problemas
+
+| Problema | Acción |
 | --- | --- |
-| `No module named 'ollama'` | Activate the virtual environment and run `python -m pip install ollama`. |
-| Cannot connect to Ollama | Start the Ollama application or `ollama serve`. |
-| Model not found | Pull the exact tag selected in `MODEL` or `MODELS`. |
-| `Instruction_2.txt` not found | Run the interactive solution from `Project_GenAI/Deliverable_2`. |
-| Response takes time to appear | The calls wait for the complete response; initial model loading can also take time. |
+| `No module named 'ollama'` | Activa el entorno virtual y ejecuta `python -m pip install ollama`. |
+| No es posible conectarse a Ollama | Inicia la aplicación Ollama o ejecuta `ollama serve`. |
+| No se encuentra el modelo | Descarga la etiqueta exacta indicada en `MODEL` o `MODELS`. |
+| No se encuentra `Instruction_2.txt` | Ejecuta la solución interactiva desde `Project_GenAI/Deliverable_2`. |
+| La respuesta tarda en aparecer | Las llamadas esperan la respuesta completa; la carga inicial del modelo también puede tardar. |
 
-The batch runner sets seed 42; this does not guarantee identical output across model builds, Ollama versions, or hardware. To record your environment, save the output of `python --version`, `python -m pip show ollama`, `ollama --version`, `ollama list`, and `ollama show ministral-3:3b`, along with the repository commit and hardware used.
+## Notas de reproducibilidad
 
-Setup references: [Ollama quickstart](https://docs.ollama.com/quickstart) and [Ollama Python client](https://github.com/ollama/ollama-python).
+El programa de pruebas fija la semilla en 42, pero esto no garantiza respuestas idénticas entre distintas versiones del modelo, de Ollama o del hardware.
+
+Para registrar tu entorno, guarda las salidas de los siguientes comandos:
+
+```bash
+python --version
+python -m pip show ollama
+ollama --version
+ollama list
+ollama show ministral-3:3b
+```
+
+Registra también el commit del repositorio y el hardware utilizado.
+
+## Referencias de instalación
+
+- [Guía de inicio de Ollama](https://docs.ollama.com/quickstart).
+- [Cliente de Python para Ollama](https://github.com/ollama/ollama-python).
