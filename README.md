@@ -155,7 +155,7 @@ La salida de cuatro claves contiene:
 }
 ```
 
-Para propósitos del entregable 3, solo consideremos `salidas_4/` y `traces_v1/`. Los demás archivos están pensados para guardar información que podría ser útil a evaluarse en un la siguiente entrega.
+Para propósitos del entregable 3, solo consideremos `salidas_4/` y `traces_v1/`. Los demás archivos están pensados para guardar información que podría ser útil evaluarse en una siguiente entrega.
 
 ## Cómo revisar lo que hicieron los agentes
 
