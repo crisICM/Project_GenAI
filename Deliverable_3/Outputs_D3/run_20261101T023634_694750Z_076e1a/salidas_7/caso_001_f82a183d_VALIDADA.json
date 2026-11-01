@@ -1,0 +1,58 @@
+{
+  "urgencia": {
+    "nivel": 2,
+    "motivo_principal": "Requisito pendiente de suministro de alimentos en un lugar específico",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "ENTREGA_SUMINISTROS",
+      "descripcion": "Entregar 10 cajas de alimentos",
+      "origen": "SOLICITADO",
+      "evidencia": "las 10 cajas de alimentos siguen pendientes",
+      "id": "o_e876c9836e32a451bce7_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "casa de portón rojo detrás de la sede, Dichato",
+    "referencias_acceso": null,
+    "localidad_detectada": "Dichato, Tomé",
+    "estado_ruta": null,
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "frazadas",
+      "cantidad": null,
+      "unidad": null,
+      "evidencia": "En Dichato, Tomé, necesitamos 25 frazadas y 10 cajas de alimentos, recibir frente a la cancha",
+      "id": "s_85e36840039fbd9a2208_1"
+    },
+    {
+      "recurso": "cajas de alimentos",
+      "cantidad": 10,
+      "unidad": "unidades",
+      "evidencia": "10 cajas de alimentos",
+      "id": "s_ee3caa45d0201171aa19_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [
+    {
+      "recurso": "frazadas",
+      "motivo": "YA_RECIBIDO",
+      "evidencia": "las frazadas ya se completaron, no lleven más"
+    },
+    {
+      "recurso": "frazadas",
+      "motivo": "CANCELADO",
+      "evidencia": "En Dichato, Tomé, necesitamos 25 frazadas y 10 cajas de alimentos, recibir frente a la cancha"
+    },
+    {
+      "recurso": "lugar de recepción",
+      "motivo": "FUERA_DE_AMBITO",
+      "evidencia": "Ya no estamos frente a la cancha, ahora recibimos en la casa de portón rojo detrás de la sede, aquí mismo en Dichato."
+    }
+  ],
+  "trazabilidad_calculos": []
+}

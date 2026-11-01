@@ -1,0 +1,63 @@
+{
+  "urgencia": {
+    "nivel": 2,
+    "motivo_principal": "Falta de suministros básicos (arroz, sal, aceite) en la sede afectada por humedad",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "REPARACION",
+      "descripcion": "Reparar daños en la despensa por humedad",
+      "origen": "REQUIERE_EVALUACION",
+      "evidencia": "se nos mojó parte de la despensa",
+      "condicion_texto": "necesita evaluación técnica para determinar daños estructurales o pérdida de alimentos",
+      "id": "o_da580e1ddcbe7d1c6f6a_1",
+      "estado_condicion": "DESCONOCIDA"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "sede de Tomé Alto",
+    "referencias_acceso": "junto a la escalera",
+    "localidad_detectada": "Tomé Alto",
+    "estado_ruta": null,
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "arroz",
+      "cantidad": 2.5,
+      "unidad": "kg",
+      "evidencia": "2,5 kg de arroz",
+      "id": "s_3c7e736d8d524069e039_1"
+    },
+    {
+      "recurso": "sal",
+      "cantidad": 0.5,
+      "unidad": "kg",
+      "evidencia": "medio kilo de sal",
+      "id": "s_50705db24c37508eade0_1"
+    },
+    {
+      "recurso": "aceite de oliva",
+      "cantidad": 3,
+      "unidad": "botellas",
+      "evidencia": "3 botellas de aceite de 1 litro",
+      "presentacion_logistica": {
+        "cantidad_envases": 3,
+        "envase": "botella",
+        "contenido_por_envase": 1,
+        "unidad_contenido": "litros"
+      },
+      "id": "s_d4ee4fc39275ee57f240_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [
+    {
+      "recurso": "aceite de oliva",
+      "motivo": "YA_RECIBIDO",
+      "evidencia": "Recibimos en la sede junto a la escalera, se nos mojó parte de la despensa"
+    }
+  ],
+  "trazabilidad_calculos": []
+}

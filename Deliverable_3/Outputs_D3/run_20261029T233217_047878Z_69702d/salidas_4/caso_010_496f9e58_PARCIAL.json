@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "colchones de una plaza",
+      "cantidad": 18,
+      "unidad": "unidades"
+    },
+    {
+      "recurso": "mascarillas",
+      "cantidad": 4,
+      "unidad": "cajas"
+    }
+  ],
+  "direccion_objetivo": "pasaje sin salida detrás del almacén del sector Punta de Parra, Tomé",
+  "referencias": null,
+  "urgencia": 3
+}

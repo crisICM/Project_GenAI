@@ -1,0 +1,22 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "barriles de schop",
+      "cantidad": 4,
+      "unidad": "unidades"
+    },
+    {
+      "recurso": "cajas de carne para asar",
+      "cantidad": 15,
+      "unidad": "cajas"
+    },
+    {
+      "recurso": "parlante JBL gigante",
+      "cantidad": null,
+      "unidad": "unidades"
+    }
+  ],
+  "direccion_objetivo": "cerro Alegre, bajando por la escalera caracol cerca del kiosko del Guatón",
+  "referencias": "barrial de Loly",
+  "urgencia": 4
+}

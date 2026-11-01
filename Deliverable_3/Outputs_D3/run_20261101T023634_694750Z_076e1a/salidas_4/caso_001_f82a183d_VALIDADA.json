@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "frazadas",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "cajas de alimentos",
+      "cantidad": 10,
+      "unidad": "unidades"
+    }
+  ],
+  "direccion_objetivo": "casa de portón rojo detrás de la sede, Dichato",
+  "referencias": null,
+  "urgencia": 2
+}

@@ -1,0 +1,58 @@
+{
+  "urgencia": {
+    "nivel": 3,
+    "motivo_principal": "Distribución de medicamentos para adultos mayores postrados",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "TRANSFERENCIA_DE_SUMINISTROS",
+      "descripcion": "Cambiar cajas de fideos y atún por medicamentos (Losartán 50mg y Paracetamol 1g) para tres adultos mayores postrados",
+      "origen": "SOLICITADO",
+      "evidencia": "los cambiamos pelo a pelo a quien traiga Losartán de 50mg y Paracetamol de 1g",
+      "id": "o_764c4c74c5f2318213dc_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "sede de Punta de Parra",
+    "referencias_acceso": "callejón de la playa (evitar por quebrada), antigua maestranza del tren (antes del maremoto del 2010), sauce quemado",
+    "localidad_detectada": "Punta de Parra",
+    "estado_ruta": "AMBIGUA",
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "Losartán de 50 mg",
+      "cantidad": 3,
+      "unidad": "unidades",
+      "evidencia": "Losartán de 50mg y Paracetamol de 1g para tres adultos mayores postrados",
+      "id": "s_c057fe0bc139cad9b706_1"
+    },
+    {
+      "recurso": "Paracetamol de 1 g",
+      "cantidad": 3,
+      "unidad": "unidades",
+      "evidencia": "Losartán de 50mg y Paracetamol de 1g para tres adultos mayores postrados",
+      "id": "s_6197606127f2c3e8942a_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [
+    {
+      "recurso": "fideos",
+      "motivo": "YA_RECIBIDO",
+      "evidencia": "en la sede nos sobraron 12 cajas de fideos"
+    },
+    {
+      "recurso": "atún",
+      "motivo": "YA_RECIBIDO",
+      "evidencia": "8 de atún"
+    },
+    {
+      "recurso": "bidones de parafina",
+      "motivo": "NO_REQUERIDO",
+      "evidencia": "4 bidones de parafina que no vamos a ocupar"
+    }
+  ],
+  "trazabilidad_calculos": []
+}

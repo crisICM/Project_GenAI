@@ -1,0 +1,69 @@
+{
+  "id_mensaje": "caso_017_4224a291",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": null,
+      "motivo_principal": null,
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [],
+    "ubicacion": {
+      "direccion_objetivo": "familias de Tomé (frente a una escuela)",
+      "referencias_acceso": null,
+      "localidad_detectada": "Tomé o Coliumo",
+      "estado_ruta": null,
+      "estado_ubicacion": "AMBIGUA"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "linternas",
+        "cantidad": 6,
+        "unidad": "unidades",
+        "evidencia": "Me pasaron un pedido de 6 linternas",
+        "id": "s_acd9168b353193293b1d_1"
+      },
+      {
+        "recurso": "frazadas",
+        "cantidad": 10,
+        "unidad": "unidades",
+        "evidencia": "Me pasaron un pedido de 10 frazadas",
+        "id": "s_1af40efa932a88ed6304_1"
+      }
+    ],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "linternas",
+        "cantidad": 6,
+        "unidad": "unidades"
+      },
+      {
+        "recurso": "frazadas",
+        "cantidad": null,
+        "unidad": "unidades"
+      }
+    ],
+    "direccion_objetivo": "familias de Tomé (frente a una escuela)",
+    "referencias": null,
+    "urgencia": null
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "Confirmar si el nivel de urgencia corresponde a una necesidad básica activa estable (ej. riesgo por frío extremo o emergencia logística) o si requiere revisión para ajustar a un nivel más alto (ej. 3 o superior).",
+    "Aclarar si las familias de Tomé están en Dichato o Coliumo para asignar el destino del vehículo.",
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.",
+    "Confirmar urgencia: el mensaje no permite asignar un nivel.",
+    "Resolver la ubicación ambigua antes de usar el registro.",
+    "¿Dónde están ubicados exactamente los lugares (Dichato o Coliumo) frente a la escuela?",
+    "¿Cuál es el nombre exacto de las familias de Tomé que requieren estos bienes?",
+    "¿Es Tomé en Dichato o en Coliumo?",
+    "¿Cuál de las escuelas mencionadas en el audio corresponde al destino?"
+  ],
+  "segundos": 15.851,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

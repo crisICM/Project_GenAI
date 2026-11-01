@@ -1,0 +1,47 @@
+{
+  "id_mensaje": "caso_012_31e90c61",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": null,
+      "motivo_principal": null,
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [],
+    "ubicacion": {
+      "direccion_objetivo": "sede de Dichato, Tomé",
+      "referencias_acceso": null,
+      "localidad_detectada": "Tomé",
+      "estado_ruta": null,
+      "estado_ubicacion": "IDENTIFICADA"
+    },
+    "suministros_confirmados": [],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [
+      {
+        "recurso": "cajas de alimentos",
+        "motivo": "YA_RECIBIDO",
+        "evidencia": "llegaron las 12 cajas de alimentos"
+      },
+      {
+        "recurso": "frazadas",
+        "motivo": "YA_RECIBIDO",
+        "evidencia": "llegaron las 20 frazadas"
+      }
+    ],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [],
+    "direccion_objetivo": "sede de Dichato, Tomé",
+    "referencias": null,
+    "urgencia": null
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.",
+    "Confirmar urgencia: el mensaje no permite asignar un nivel."
+  ],
+  "segundos": 13.069,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

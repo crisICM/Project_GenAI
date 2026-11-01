@@ -1,0 +1,67 @@
+{
+  "urgencia": {
+    "nivel": 1,
+    "motivo_principal": "Reparto logístico de suministros básicos (agua, mascarillas, velas) en una localidad",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "TRANSPORTE_LOGISTICO",
+      "descripcion": "Entregar 3 bidones de 5 litros de agua, 2 cajas con 48 mascarillas y 4 paquetes de 10 velas",
+      "origen": "SOLICITADO",
+      "evidencia": "3 bidones de 5 litros de agua, 2 cajas con 24 mascarillas cada una y 4 paquetes de 10 velas",
+      "id": "o_e230ae676331f20b572b_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "Coliumo, Tomé",
+    "referencias_acceso": null,
+    "localidad_detectada": "Tomé",
+    "estado_ruta": null,
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "agua",
+      "cantidad": 15,
+      "unidad": "litros",
+      "evidencia": "3 bidones de 5 litros de agua",
+      "presentacion_logistica": {
+        "cantidad_envases": 3,
+        "envase": "bidones",
+        "contenido_por_envase": 5,
+        "unidad_contenido": "litros"
+      },
+      "id": "s_fd9c1acde3a98089b120_1"
+    },
+    {
+      "recurso": "mascarillas",
+      "cantidad": 48,
+      "unidad": "unidades",
+      "evidencia": "2 cajas con 24 mascarillas cada una",
+      "presentacion_logistica": {
+        "cantidad_envases": 2,
+        "envase": "cajas",
+        "contenido_por_envase": 24,
+        "unidad_contenido": "unidades"
+      },
+      "id": "s_c512bd174420ca31638a_1"
+    },
+    {
+      "recurso": "velas",
+      "cantidad": 40,
+      "unidad": "unidades",
+      "evidencia": "4 paquetes de 10 velas",
+      "presentacion_logistica": {
+        "cantidad_envases": 4,
+        "envase": "paquetes",
+        "contenido_por_envase": 10,
+        "unidad_contenido": "unidades"
+      },
+      "id": "s_02b24606d7100f0dad96_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": []
+}

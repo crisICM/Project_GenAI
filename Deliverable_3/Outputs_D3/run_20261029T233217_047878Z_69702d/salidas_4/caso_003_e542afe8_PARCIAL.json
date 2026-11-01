@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "agua",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "pañales, talla grande, verdes",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "cerro Estanque, pasaje 2 (fondo, estanques viejos de Essbio de fierro)",
+  "referencias": null,
+  "urgencia": 5
+}

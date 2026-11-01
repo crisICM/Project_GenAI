@@ -1,0 +1,107 @@
+{
+  "id_mensaje": "caso_007_160284b2",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": 3,
+      "motivo_principal": "Adultos mayores postrados con necesidad básica de higiene y agua para evitar riesgos de salud",
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [
+      {
+        "tipo": "SUMINISTRO",
+        "descripcion": "Mudas de pañales completas para 8 adultos mayores (3 días)",
+        "origen": "SOLICITADO",
+        "evidencia": "requieren mudas de pañales completas para al menos tres días",
+        "id": "o_d3d9a8a1d9c6062fbc94_1"
+      },
+      {
+        "tipo": "SUMINISTRO",
+        "descripcion": "Agua para beber (25 personas, 2 litros/día/persona)",
+        "origen": "SOLICITADO",
+        "evidencia": "calculen un consumo mínimo de 2 litros diarios por persona para 25 personas",
+        "id": "o_4c75ef5df6388676e269_1"
+      }
+    ],
+    "ubicacion": {
+      "direccion_objetivo": "sede vecinal (subiendo por la quebrada vieja, dos curvas después del almacén cerrado en 2022)",
+      "referencias_acceso": "quebrada vieja, dos curvas después del almacén cerrado en 2022",
+      "localidad_detectada": "Cocholgue",
+      "estado_ruta": "subiendo por quebrada vieja",
+      "estado_ubicacion": "PARCIAL"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "pañales completos",
+        "cantidad": null,
+        "unidad": "unidades",
+        "evidencia": "mudas de pañales completas para al menos tres días",
+        "rango": {
+          "minimo": 3,
+          "maximo": 3
+        },
+        "id": "s_e35c3cd15ad05c1e97b8_1"
+      },
+      {
+        "recurso": "agua para beber",
+        "cantidad": 50,
+        "unidad": "litros",
+        "evidencia": "calculen un consumo mínimo de 2 litros diarios por persona",
+        "calculo": {
+          "tipo": "PRODUCTO",
+          "operandos": [
+            2,
+            25
+          ],
+          "unidad_resultado": "litros",
+          "evidencia": "2 litros diarios por persona para 25 personas"
+        },
+        "id": "s_22287ae2fbddc80c445f_1"
+      }
+    ],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [],
+    "trazabilidad_calculos": [
+      {
+        "herramienta": "calculadora",
+        "id_destino": "s_22287ae2fbddc80c445f_1",
+        "tipo": "PRODUCTO",
+        "operandos": [
+          2,
+          25
+        ],
+        "unidad_resultado": "litros",
+        "evidencia": "2 litros diarios por persona para 25 personas",
+        "estado": "OK",
+        "resultado": 50
+      }
+    ]
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "pañales completos",
+        "cantidad": null,
+        "unidad": "unidades"
+      },
+      {
+        "recurso": "agua para beber",
+        "cantidad": null,
+        "unidad": "litros"
+      }
+    ],
+    "direccion_objetivo": "sede vecinal (subiendo por la quebrada vieja, dos curvas después del almacén cerrado en 2022)",
+    "referencias": "quebrada vieja, dos curvas después del almacén cerrado en 2022",
+    "urgencia": 3
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "Precisar la talla o tipo de pañales para los adultos mayores postrados (duda en el mensaje original).",
+    "Confirmar el caudal del estero y la duración exacta del resguardo (dudas en el contexto).",
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.",
+    "¿Qué talla o tipo de pañales se requieren para los 8 adultos mayores postrados?",
+    "¿Qué estado actual tiene el caudal del estero para evaluar la duración del resguardo? ¿Existen datos de acceso específicos a la sede vecinal más detallados?"
+  ],
+  "segundos": 20.761,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "palas carboneras",
+      "cantidad": 5,
+      "unidad": null
+    },
+    {
+      "recurso": "bolsas negras grand de consorcio",
+      "cantidad": null,
+      "unidad": null
+    }
+  ],
+  "direccion_objetivo": "Frutillares, cerca del puente de fierro frente al taller mecánico viejo",
+  "referencias": "Frente al taller mecánico viejo, camino bajo la cuesta 'caracol' (deslizamiento)",
+  "urgencia": 5
+}

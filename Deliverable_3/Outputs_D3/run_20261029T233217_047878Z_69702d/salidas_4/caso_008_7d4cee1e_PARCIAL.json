@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "cajas de leche",
+      "cantidad": null,
+      "unidad": "cajas"
+    },
+    {
+      "recurso": "paquetes de pañales talla G",
+      "cantidad": 8,
+      "unidad": "paquetes"
+    }
+  ],
+  "direccion_objetivo": "casa de madera frente al paradero en Coliumo, Tomé",
+  "referencias": null,
+  "urgencia": 1
+}

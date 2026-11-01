@@ -1,0 +1,42 @@
+{
+  "urgencia": {
+    "nivel": 2,
+    "motivo_principal": "Necesidad logística para limpieza de barro",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "SUMINISTRO",
+      "descripcion": "Entregar 7 palas y 12 pares de guantes",
+      "origen": "SOLICITADO",
+      "evidencia": "Porfa traigan 7 palas y 12 pares de guantes",
+      "id": "o_7d337058853c1ccc1ffe_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "patio al lado del negocio subiendo (prestado por la señora anterior)",
+    "referencias_acceso": null,
+    "localidad_detectada": null,
+    "estado_ruta": null,
+    "estado_ubicacion": "AMBIGUA"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "palas",
+      "cantidad": 7,
+      "unidad": "unidades",
+      "evidencia": "7 palas",
+      "id": "s_4982da159db4912d8c5e_1"
+    },
+    {
+      "recurso": "guantes",
+      "cantidad": 12,
+      "unidad": "pares",
+      "evidencia": "12 pares de guantes",
+      "id": "s_7a856b183ce014185dba_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": []
+}

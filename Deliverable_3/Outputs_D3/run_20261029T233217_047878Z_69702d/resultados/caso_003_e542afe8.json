@@ -1,0 +1,92 @@
+{
+  "id_mensaje": "caso_003_e542afe8",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": 5,
+      "motivo_principal": "Falta crítica de agua para supervivencia de grupo en zona con riesgo de inestabilidad estructural",
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [
+      {
+        "tipo": "TRANSPORTE",
+        "descripcion": "Transporte de agua para 9 personas (6 adultos + 3 niños) por 48 horas",
+        "origen": "SOLICITADO",
+        "evidencia": "calculen lo básico para aguantar 48 horas más",
+        "id": "o_e98bfbe370dc6d8a4852_1"
+      },
+      {
+        "tipo": "SUMINISTRO",
+        "descripcion": "Pañales de talla grande (verde) para niños",
+        "origen": "SOLICITADO",
+        "evidencia": "pañales traigan pañales chicos no espera pañales grandes verdes",
+        "id": "o_15f41602e8dbe0a8968f_1"
+      },
+      {
+        "tipo": "REPARACION_INFRAESTRUCTURA",
+        "descripcion": "Evaluar estabilidad de la pirca (estructura de apoyo) y disponibilidad de palas si se cede",
+        "origen": "REQUIERE_EVALUACION",
+        "evidencia": "barro viene bajando si ven que la pirca aguanta no manden sacos pero si cede vamos a necesitar palas",
+        "condicion_texto": "Evaluar riesgo de colapso estructural y necesidad de refuerzo",
+        "id": "o_14b578e37df27041aae0_1",
+        "estado_condicion": "DESCONOCIDA"
+      }
+    ],
+    "ubicacion": {
+      "direccion_objetivo": "cerro Estanque, pasaje 2 (fondo, estanques viejos de Essbio de fierro)",
+      "referencias_acceso": null,
+      "localidad_detectada": "cerro Estanque",
+      "estado_ruta": null,
+      "estado_ubicacion": "PARCIAL"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "agua",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "calculen lo básico para aguantar 48 horas más",
+        "id": "s_309dde2c1541b65e1316_1"
+      },
+      {
+        "recurso": "pañales, talla grande, verdes",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "pañales traigan... pañales chicos no que ya no le quedan de esos son talla grande de los verdes",
+        "id": "s_d9334eb59f5d7e79c0c3_1"
+      }
+    ],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "agua",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "pañales, talla grande, verdes",
+        "cantidad": null,
+        "unidad": null
+      }
+    ],
+    "direccion_objetivo": "cerro Estanque, pasaje 2 (fondo, estanques viejos de Essbio de fierro)",
+    "referencias": null,
+    "urgencia": 5
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "Confirmar si el contexto incluye **palas** (requerimiento no solicitado en suministros) o si es una evaluación de infraestructura.",
+    "agente_1: respuesta inválida tras los intentos permitidos: [{'campo': 'evidencia', 'problema': 'La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.'}]",
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.",
+    "¿Cantidad exacta de agua necesaria para 6 adultos y 3 niños (guaguas) por 48 horas?",
+    "¿Cantidad específica de pañales para 6 adultos (si aplica) o si se entiende solo para los niños?",
+    "¿Se especifica si el agua debe ser embotellada, en bidones o cualquier otro formato?",
+    "¿Qué tipo de estructura es la 'pirca' y cómo se evalúa su estabilidad? (para confirmar riesgo estructural)",
+    "¿Hay confirmación de que los estanques son de fierro y no de cemento? (para precisar ubicación exacta)"
+  ],
+  "segundos": 34.81,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

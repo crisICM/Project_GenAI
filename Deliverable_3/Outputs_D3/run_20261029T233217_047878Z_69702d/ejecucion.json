@@ -1,0 +1,232 @@
+{
+  "inicio_utc": "2026-10-29T23:32:17.053183+00:00",
+  "estado_lote": "COMPLETADA",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "plataforma": "Windows-11-10.0.26200-SP0",
+  "configuracion": {
+    "modelo": "ministral-3:3b",
+    "url_ollama": "http://localhost:11434",
+    "temperatura": 0.0,
+    "semilla": 42,
+    "num_ctx": 16384,
+    "num_predict": 3072,
+    "timeout_segundos": 600,
+    "pensar": false,
+    "reintentos_formato": 1,
+    "rondas_correccion": 2,
+    "max_correcciones_por_ronda": 6,
+    "carpeta_prompts": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Outputs_D3\\run_20261029T233217_047878Z_69702d\\fuentes"
+  },
+  "ollama": {
+    "modelo": {
+      "name": "ministral-3:3b",
+      "model": "ministral-3:3b",
+      "modified_at": "2026-09-10T22:18:18.2193629-03:00",
+      "size": 2953840808,
+      "digest": "f04aa1c738f64e13c625b82ae92504fc0260fa6723b509ed1ece0fa188179b1d",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "mistral3",
+        "families": [
+          "mistral3"
+        ],
+        "parameter_size": "3.8B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 3072
+      },
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools"
+      ]
+    },
+    "consultado_utc": "2026-10-29T23:32:14.933704+00:00",
+    "servidor": {
+      "version": "0.35.1"
+    }
+  },
+  "encoding_entradas": "utf-8-sig",
+  "fuentes_sha256": {
+    "Run_Prompts_D3.py": "28790153887f7c1aa69c41e656a46fe05824a1563b5a8a5c9dcdf342e3bfce88",
+    "coordinador.py": "bc7f3905d68543b47d2d59e89ce34c50c027f7bc14962a22b1db3b21e0a0700d",
+    "herramientas.py": "f73498b461530f56d34abfd26ac6bfb57fc1f8440219ce35963f7520e26a5a0d",
+    "agente_1_suministros.txt": "dab500d3b981faef602d9a5a41ec868c0b6088efbe7d42aae101824f9dc3aa84",
+    "agente_2_contexto.txt": "47f4df4f7ee37030db81f7ead5053d53dc94cf043d6e00d80bae3a93224aff57",
+    "agente_3_auditor.txt": "932bee4723ad4e4801c2d12d472e517fe4c53a034fc889d3626a232eebf92ff7"
+  },
+  "casos": [
+    {
+      "id": "caso_001_f82a183d",
+      "archivo_original": "PROMPT_01_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_01_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt",
+      "copia": "entradas/caso_001_f82a183d.txt",
+      "sha256": "5ed4b010ffa9fb9b12325abeb5647b1b9836e8411d8745129f9bf6cece94daf5",
+      "estado": "VALIDADA"
+    },
+    {
+      "id": "caso_002_2a23f3c2",
+      "archivo_original": "PROMPT_02_Ofrecimiento_solicitud entrelazados + cálculo per cápita + condición logística de entrega..txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_02_Ofrecimiento_solicitud entrelazados + cálculo per cápita + condición logística de entrega..txt",
+      "copia": "entradas/caso_002_2a23f3c2.txt",
+      "sha256": "170eee906cc90bd94e10491e5de1325ea9fd971906645f790d97dc53b1aa41c8",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_003_e542afe8",
+      "archivo_original": "PROMPT_03_Transcripción ruidosa de audio (ASR) con autocorrección sobre la marcha + tasa de consumo temporal..txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_03_Transcripción ruidosa de audio (ASR) con autocorrección sobre la marcha + tasa de consumo temporal..txt",
+      "copia": "entradas/caso_003_e542afe8.txt",
+      "sha256": "b8ecde40d8e33b37d050d3f3a3c62d484309e58e34ef32088ced55665cd1d4de",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_004_26f3acfe",
+      "archivo_original": "PROMPT_04_TEXTO_CON_ERRORES_DE_ORTOGRAFIA.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_04_TEXTO_CON_ERRORES_DE_ORTOGRAFIA.txt",
+      "copia": "entradas/caso_004_26f3acfe.txt",
+      "sha256": "130c95887ec3b9f14d8b700cfd976b7c633866f57e64eda4e38744592d70308c",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_005_b7147aeb",
+      "archivo_original": "PROMPT_05_Trueque_intercambio comunitario + toponimia informal e histórica..txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_05_Trueque_intercambio comunitario + toponimia informal e histórica..txt",
+      "copia": "entradas/caso_005_b7147aeb.txt",
+      "sha256": "99b553e14558195bd49ee9b3fd8d94c6201185b4ce31ab9d46415f59fc78f498",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_006_9142aab3",
+      "archivo_original": "PROMPT_06_Negación_sarcasmo + ambigüedad condicionada de inventario.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_06_Negación_sarcasmo + ambigüedad condicionada de inventario.txt",
+      "copia": "entradas/caso_006_9142aab3.txt",
+      "sha256": "9ca829e2bc11796e64ce97abe4ca3fca5115e3e06f3c54d9bea9e7d688efbc00",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_007_160284b2",
+      "archivo_original": "PROMPT_07_Magnitudes dependientes de tasa de consumo + georreferenciación relativa compleja sin topónimo exacto..txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_07_Magnitudes dependientes de tasa de consumo + georreferenciación relativa compleja sin topónimo exacto..txt",
+      "copia": "entradas/caso_007_160284b2.txt",
+      "sha256": "d17ef310d44b4f28b5ac3a5a7af68dccf03fd4b2f737911584ba32ed01f1098e",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_008_7d4cee1e",
+      "archivo_original": "PROMPT_08_MULTIPLES_ACTUALIZACIONES.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_08_MULTIPLES_ACTUALIZACIONES.txt",
+      "copia": "entradas/caso_008_7d4cee1e.txt",
+      "sha256": "146cec72ed987663fdd68530ba9d6f3946117f5ce52c9a6b7844f6af1eef5bbc",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_009_a270edbd",
+      "archivo_original": "PROMPT_09_MEZCLA_ELEMENTOS_SOLICITADOS_Y_ELEMENTOS_NO_REQUERIDOS.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_09_MEZCLA_ELEMENTOS_SOLICITADOS_Y_ELEMENTOS_NO_REQUERIDOS.txt",
+      "copia": "entradas/caso_009_a270edbd.txt",
+      "sha256": "2747b58509b8df6adc7f89068215c4c03d4cdee20965b61f284ade1e8b4c1b32",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_010_496f9e58",
+      "archivo_original": "PROMPT_10_DOS_DIRECCIONES_EN_UN_MENSAJE.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_10_DOS_DIRECCIONES_EN_UN_MENSAJE.txt",
+      "copia": "entradas/caso_010_496f9e58.txt",
+      "sha256": "632f696fea9f44ad48728b796a4ad8a3d524c9e9380f418b212e94c5a4560091",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_011_e9975d7d",
+      "archivo_original": "PROMPT_11_Aviso_de_OFRECIMIENTO_no_de_SOLICITUD.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_11_Aviso_de_OFRECIMIENTO_no_de_SOLICITUD.txt",
+      "copia": "entradas/caso_011_e9975d7d.txt",
+      "sha256": "63ee97a3a766503885a5132671e6b347a0adc2b4b595b7be035bbb68a3b8a5af",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_012_31e90c61",
+      "archivo_original": "PROMPT_12_Aviso_de_NO_NECESIDAD.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_12_Aviso_de_NO_NECESIDAD.txt",
+      "copia": "entradas/caso_012_31e90c61.txt",
+      "sha256": "30749fa3aa09b3f1f774f77d9e17646b0012b6800297d8a8bd42ce02e58addc3",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_013_7d10476f",
+      "archivo_original": "PROMPT_13_CANTIDAD_EN_INTERVALOS.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_13_CANTIDAD_EN_INTERVALOS.txt",
+      "copia": "entradas/caso_013_7d10476f.txt",
+      "sha256": "8b670af6ec3a37d5ba71e139b846a1e46da7d20388e9e8aba6f227b47654266d",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_014_e54534cf",
+      "archivo_original": "PROMPT_14_CANTIDADES_CON_DECIMALES.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_14_CANTIDADES_CON_DECIMALES.txt",
+      "copia": "entradas/caso_014_e54534cf.txt",
+      "sha256": "46245c353c2e3eae47c9b4f340f69140e1be326ce56892d94a6fe8cbd8796e22",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_015_f68d3f08",
+      "archivo_original": "PROMPT_15_UNIDAD_DETALLADA.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_15_UNIDAD_DETALLADA.txt",
+      "copia": "entradas/caso_015_f68d3f08.txt",
+      "sha256": "306138100b965f0767efffe716cd8f52dbe3f87b2b299097b5b4c77dfc9ec9f5",
+      "estado": "VALIDADA"
+    },
+    {
+      "id": "caso_016_2df51478",
+      "archivo_original": "PROMPT_16_DIRECCION_NO_ENTREGADA_SOLO_REFERENCIAS.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_16_DIRECCION_NO_ENTREGADA_SOLO_REFERENCIAS.txt",
+      "copia": "entradas/caso_016_2df51478.txt",
+      "sha256": "5df6fc32dceceaaeabcfda001797645d900e58cecfe746a02db3b829b3a7f873",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_017_4224a291",
+      "archivo_original": "PROMPT_17_AMBIGUEDAD_EN_LA_DIRECCION.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_17_AMBIGUEDAD_EN_LA_DIRECCION.txt",
+      "copia": "entradas/caso_017_4224a291.txt",
+      "sha256": "dc695e27cb8fc26bc0c6eb6d1b2c96811719530f7180f197ff69a42135eb3a95",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_018_23f0c26d",
+      "archivo_original": "PROMPT_18_Falso positivo de urgencia con solapamiento de necesidad real oculta..txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_18_Falso positivo de urgencia con solapamiento de necesidad real oculta..txt",
+      "copia": "entradas/caso_018_23f0c26d.txt",
+      "sha256": "f4cf91e313d0f641b9f16eaed2e42ad02269b5c7d39141f9d0be4857e12ca93b",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_019_16f75c1b",
+      "archivo_original": "PROMPT_19_Urgencia_NO_EXPRESADO_en_suministros.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_19_Urgencia_NO_EXPRESADO_en_suministros.txt",
+      "copia": "entradas/caso_019_16f75c1b.txt",
+      "sha256": "0afe51a63e589ad06fdd4c4b41e0831980b8a41e42a8098ccbd03cf276594323",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_020_755786b7",
+      "archivo_original": "PROMPT_20_Requerimiento mixto de servicio municipal con condición resolutoria sobre suministros..txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_20_Requerimiento mixto de servicio municipal con condición resolutoria sobre suministros..txt",
+      "copia": "entradas/caso_020_755786b7.txt",
+      "sha256": "0bca8734184741b617e3847f2afd2fde7271b3991e2437c1c23725ec352964bc",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "caso_021_209428b1",
+      "archivo_original": "PROMPT_21_FALSA ALARMA.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_21_FALSA ALARMA.txt",
+      "copia": "entradas/caso_021_209428b1.txt",
+      "sha256": "307ecf2c575db17b4a89541de2f3a9cc903fe9e6ad4241f9fd29ae5d3a718cbb",
+      "estado": "PARCIAL"
+    }
+  ],
+  "nota": "Los casos PARCIAL con extracción utilizable generan vistas provisionales de 7 y 4 claves. Revisar estado y pendientes en resultados; los JSON de vistas conservan sus claves originales.",
+  "fin_utc": "2026-10-29T23:40:25.554945+00:00",
+  "segundos_lote": 488.404
+}

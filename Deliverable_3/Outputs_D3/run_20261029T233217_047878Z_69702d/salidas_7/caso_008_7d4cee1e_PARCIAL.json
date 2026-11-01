@@ -1,0 +1,42 @@
+{
+  "urgencia": {
+    "nivel": 1,
+    "motivo_principal": "Entrega de suministros básicos (leche y pañales)",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "TRANSPORTE",
+      "descripcion": "Entregar 13 cajas de leche y 8 paquetes de pañales talla G",
+      "origen": "SOLICITADO",
+      "evidencia": "Llevar a la casa de madera frente al paradero",
+      "id": "o_4197ef22745b22871091_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "casa de madera frente al paradero en Coliumo, Tomé",
+    "referencias_acceso": null,
+    "localidad_detectada": "Tomé",
+    "estado_ruta": null,
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "cajas de leche",
+      "cantidad": 13,
+      "unidad": "cajas",
+      "evidencia": "[18:02] ... 13 cajas, no 30.",
+      "id": "s_1e41e33a164cd44d15e0_1"
+    },
+    {
+      "recurso": "paquetes de pañales talla G",
+      "cantidad": 8,
+      "unidad": "paquetes",
+      "evidencia": "[18:08] Los pañales siguen siendo los 8 paquetes.",
+      "id": "s_ec15bc078f8522b3aebb_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": []
+}

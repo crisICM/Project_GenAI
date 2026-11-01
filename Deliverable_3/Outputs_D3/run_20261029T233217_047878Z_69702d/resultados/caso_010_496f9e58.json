@@ -1,0 +1,72 @@
+{
+  "id_mensaje": "caso_010_496f9e58",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": 3,
+      "motivo_principal": "Necesidad básica de colchones y mascarillas para familias afectadas",
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [
+      {
+        "tipo": "SUMINISTRO",
+        "descripcion": "Entregar 18 colchones y 4 cajas de mascarillas",
+        "origen": "SOLICITADO",
+        "evidencia": "necesitan 18 colchones de una plaza y 4 cajas de mascarillas",
+        "id": "o_23e7d07326a9e4313f02_1"
+      }
+    ],
+    "ubicacion": {
+      "direccion_objetivo": "pasaje sin salida detrás del almacén del sector Punta de Parra, Tomé",
+      "referencias_acceso": null,
+      "localidad_detectada": "Punta de Parra, Tomé",
+      "estado_ruta": null,
+      "estado_ubicacion": "PARCIAL"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "colchones de una plaza",
+        "cantidad": 18,
+        "unidad": "unidades",
+        "evidencia": "18 colchones de una plaza",
+        "id": "s_b34a982a2ced2f2ae5d7_1"
+      },
+      {
+        "recurso": "mascarillas",
+        "cantidad": 4,
+        "unidad": "cajas",
+        "evidencia": "4 cajas de mascarillas",
+        "id": "s_de7eeda25c497bf2ac32_1"
+      }
+    ],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "colchones de una plaza",
+        "cantidad": 18,
+        "unidad": "unidades"
+      },
+      {
+        "recurso": "mascarillas",
+        "cantidad": 4,
+        "unidad": "cajas"
+      }
+    ],
+    "direccion_objetivo": "pasaje sin salida detrás del almacén del sector Punta de Parra, Tomé",
+    "referencias": null,
+    "urgencia": 3
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "Confirmar si el sector específico dentro de Punta de Parra, Tomé, está bien identificado (duda en contexto).",
+    "Campo no permitido en una corrección: evidencias[0]",
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.",
+    "¿Qué sector específico dentro de Punta de Parra, Tomé, se refiere al almacén que marca el acceso al pasaje sin salida?"
+  ],
+  "segundos": 25.81,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

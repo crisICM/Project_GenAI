@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "linternas",
+      "cantidad": 6,
+      "unidad": "unidades"
+    },
+    {
+      "recurso": "frazadas",
+      "cantidad": null,
+      "unidad": "unidades"
+    }
+  ],
+  "direccion_objetivo": "familias de Tomé (frente a una escuela)",
+  "referencias": null,
+  "urgencia": null
+}

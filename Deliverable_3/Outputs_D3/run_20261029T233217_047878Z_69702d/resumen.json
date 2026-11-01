@@ -1,0 +1,14 @@
+{
+  "seleccionados": 21,
+  "registrados": 21,
+  "no_iniciados": 0,
+  "estados": {
+    "VALIDADA": 2,
+    "PARCIAL": 19,
+    "ERROR": 0,
+    "INTERRUMPIDO": 0
+  },
+  "segundos_casos_registrados": 488.157,
+  "llamadas_iniciadas": 70,
+  "nota": "Estos son estados técnicos del sistema, no una medición de exactitud contra respuestas de referencia."
+}

@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "pañales completos",
+      "cantidad": null,
+      "unidad": "unidades"
+    },
+    {
+      "recurso": "agua para beber",
+      "cantidad": null,
+      "unidad": "litros"
+    }
+  ],
+  "direccion_objetivo": "sede vecinal (subiendo por la quebrada vieja, dos curvas después del almacén cerrado en 2022)",
+  "referencias": "quebrada vieja, dos curvas después del almacén cerrado en 2022",
+  "urgencia": 3
+}

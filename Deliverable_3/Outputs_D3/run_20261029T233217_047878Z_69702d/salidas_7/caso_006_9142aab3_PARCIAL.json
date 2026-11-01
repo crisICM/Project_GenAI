@@ -1,0 +1,95 @@
+{
+  "urgencia": {
+    "nivel": 4,
+    "motivo_principal": "Inundación con riesgo de daños prolongados y falta de luz en zona afectada",
+    "requiere_rescate_humano": true
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "RESCATE",
+      "descripcion": "Rescate de damnificados en la zona inundada (9 personas en casa del portón verde)",
+      "origen": "REQUIERE_EVALUACION",
+      "evidencia": "9 damnificados en la casa del portón verde",
+      "id": "o_1644a457c716f31d90ee_1"
+    },
+    {
+      "tipo": "TRANSPORTE",
+      "descripcion": "Entregar frazadas faltantes si el camión llega antes de oscurecer",
+      "origen": "SOLICITADO",
+      "evidencia": "Si el camión llega antes de que oscurezca traigan solo las frazadas que faltan",
+      "id": "o_4f02830ab120367cb700_1"
+    },
+    {
+      "tipo": "SUMINISTRO",
+      "descripcion": "Entregar linternas con pilas si el camión llega tarde (por falla en matriz de la cancha)",
+      "origen": "SOLICITADO",
+      "evidencia": "sumen linternas con pilas porque la matriz de la cancha explotó y no hay luz en toda la cuadra",
+      "condicion_texto": "si llega tarde",
+      "id": "o_fddff1f8632fa90b0784_1",
+      "estado_condicion": "DESCONOCIDA"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "Dichato",
+    "referencias_acceso": null,
+    "localidad_detectada": "Dichato",
+    "estado_ruta": null,
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "frazadas",
+      "cantidad": null,
+      "unidad": null,
+      "evidencia": "cero frazadas que prometieron mandar anoche a Dichato",
+      "rango": {
+        "minimo": 0,
+        "maximo": 0
+      },
+      "id": "s_8d79c305c66a6054d90f_1"
+    },
+    {
+      "recurso": "linternas",
+      "cantidad": null,
+      "unidad": null,
+      "evidencia": "cero linternas que prometieron mandar anoche a Dichato",
+      "rango": {
+        "minimo": 0,
+        "maximo": 0
+      },
+      "id": "s_8c0029df2b329782a73d_1"
+    }
+  ],
+  "suministros_condicionales": [
+    {
+      "recurso": "frazadas",
+      "cantidad": null,
+      "unidad": null,
+      "evidencia": "Si el camión municipal llega antes de que oscurezca traigan solo las frazadas que faltan",
+      "condicion": {
+        "texto": "el camión municipal llega antes de que oscurezca",
+        "efecto": "ALTERNATIVA",
+        "reemplaza_evidencia": "cero frazadas que prometieron mandar anoche a Dichato"
+      },
+      "id": "s_17a9f22377daf6ce2bf9_1",
+      "estado_condicion": "DESCONOCIDA",
+      "reemplaza_a_id": "s_8d79c305c66a6054d90f_1"
+    },
+    {
+      "recurso": "linternas",
+      "cantidad": null,
+      "unidad": null,
+      "evidencia": "si llegan tarde sumen linternas con pilas",
+      "condicion": {
+        "texto": "el camión municipal llega tarde",
+        "efecto": "ALTERNATIVA",
+        "reemplaza_evidencia": "cero linternas que prometieron mandar anoche a Dichato"
+      },
+      "id": "s_c4dd90d0dbacaf206d66_1",
+      "estado_condicion": "DESCONOCIDA",
+      "reemplaza_a_id": "s_8c0029df2b329782a73d_1"
+    }
+  ],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": []
+}

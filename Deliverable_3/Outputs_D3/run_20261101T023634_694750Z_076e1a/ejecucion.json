@@ -1,0 +1,73 @@
+{
+  "inicio_utc": "2026-11-01T02:36:34.698712+00:00",
+  "estado_lote": "COMPLETADA",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "plataforma": "Windows-11-10.0.26200-SP0",
+  "configuracion": {
+    "modelo": "ministral-3:3b",
+    "url_ollama": "http://localhost:11434",
+    "temperatura": 0.0,
+    "semilla": 42,
+    "num_ctx": 16384,
+    "num_predict": 3072,
+    "timeout_segundos": 600,
+    "pensar": false,
+    "reintentos_formato": 1,
+    "rondas_correccion": 2,
+    "max_correcciones_por_ronda": 6,
+    "carpeta_prompts": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Outputs_D3\\run_20261101T023634_694750Z_076e1a\\fuentes"
+  },
+  "ollama": {
+    "modelo": {
+      "name": "ministral-3:3b",
+      "model": "ministral-3:3b",
+      "modified_at": "2026-09-10T22:18:18.2193629-03:00",
+      "size": 2953840808,
+      "digest": "f04aa1c738f64e13c625b82ae92504fc0260fa6723b509ed1ece0fa188179b1d",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "mistral3",
+        "families": [
+          "mistral3"
+        ],
+        "parameter_size": "3.8B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 3072
+      },
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools"
+      ]
+    },
+    "consultado_utc": "2026-11-01T02:36:32.664040+00:00",
+    "servidor": {
+      "version": "0.35.1"
+    }
+  },
+  "encoding_entradas": "utf-8-sig",
+  "fuentes_sha256": {
+    "Run_Prompts_D3.py": "1686699b467c7f69174930ea9adbea9269243ee010757a17972d0282036cacf3",
+    "coordinador.py": "bc7f3905d68543b47d2d59e89ce34c50c027f7bc14962a22b1db3b21e0a0700d",
+    "herramientas.py": "f73498b461530f56d34abfd26ac6bfb57fc1f8440219ce35963f7520e26a5a0d",
+    "traces_legibles.py": "5c0ed1c071fa712f9d13cd8a36d329d2af12523bb29ad091dda8b69bbfe79c14",
+    "agente_1_suministros.txt": "dab500d3b981faef602d9a5a41ec868c0b6088efbe7d42aae101824f9dc3aa84",
+    "agente_2_contexto.txt": "47f4df4f7ee37030db81f7ead5053d53dc94cf043d6e00d80bae3a93224aff57",
+    "agente_3_auditor.txt": "932bee4723ad4e4801c2d12d472e517fe4c53a034fc889d3626a232eebf92ff7"
+  },
+  "casos": [
+    {
+      "id": "caso_001_f82a183d",
+      "archivo_original": "PROMPT_01_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt",
+      "ruta_original": "C:\\Users\\Cristofer\\Desktop\\GenAI\\Deliverable_3\\Prompts_Separados\\PROMPT_01_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt",
+      "copia": "entradas/caso_001_f82a183d.txt",
+      "sha256": "5ed4b010ffa9fb9b12325abeb5647b1b9836e8411d8745129f9bf6cece94daf5",
+      "estado": "VALIDADA"
+    }
+  ],
+  "nota": "Los casos PARCIAL con extracción utilizable generan vistas provisionales de 7 y 4 claves. Revisar estado y pendientes en resultados; los JSON de vistas conservan sus claves originales.",
+  "fin_utc": "2026-11-01T02:37:03.666192+00:00",
+  "segundos_lote": 28.879
+}

@@ -1,0 +1,87 @@
+{
+  "id_mensaje": "caso_001_f82a183d",
+  "estado": "VALIDADA",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": 2,
+      "motivo_principal": "Requisito pendiente de suministro de alimentos en un lugar específico",
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [
+      {
+        "tipo": "ENTREGA_SUMINISTROS",
+        "descripcion": "Entregar 10 cajas de alimentos",
+        "origen": "SOLICITADO",
+        "evidencia": "las 10 cajas de alimentos siguen pendientes",
+        "id": "o_e876c9836e32a451bce7_1"
+      }
+    ],
+    "ubicacion": {
+      "direccion_objetivo": "casa de portón rojo detrás de la sede, Dichato",
+      "referencias_acceso": null,
+      "localidad_detectada": "Dichato, Tomé",
+      "estado_ruta": null,
+      "estado_ubicacion": "PARCIAL"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "frazadas",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "En Dichato, Tomé, necesitamos 25 frazadas y 10 cajas de alimentos, recibir frente a la cancha",
+        "id": "s_85e36840039fbd9a2208_1"
+      },
+      {
+        "recurso": "cajas de alimentos",
+        "cantidad": 10,
+        "unidad": "cajas",
+        "evidencia": "10 cajas de alimentos",
+        "id": "s_ee3caa45d0201171aa19_1"
+      }
+    ],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [
+      {
+        "recurso": "frazadas",
+        "motivo": "YA_RECIBIDO",
+        "evidencia": "las frazadas ya se completaron, no lleven más"
+      },
+      {
+        "recurso": "frazadas",
+        "motivo": "CANCELADO",
+        "evidencia": "En Dichato, Tomé, necesitamos 25 frazadas y 10 cajas de alimentos, recibir frente a la cancha"
+      },
+      {
+        "recurso": "lugar de recepción",
+        "motivo": "FUERA_DE_AMBITO",
+        "evidencia": "Ya no estamos frente a la cancha, ahora recibimos en la casa de portón rojo detrás de la sede, aquí mismo en Dichato."
+      }
+    ],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "frazadas",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "cajas de alimentos",
+        "cantidad": 10,
+        "unidad": "cajas"
+      }
+    ],
+    "direccion_objetivo": "casa de portón rojo detrás de la sede, Dichato",
+    "referencias": null,
+    "urgencia": 2
+  },
+  "vista_4_provisional": false,
+  "pendientes_revision": [
+    "Confirmar si la cantidad de 10 cajas de alimentos incluye algún detalle de contenido o tamaño específico (ej. peso, volumen) que no se menciona en el mensaje original.",
+    "Verificar si el estado de la ubicación ('PARCIAL') afecta la urgencia operativa y si requiere ajustar el nivel de urgencia (2) según el contexto real de recepción.",
+    "¿Qué se entiende por 'sede' en la referencia a la casa de portón rojo detrás de la sede?"
+  ],
+  "segundos": 20.083,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

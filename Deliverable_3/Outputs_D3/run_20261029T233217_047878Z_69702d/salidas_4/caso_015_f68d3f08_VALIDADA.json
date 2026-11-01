@@ -1,0 +1,22 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "agua",
+      "cantidad": 3,
+      "unidad": "bidones de 5 litros"
+    },
+    {
+      "recurso": "mascarillas",
+      "cantidad": 2,
+      "unidad": "cajas de 24 unidades"
+    },
+    {
+      "recurso": "velas",
+      "cantidad": 4,
+      "unidad": "paquetes de 10 unidades"
+    }
+  ],
+  "direccion_objetivo": "Coliumo, Tomé",
+  "referencias": null,
+  "urgencia": 1
+}

@@ -1,0 +1,62 @@
+{
+  "urgencia": {
+    "nivel": 5,
+    "motivo_principal": "Deslizamiento activo con riesgo de caída de piedras y bloqueo de acceso",
+    "requiere_rescate_humano": true
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "RESCATE_HUMANO",
+      "descripcion": "Evacuación de personas atrapadas por deslizamiento",
+      "origen": "REQUIERE_EVALUACION",
+      "evidencia": "cabros alhuien k tenga bota d jebe n° 41 o 42?? Tamos en Frutillares bajo...",
+      "condicion_texto": "Necesidad de abrir paso para acceso por Concepción por riesgo de caída de piedras y bloqueo de vehículos",
+      "id": "o_7b5e9db3151945a24719_1",
+      "estado_condicion": "DESCONOCIDA"
+    },
+    {
+      "tipo": "TRANSPORTE_DE_ESCOMBROS",
+      "descripcion": "Transporte de escombros generados por deslizamiento",
+      "origen": "SOLICITADO",
+      "evidencia": "quisiera minimo unas 5 palas carboneras y bolsas negras grand de consorcio pa sacar los escombros k dejo el deslizamiento",
+      "id": "o_b69ed72d4219099b6114_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "Frutillares, cerca del puente de fierro frente al taller mecánico viejo",
+    "referencias_acceso": "Frente al taller mecánico viejo, camino bajo la cuesta 'caracol' (deslizamiento)",
+    "localidad_detectada": "Frutillares",
+    "estado_ruta": "Bajo riesgo de caída de piedras; bloqueo por escombros y deslizamiento",
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "bota de jebe",
+      "cantidad": null,
+      "unidad": null,
+      "evidencia": "bota d jebe n° 41 o 42??",
+      "rango": {
+        "minimo": 41,
+        "maximo": 42
+      },
+      "id": "s_77223b3bde85cc2bdafb_1"
+    },
+    {
+      "recurso": "palas carboneras",
+      "cantidad": 5,
+      "unidad": null,
+      "evidencia": "minimo unas 5 palas carboneras",
+      "id": "s_31e92a839b20709a5194_1"
+    },
+    {
+      "recurso": "bolsas negras grand de consorcio",
+      "cantidad": null,
+      "unidad": null,
+      "evidencia": "bolsas negras grand de consorcio pa sacar los escombros",
+      "id": "s_af6edda401d952664914_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": []
+}

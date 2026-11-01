@@ -1,0 +1,89 @@
+{
+  "urgencia": {
+    "nivel": 4,
+    "motivo_principal": "Riesgo de colapso por temporal y falta de suministro básico (luz, agua)",
+    "requiere_rescate_humano": true
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "REPARACION_TRANSPORTE",
+      "descripcion": "Entregar barriles de sopa de 50 litros y cajas de carne para asar",
+      "origen": "SOLICITADO",
+      "evidencia": "4 barriles de sopa de 50 litros y 15 cajas de carne para asar",
+      "id": "o_fde1f56f014ac720376b_1"
+    },
+    {
+      "tipo": "SUMINISTRO_LOGISTICO",
+      "descripcion": "Suministrar agua y electricidad (luz) para necesidades básicas",
+      "origen": "REQUIERE_EVALUACION",
+      "evidencia": "se nos cortó la luz y la sed",
+      "condicion_texto": "necesidad de agua y energía estable para evitar riesgo de deshidratación o colapso",
+      "id": "o_13c5b430f3acff7f64fb_1",
+      "estado_condicion": "DESCONOCIDA"
+    },
+    {
+      "tipo": "RESCATE_HUMANA",
+      "descripcion": "Rescate de personas por riesgo de colapso por temporal",
+      "origen": "REQUIERE_EVALUACION",
+      "evidencia": "con el temporal se nos cortó la luz y los cabros tan que se mueren del aburrimiento",
+      "condicion_texto": "riesgo de colapso por falta de suministro básico y condiciones ambientales adversas",
+      "id": "o_b4033c188aeb0d58e18e_1",
+      "estado_condicion": "DESCONOCIDA"
+    },
+    {
+      "tipo": "ELECTRICIDAD",
+      "descripcion": "Generador industrial trifásico para enchufar equipos específicos",
+      "origen": "SOLICITADO",
+      "evidencia": "generador industrial trifásico pa enchufar el playstation 5 y un parlante JBL gigante",
+      "id": "o_1e77e1670e054b3c6058_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "cerro Alegre, bajando por la escalera caracol cerca del kiosko del Guatón",
+    "referencias_acceso": "barrial de Loly",
+    "localidad_detectada": "cerro Alegre (localidad no especificada con precisión, pero vinculado al barrio Loly)",
+    "estado_ruta": "cerca del kiosko del Guatón, escalera caracol",
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "barriles de schop",
+      "cantidad": 4,
+      "unidad": "unidades",
+      "evidencia": "4 barriles de schop de 50 litro bien elao",
+      "id": "s_03f9172f41c03d7472f2_1"
+    },
+    {
+      "recurso": "cajas de carne para asar",
+      "cantidad": 15,
+      "unidad": "cajas",
+      "evidencia": "unas 15 cajas de carne pal asao",
+      "id": "s_dba27c84f721aebda4cd_1"
+    },
+    {
+      "recurso": "parlante JBL gigante",
+      "cantidad": null,
+      "unidad": "unidades",
+      "evidencia": "un parlante jbl gigante pa tirar la kaza x la ventana",
+      "id": "s_d8dffb9b11e6bd3498b3_1"
+    }
+  ],
+  "suministros_condicionales": [
+    {
+      "recurso": "generador industrial trifásico",
+      "cantidad": null,
+      "unidad": "unidades",
+      "evidencia": "un generador industrial trifásico",
+      "condicion": {
+        "texto": "pero solo pa enchufar el playstation 5",
+        "efecto": "ALTERNATIVA",
+        "reemplaza_evidencia": "generador industrial trifásico"
+      },
+      "id": "s_15cd999cdbe032d54492_1",
+      "estado_condicion": "DESCONOCIDA",
+      "reemplaza_a_id": null
+    }
+  ],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": []
+}

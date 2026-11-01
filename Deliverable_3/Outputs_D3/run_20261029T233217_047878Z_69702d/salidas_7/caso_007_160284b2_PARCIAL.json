@@ -1,0 +1,76 @@
+{
+  "urgencia": {
+    "nivel": 3,
+    "motivo_principal": "Adultos mayores postrados con necesidad básica de higiene y agua para evitar riesgos de salud",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "SUMINISTRO",
+      "descripcion": "Mudas de pañales completas para 8 adultos mayores (3 días)",
+      "origen": "SOLICITADO",
+      "evidencia": "requieren mudas de pañales completas para al menos tres días",
+      "id": "o_d3d9a8a1d9c6062fbc94_1"
+    },
+    {
+      "tipo": "SUMINISTRO",
+      "descripcion": "Agua para beber (25 personas, 2 litros/día/persona)",
+      "origen": "SOLICITADO",
+      "evidencia": "calculen un consumo mínimo de 2 litros diarios por persona para 25 personas",
+      "id": "o_4c75ef5df6388676e269_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "sede vecinal (subiendo por la quebrada vieja, dos curvas después del almacén cerrado en 2022)",
+    "referencias_acceso": "quebrada vieja, dos curvas después del almacén cerrado en 2022",
+    "localidad_detectada": "Cocholgue",
+    "estado_ruta": "subiendo por quebrada vieja",
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "pañales completos",
+      "cantidad": null,
+      "unidad": "unidades",
+      "evidencia": "mudas de pañales completas para al menos tres días",
+      "rango": {
+        "minimo": 3,
+        "maximo": 3
+      },
+      "id": "s_e35c3cd15ad05c1e97b8_1"
+    },
+    {
+      "recurso": "agua para beber",
+      "cantidad": 50,
+      "unidad": "litros",
+      "evidencia": "calculen un consumo mínimo de 2 litros diarios por persona",
+      "calculo": {
+        "tipo": "PRODUCTO",
+        "operandos": [
+          2,
+          25
+        ],
+        "unidad_resultado": "litros",
+        "evidencia": "2 litros diarios por persona para 25 personas"
+      },
+      "id": "s_22287ae2fbddc80c445f_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": [
+    {
+      "herramienta": "calculadora",
+      "id_destino": "s_22287ae2fbddc80c445f_1",
+      "tipo": "PRODUCTO",
+      "operandos": [
+        2,
+        25
+      ],
+      "unidad_resultado": "litros",
+      "evidencia": "2 litros diarios por persona para 25 personas",
+      "estado": "OK",
+      "resultado": 50
+    }
+  ]
+}

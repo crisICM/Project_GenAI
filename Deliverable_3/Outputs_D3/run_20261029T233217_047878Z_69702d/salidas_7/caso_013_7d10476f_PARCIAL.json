@@ -1,0 +1,53 @@
+{
+  "urgencia": {
+    "nivel": 2,
+    "motivo_principal": "Materiales para reparaciones de viviendas afectadas por lluvias",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "REPARACION",
+      "descripcion": "Proveer materiales para reparaciones de techos (planchas de zinc, nylon y cinta adhesiva)",
+      "origen": "SOLICITADO",
+      "evidencia": "8 a 12 planchas de zinc, 20 metros de nylon y 4 rollos de cinta adhesiva",
+      "id": "o_c3dfd18b65e7c1df9704_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "Rafael, comuna de Tomé",
+    "referencias_acceso": "al lado de la sede del sector",
+    "localidad_detectada": "Tomé",
+    "estado_ruta": null,
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "planchas de zinc",
+      "cantidad": null,
+      "unidad": "unidades",
+      "evidencia": "entre 8 y 12 planchas de zinc",
+      "rango": {
+        "minimo": 8,
+        "maximo": 12
+      },
+      "id": "s_7c79de0d52d78d766c1d_1"
+    },
+    {
+      "recurso": "nylon",
+      "cantidad": 20,
+      "unidad": "metros",
+      "evidencia": "unos 20 metros de nylon",
+      "id": "s_b1b19bafc3bc75f58a13_1"
+    },
+    {
+      "recurso": "rollos de cinta adhesiva",
+      "cantidad": 4,
+      "unidad": "unidades",
+      "evidencia": "exactamente 4 rollos de cinta adhesiva",
+      "id": "s_2b4d74ebf36808eaa581_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": []
+}

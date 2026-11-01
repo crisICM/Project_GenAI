@@ -1,0 +1,169 @@
+{
+  "id_mensaje": "caso_002_2a23f3c2",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": 3,
+      "motivo_principal": "Alojamiento y alimentación de familias en situación de vulnerabilidad con recursos limitados",
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [
+      {
+        "tipo": "TRANSPORTE",
+        "descripcion": "Disponibilidad de 3 camionetas para faenas de despeje",
+        "origen": "REQUIERE_EVALUACION",
+        "evidencia": "3 camionetas de vecinos disponibles",
+        "id": "o_7afe756b91ef61dadaed_1"
+      },
+      {
+        "tipo": "TRANSPORTE",
+        "descripcion": "Transporte de 17 personas (incluyendo niños) con recursos limitados",
+        "origen": "REQUIERE_EVALUACION",
+        "evidencia": "4 familias completas (17 personas) con necesidad de transporte",
+        "id": "o_93e198dc8f69aa95a5bc_1"
+      },
+      {
+        "tipo": "SUMINISTRO",
+        "descripcion": "50 litros de bencina de 93 para vehículos",
+        "origen": "SOLICITADO",
+        "evidencia": "Falta 50 litros de bencina de 93",
+        "id": "o_47fb0a49b3bb1c801fda_1"
+      },
+      {
+        "tipo": "ACOGIDA",
+        "descripcion": "Colchonetas y raciones de desayuno/almuerzo para 17 personas",
+        "origen": "SOLICITADO",
+        "evidencia": "Falta colchonetas y raciones para 17 personas (incluyendo niños)",
+        "id": "o_c6ecd42b84864203c2c3_1"
+      },
+      {
+        "tipo": "SUMINISTRO",
+        "descripcion": "Víveres secos y termos para 17 personas (condicionado a corte de luz)",
+        "origen": "SOLICITADO",
+        "evidencia": "Falta gas para cocinar; solicitud de víveres secos y termos si sigue cortado",
+        "condicion_texto": "Si sigue cortado por Carabineros",
+        "id": "o_c3538809e4a72d332a81_1",
+        "estado_condicion": "DESCONOCIDA"
+      }
+    ],
+    "ubicacion": {
+      "direccion_objetivo": "Escuela Gabriela Mistral (Bellavista)",
+      "referencias_acceso": null,
+      "localidad_detectada": "Bellavista",
+      "estado_ruta": null,
+      "estado_ubicacion": "IDENTIFICADA"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "bencina de 93",
+        "cantidad": 50,
+        "unidad": "litros",
+        "evidencia": "nos faltan 50 litros de bencina de 93 para mover los vehículos",
+        "id": "s_c58d51a4bdf7cdc5c2e1_1"
+      },
+      {
+        "recurso": "colchonetas",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "sin colchonetas para ellos",
+        "rango": {
+          "minimo": 17,
+          "maximo": 17
+        },
+        "id": "s_ab80e3ac5730ef9c0fab_1"
+      },
+      {
+        "recurso": "raciones de desayuno/almuerzo",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "raciones de desayuno/almuerzo",
+        "rango": {
+          "minimo": 17,
+          "maximo": 17
+        },
+        "id": "s_3483fc2d1c7ae751a1ce_1"
+      },
+      {
+        "recurso": "víveres secos",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "traigan solo víveres secos",
+        "rango": {
+          "minimo": 17,
+          "maximo": 17
+        },
+        "id": "s_37b42206d433c470dde0_1"
+      },
+      {
+        "recurso": "termos",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "termos porque no tenemos gas para cocinar acá",
+        "rango": {
+          "minimo": 17,
+          "maximo": 17
+        },
+        "id": "s_d509c4cd2ff0a6f846c8_1"
+      }
+    ],
+    "suministros_condicionales": [
+      {
+        "recurso": "comida caliente lista para repartir",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "si logran habilitar el paso por la rotonda norte envíen la comida caliente lista para repartir",
+        "condicion": {
+          "texto": "si logran habilitar el paso por la rotonda norte",
+          "efecto": "AGREGAR",
+          "reemplaza_evidencia": null
+        },
+        "id": "s_55f67259a8a7bdc8175a_1",
+        "estado_condicion": "DESCONOCIDA",
+        "reemplaza_a_id": null
+      }
+    ],
+    "exclusiones_detectadas": [],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "bencina de 93",
+        "cantidad": 50,
+        "unidad": "litros"
+      },
+      {
+        "recurso": "colchonetas",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "raciones de desayuno/almuerzo",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "víveres secos",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "termos",
+        "cantidad": null,
+        "unidad": null
+      }
+    ],
+    "direccion_objetivo": "Escuela Gabriela Mistral (Bellavista)",
+    "referencias": null,
+    "urgencia": 3
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "El mensaje original menciona **víveres secos** y **termos** como recursos solicitados para 17 personas, pero en el contexto se asocian **condicionalmente** a la situación de corte de luz. La extracción en suministros no especifica si estos recursos son **solicitados de forma independiente** (para emergencia) o **solo bajo la condición de corte** (como alternativa). El mensaje original no clarifica si se solicitan ambos casos o solo el segundo. Se requiere confirmar si la solicitud incluye víveres secos y termos **sin restricción** o solo bajo la condición de corte.",
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.",
+    "¿Cantidad exacta de colchonetas, raciones de desayuno/almuerzo, víveres secos y termos por persona? ¿Formato específico de raciones o términos para cada grupo?",
+    "¿Qué ruta exacta de acceso a la escuela se debe usar para el reparto de víveres (rotonda norte) y cómo se maneja el corte de luz en la zona?"
+  ],
+  "segundos": 30.005,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

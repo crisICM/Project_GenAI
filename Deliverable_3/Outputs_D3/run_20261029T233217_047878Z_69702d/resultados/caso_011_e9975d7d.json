@@ -1,0 +1,45 @@
+{
+  "id_mensaje": "caso_011_e9975d7d",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": null,
+      "motivo_principal": null,
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [],
+    "ubicacion": {
+      "direccion_objetivo": "centro de Tomé",
+      "referencias_acceso": null,
+      "localidad_detectada": "Tomé",
+      "estado_ruta": null,
+      "estado_ubicacion": "IDENTIFICADA"
+    },
+    "suministros_confirmados": [],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [
+      {
+        "recurso": "botellas de agua",
+        "motivo": "DONACION_OFRECIDA",
+        "evidencia": "Tenemos 40 botellas de agua para donar"
+      }
+    ],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [],
+    "direccion_objetivo": "centro de Tomé",
+    "referencias": null,
+    "urgencia": null
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "Confirmar si la exclusión de 'botellas de agua' como solicitud debe mantenerse como **DONACIÓN_OFRECIDA** (evidencia válida) o si se requiere ajustar a **DONACIÓN_PARCIAL** (si solo se donan 40 de un total mayor) o **SOLICITUD_EXTERNA** (si se donan para un destino específico no detallado).",
+    "Precisar el **nivel de urgencia** (ej. 1, 2, 3) para las botellas, ya que no se especifica si hay riesgo o necesidad activa.",
+    "Confirmar urgencia: el mensaje no permite asignar un nivel.",
+    "¿Qué cantidad exacta de botellas de agua se requiere para coordinar con agrupaciones específicas?",
+    "¿Qué tipo de agrupación o necesidad específica requiere la coordinación para llevar las botellas de agua?"
+  ],
+  "segundos": 14.918,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "palas",
+      "cantidad": 7,
+      "unidad": "unidades"
+    },
+    {
+      "recurso": "guantes",
+      "cantidad": 12,
+      "unidad": "pares"
+    }
+  ],
+  "direccion_objetivo": "patio al lado del negocio subiendo (prestado por la señora anterior)",
+  "referencias": null,
+  "urgencia": 2
+}

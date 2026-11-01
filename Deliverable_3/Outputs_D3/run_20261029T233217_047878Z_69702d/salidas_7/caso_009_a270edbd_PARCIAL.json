@@ -1,0 +1,62 @@
+{
+  "urgencia": {
+    "nivel": 2,
+    "motivo_principal": "Falta de suministros básicos (fracciones y palas) en sede con entrega incompleta",
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "REPARACION_OBTENCION",
+      "descripcion": "Entrega de 15 frazadas adicionales (24 solicitadas - 9 entregadas)",
+      "origen": "REQUIERE_EVALUACION",
+      "evidencia": "de las 24 frazadas que pedimos nos entregaron 9, faltan las demás",
+      "id": "o_34e589cf472e855494c1_1"
+    },
+    {
+      "tipo": "TRANSFERENCIA_LOGISTICA",
+      "descripcion": "Evaluar entrega de palas (6 solicitadas aún no llegan)",
+      "origen": "REQUIERE_EVALUACION",
+      "evidencia": "Las 6 palas que solicitamos todavía no llegan",
+      "id": "o_79c579255c6de1e3bab8_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "sede en Tomé Alto",
+    "referencias_acceso": "de detrás de la cancha",
+    "localidad_detectada": "Tomé Alto",
+    "estado_ruta": null,
+    "estado_ubicacion": "PARCIAL"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "frazadas",
+      "cantidad": 15,
+      "unidad": "unidades",
+      "evidencia": "de las 24 frazadas que pedimos nos entregaron 9, faltan las demás",
+      "id": "s_bce43d6743d63eb0fcfc_1"
+    },
+    {
+      "recurso": "bidones de agua",
+      "cantidad": null,
+      "unidad": "unidades",
+      "evidencia": "de los 10 bidones de agua de 5 litros llegaron todos",
+      "id": "s_79b1533f086f8fdeaccb_1"
+    },
+    {
+      "recurso": "palas",
+      "cantidad": 6,
+      "unidad": "unidades",
+      "evidencia": "Las 6 palas que solicitamos todavía no llegan",
+      "id": "s_05b9759c2ed48921f2fc_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [
+    {
+      "recurso": "agua",
+      "motivo": "YA_RECIBIDO",
+      "evidencia": "agua ya no manden"
+    }
+  ],
+  "trazabilidad_calculos": []
+}

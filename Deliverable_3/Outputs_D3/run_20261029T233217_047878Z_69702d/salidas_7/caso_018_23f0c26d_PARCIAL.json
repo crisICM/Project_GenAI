@@ -1,0 +1,58 @@
+{
+  "urgencia": {
+    "nivel": 5,
+    "motivo_principal": "Riesgo activo de inundación por desbordamiento del canalón",
+    "requiere_rescate_humano": false
+  },
+  "requerimientos_operativos": [
+    {
+      "tipo": "REPARACION_INSTALACIONES",
+      "descripcion": "Reforzar canalón con sacos de cemento",
+      "origen": "REQUIERE_EVALUACION",
+      "evidencia": "5 sacos de cemento mojados por berrinche del presidente de la junta",
+      "condicion_texto": "Si llueve de nuevo esta noche, riesgo de desbordamiento hacia la sede",
+      "id": "o_11feb65403b9830101c1_1",
+      "estado_condicion": "DESCONOCIDA"
+    },
+    {
+      "tipo": "PROTECCION_ESTRUCTURAL",
+      "descripcion": "Tapar muro con 4 metros de plástico grueso/nylon para evitar desbordamiento",
+      "origen": "SOLICITADO",
+      "evidencia": "Mantener la sede seca antes de que el muro ceda",
+      "id": "o_df9fbcd284b3a2d076be_1"
+    }
+  ],
+  "ubicacion": {
+    "direccion_objetivo": "sede frente a la cancha de Tomé Alto",
+    "referencias_acceso": null,
+    "localidad_detectada": "Tomé Alto",
+    "estado_ruta": null,
+    "estado_ubicacion": "IDENTIFICADA"
+  },
+  "suministros_confirmados": [
+    {
+      "recurso": "sillas plegables",
+      "cantidad": 20,
+      "unidad": "unidades",
+      "evidencia": "20 sillas plegables",
+      "id": "s_765eefa4dd3cc4d308d1_1"
+    },
+    {
+      "recurso": "mesones",
+      "cantidad": 3,
+      "unidad": "unidades",
+      "evidencia": "3 mesones",
+      "id": "s_a0052845c4202526e6e4_1"
+    },
+    {
+      "recurso": "plástico grueso o nylon",
+      "cantidad": 4,
+      "unidad": "metros",
+      "evidencia": "4 metros de plástico grueso o nylon",
+      "id": "s_ba2e7039358f0768dbfa_1"
+    }
+  ],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [],
+  "trazabilidad_calculos": []
+}

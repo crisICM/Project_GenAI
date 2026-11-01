@@ -1,0 +1,79 @@
+{
+  "id_mensaje": "caso_019_16f75c1b",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": 5,
+      "motivo_principal": "Inundación con personas atrapadas y riesgo de ahogamiento",
+      "requiere_rescate_humano": true
+    },
+    "requerimientos_operativos": [
+      {
+        "tipo": "RESCATE",
+        "descripcion": "Evacuación de dos personas atrapadas por inundación",
+        "origen": "SOLICITADO",
+        "evidencia": "dos personas que no pueden salir por sus propios medios",
+        "id": "o_3ea932de87d2ad874a28_1"
+      },
+      {
+        "tipo": "TRANSPORTE",
+        "descripcion": "Disponibilidad de medio de transporte para evacuación",
+        "origen": "REQUIERE_EVALUACION",
+        "evidencia": "No tenemos cómo trasladarnos",
+        "id": "o_169ce91c5373f71593f0_1"
+      }
+    ],
+    "ubicacion": {
+      "direccion_objetivo": "casa en Tomé Alto, detrás de la cancha",
+      "referencias_acceso": null,
+      "localidad_detectada": "Tomé Alto",
+      "estado_ruta": null,
+      "estado_ubicacion": "PARCIAL"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "ayuda para evacuación",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "Por favor envíen ayuda para evacuarlas",
+        "id": "s_cc224ae46ed2456106f9_1"
+      },
+      {
+        "recurso": "frazádas secas",
+        "cantidad": 2,
+        "unidad": "unidades",
+        "evidencia": "2 frazadas secas",
+        "id": "s_52fd8f1eaf6a2577d80d_1"
+      }
+    ],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "ayuda para evacuación",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "frazádas secas",
+        "cantidad": 2,
+        "unidad": "unidades"
+      }
+    ],
+    "direccion_objetivo": "casa en Tomé Alto, detrás de la cancha",
+    "referencias": null,
+    "urgencia": 5
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "Precisar el tipo de ayuda específica para la evacuación (equipos, transporte, personal) según la duda en el mensaje original.",
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.",
+    "¿Qué tipo de ayuda específica se requiere para la evacuación? ¿Incluye equipos de emergencia, transporte, o personal?",
+    "¿Qué tipo de acceso específico hay detrás de la cancha para identificar la ubicación exacta?"
+  ],
+  "segundos": 17.067,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

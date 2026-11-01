@@ -1,0 +1,30 @@
+{
+  "urgencia": {
+    "nivel": null,
+    "motivo_principal": null,
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [],
+  "ubicacion": {
+    "direccion_objetivo": "sede de Dichato, Tomé",
+    "referencias_acceso": null,
+    "localidad_detectada": "Tomé",
+    "estado_ruta": null,
+    "estado_ubicacion": "IDENTIFICADA"
+  },
+  "suministros_confirmados": [],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [
+    {
+      "recurso": "cajas de alimentos",
+      "motivo": "YA_RECIBIDO",
+      "evidencia": "llegaron las 12 cajas de alimentos"
+    },
+    {
+      "recurso": "frazadas",
+      "motivo": "YA_RECIBIDO",
+      "evidencia": "llegaron las 20 frazadas"
+    }
+  ],
+  "trazabilidad_calculos": []
+}

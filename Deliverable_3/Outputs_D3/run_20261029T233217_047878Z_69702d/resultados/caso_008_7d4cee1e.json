@@ -1,0 +1,69 @@
+{
+  "id_mensaje": "caso_008_7d4cee1e",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": 1,
+      "motivo_principal": "Entrega de suministros básicos (leche y pañales)",
+      "requiere_rescate_humano": null
+    },
+    "requerimientos_operativos": [
+      {
+        "tipo": "TRANSPORTE",
+        "descripcion": "Entregar 13 cajas de leche y 8 paquetes de pañales talla G",
+        "origen": "SOLICITADO",
+        "evidencia": "Llevar a la casa de madera frente al paradero",
+        "id": "o_4197ef22745b22871091_1"
+      }
+    ],
+    "ubicacion": {
+      "direccion_objetivo": "casa de madera frente al paradero en Coliumo, Tomé",
+      "referencias_acceso": null,
+      "localidad_detectada": "Tomé",
+      "estado_ruta": null,
+      "estado_ubicacion": "PARCIAL"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "cajas de leche",
+        "cantidad": 13,
+        "unidad": "cajas",
+        "evidencia": "[18:02] ... 13 cajas, no 30.",
+        "id": "s_1e41e33a164cd44d15e0_1"
+      },
+      {
+        "recurso": "paquetes de pañales talla G",
+        "cantidad": 8,
+        "unidad": "paquetes",
+        "evidencia": "[18:08] Los pañales siguen siendo los 8 paquetes.",
+        "id": "s_ec15bc078f8522b3aebb_1"
+      }
+    ],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "cajas de leche",
+        "cantidad": null,
+        "unidad": "cajas"
+      },
+      {
+        "recurso": "paquetes de pañales talla G",
+        "cantidad": 8,
+        "unidad": "paquetes"
+      }
+    ],
+    "direccion_objetivo": "casa de madera frente al paradero en Coliumo, Tomé",
+    "referencias": null,
+    "urgencia": 1
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios."
+  ],
+  "segundos": 15.802,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}

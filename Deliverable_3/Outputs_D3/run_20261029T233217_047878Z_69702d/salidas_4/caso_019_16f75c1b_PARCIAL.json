@@ -1,0 +1,17 @@
+{
+  "suministros_solicitados": [
+    {
+      "recurso": "ayuda para evacuación",
+      "cantidad": null,
+      "unidad": null
+    },
+    {
+      "recurso": "frazádas secas",
+      "cantidad": 2,
+      "unidad": "unidades"
+    }
+  ],
+  "direccion_objetivo": "casa en Tomé Alto, detrás de la cancha",
+  "referencias": null,
+  "urgencia": 5
+}

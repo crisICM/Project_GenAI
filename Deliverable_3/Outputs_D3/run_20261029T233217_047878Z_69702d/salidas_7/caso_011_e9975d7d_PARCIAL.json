@@ -1,0 +1,25 @@
+{
+  "urgencia": {
+    "nivel": null,
+    "motivo_principal": null,
+    "requiere_rescate_humano": null
+  },
+  "requerimientos_operativos": [],
+  "ubicacion": {
+    "direccion_objetivo": "centro de Tomé",
+    "referencias_acceso": null,
+    "localidad_detectada": "Tomé",
+    "estado_ruta": null,
+    "estado_ubicacion": "IDENTIFICADA"
+  },
+  "suministros_confirmados": [],
+  "suministros_condicionales": [],
+  "exclusiones_detectadas": [
+    {
+      "recurso": "botellas de agua",
+      "motivo": "DONACION_OFRECIDA",
+      "evidencia": "Tenemos 40 botellas de agua para donar"
+    }
+  ],
+  "trazabilidad_calculos": []
+}

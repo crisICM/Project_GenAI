@@ -1,0 +1,120 @@
+{
+  "id_mensaje": "caso_020_755786b7",
+  "estado": "PARCIAL",
+  "salida_7_claves": {
+    "urgencia": {
+      "nivel": 5,
+      "motivo_principal": "Riesgo de colapso estructural (viga principal) y peligro de inundación interna por caída de poste eléctrico",
+      "requiere_rescate_humano": false
+    },
+    "requerimientos_operativos": [
+      {
+        "tipo": "RESCATE_ESTRUCTURAL",
+        "descripcion": "Troza el tronco del pino con motosierras para evitar que el peso parta la viga principal",
+        "origen": "SOLICITADO",
+        "evidencia": "una cuadrilla municipal con motosierras para trozar el tronco",
+        "id": "o_d70f72b624ea3e927536_1"
+      },
+      {
+        "tipo": "REPARACION_ESTRUCTURAL",
+        "descripcion": "Levantar el poste eléctrico caído con camión pluma",
+        "origen": "REQUIERE_EVALUACION",
+        "evidencia": "poste atravesado, si no llega camión pluma, solicitar palas, cuerdas de tiro y 30 sacos de arena",
+        "condicion_texto": "para evitar inundación interna por desviación de agua de lluvia",
+        "id": "o_b08acd5fe53d15643b10_1",
+        "estado_condicion": "DESCONOCIDA"
+      }
+    ],
+    "ubicacion": {
+      "direccion_objetivo": "sede de Punta de Parra, pasaje de tierra detrás",
+      "referencias_acceso": "pasaje de tierra, detrás de la sede",
+      "localidad_detectada": "Punta de Parra",
+      "estado_ruta": null,
+      "estado_ubicacion": "PARCIAL"
+    },
+    "suministros_confirmados": [
+      {
+        "recurso": "motosierras",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "una cuadrilla municipal con motosierras para trozar el tronco",
+        "id": "s_a034cdb62ae4dafcc7d3_1"
+      },
+      {
+        "recurso": "palas",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "avisen altiro para solicitar palas",
+        "id": "s_b85e7891ec52894e264a_1"
+      },
+      {
+        "recurso": "cuerdas de tiro",
+        "cantidad": null,
+        "unidad": null,
+        "evidencia": "avisen altiro para solicitar palas",
+        "id": "s_96f86f2c7d79451c4495_1"
+      },
+      {
+        "recurso": "sacos de arena",
+        "cantidad": 30,
+        "unidad": "sacos",
+        "evidencia": "30 sacos de arena",
+        "id": "s_f7f680c11f12464cb735_1"
+      }
+    ],
+    "suministros_condicionales": [],
+    "exclusiones_detectadas": [
+      {
+        "recurso": "comida",
+        "motivo": "NO_REQUERIDO",
+        "evidencia": "No manden comida ni agua"
+      },
+      {
+        "recurso": "agua",
+        "motivo": "NO_REQUERIDO",
+        "evidencia": "No manden comida ni agua"
+      },
+      {
+        "recurso": "camión pluma",
+        "motivo": "YA_RECIBIDO",
+        "evidencia": "Si la cuadrilla no viene con camión pluma para levantar el poste caído"
+      }
+    ],
+    "trazabilidad_calculos": []
+  },
+  "salida_4_claves": {
+    "suministros_solicitados": [
+      {
+        "recurso": "motosierras",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "palas",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "cuerdas de tiro",
+        "cantidad": null,
+        "unidad": null
+      },
+      {
+        "recurso": "sacos de arena",
+        "cantidad": 30,
+        "unidad": "sacos"
+      }
+    ],
+    "direccion_objetivo": "sede de Punta de Parra, pasaje de tierra detrás",
+    "referencias": "pasaje de tierra, detrás de la sede",
+    "urgencia": 5
+  },
+  "vista_4_provisional": true,
+  "pendientes_revision": [
+    "Verificar si el **camión pluma** mencionado en exclusiones está vinculado a una cuadrilla municipal específica o si es un recurso adicional requerido para la operación de levantamiento del poste caído. Si es necesario, añadir su solicitud con cantidad y unidad si aplica.",
+    "La cita no coincide con el mensaje, incluso ignorando mayúsculas y espacios.",
+    "¿Qué precauciones adicionales se requieren para evitar daños eléctricos o estructurales secundarios?"
+  ],
+  "segundos": 22.815,
+  "nota_vista_4": "Proyección con pérdidas. En PARCIAL es provisional: conserva posibles errores semánticos, usa null para cantidades con errores detectados y no activa condiciones desconocidas. Revisar la salida de 7 claves y el trace."
+}
