@@ -4,7 +4,7 @@ En esta entrega continuamos con la extracción de solicitudes municipales de eme
 
 La solución utiliza tres agentes con tareas distintas: suministros, contexto y auditoría. Todos ocupan el modelo **Ministral 3 3B**, ejecutado localmente con Ollama. También se utilizan herramientas en Python para calcular cantidades y comprobar las respuestas.
 
-## Archivos importantes
+## Archivos importantes de la Entrega 3
 
 | Archivo o carpeta | Función |
 | --- | --- |
@@ -155,7 +155,7 @@ La salida de cuatro claves contiene:
 }
 ```
 
-Los valores dependen del mensaje procesado.
+Para propósitos del entregable 3, solo consideremos `salidas_4/` y `traces_v1/`. Los demás archivos están pensados para guardar información que podría ser útil a evaluarse en un la siguiente entrega.
 
 ## Cómo revisar lo que hicieron los agentes
 
@@ -185,17 +185,55 @@ Reemplaza `NOMBRE_DE_LA_EJECUCION` por el nombre de la carpeta que deseas revisa
 
 ## Reproducibilidad del video
 
-Link del video de la entrega 3: **pendiente de agregar**.
+Link del video: **pendiente de agregar**.
 
-Para repetir un caso mostrado en la demostración:
+La demostración se realiza en Windows utilizando VS Code y Ollama con el modelo `ministral-3:3b`.
 
-1. Inicia Ollama y comprueba que el modelo esté descargado.
-2. Abre la terminal en `Deliverable_3`.
-3. Ejecuta `python Run_Prompts_D3.py --listar` para identificar el archivo.
-4. Ejecuta el caso con `--caso`.
-5. Revisa la respuesta en `salidas_4/` y los mensajes intercambiados en `traces_v1/`.
+Ejecuta los siguientes comandos desde la carpeta `Deliverable_3`, con Ollama funcionando y el modelo descargado.
 
-Para comparar las ejecuciones, utiliza el mismo mensaje, modelo, instrucciones y configuración.
+### 1. Ejecutar el primer mensaje
+
+```bash
+python Run_Prompts_D3.py --limite 1
+```
+
+Este comando procesa únicamente el primer mensaje de `Prompts_separados/`:
+
+```text
+PROMPT_01_CANTIDAD_ESPECIFICADA_NO_DIRECTA.txt
+```
+
+El mensaje describe un pedido anterior de 25 frazadas y 10 cajas de alimentos en Dichato. Luego aclara que las frazadas ya se completaron, que las cajas siguen pendientes y que cambió el lugar donde se recibe la ayuda.
+
+Este caso permite revisar si el sistema distingue el pedido anterior de la actualización y conserva la nueva ubicación.
+
+### 2. Esperar el resultado
+
+Al terminar, la terminal muestra el estado del caso y la ruta donde se guardaron los resultados:
+
+```text
+Outputs_D3/run_.../
+```
+
+### 3. Revisar los mensajes de los agentes
+
+Abre la carpeta de la ejecución recién creada y entra en:
+
+```text
+traces_v1/
+```
+
+Luego abre el archivo:
+
+```text
+caso_001_f82a183d.txt
+```
+
+En el video se revisa este registro para el input recibido: el mensaje original, la entrada recibida por el agente de suministros y su respuesta. Después se revisa lo que recibe y responde el agente de contexto.
+
+El archivo permite seguir también las comprobaciones, la auditoría y el cierre de la ejecución. Para comprobar la respuesta final de cuatro claves, abre el archivo correspondiente en `salidas_4/`.
+
+Los registros de `traces_v1/` se generan al terminar la ejecución a partir de los trazos técnicos guardados. No realizan llamadas adicionales al modelo.
 
 ## Solución de problemas
 
