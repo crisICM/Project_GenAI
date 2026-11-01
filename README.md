@@ -1,32 +1,57 @@
-# Deliverable 2 — Extracción de solicitudes de emergencia
+# Deliverable 3 — Extracción de solicitudes de emergencia con agentes
+
+En esta entrega continuamos con la extracción de solicitudes municipales de emergencia. Utilizamos los mismos 21 mensajes de prueba de las entregas anteriores.
+
+La solución utiliza tres agentes con tareas distintas: suministros, contexto y auditoría. Todos ocupan el modelo **Ministral 3 3B**, ejecutado localmente con Ollama. También se utilizan herramientas en Python para calcular cantidades y comprobar las respuestas.
 
 ## Archivos importantes
 
 | Archivo o carpeta | Función |
 | --- | --- |
-| `Run_AI_D1.py` | Código que permite interactuar con el modelo IA con instrucciones de sus respuestas predeterminadas. En particular D1 significa que es la versión base, usada para la entrega 1  |
-| `Run_AI_D2.py` | Actualización con las mejoras respecto a D1. Este lee las instrucciones desde el archivo Instructions_2 |
-| `Instruction_2.txt` | Instrucciones de extracción para el modelo. Este es el utilizado para la entrega 2 y los nuevos resultados |
-| `Run_Prompts.py` | Ejecuta la solución sobre todos prompts de prueba y guarda las respuestas y los datos de ejecución. |
-| `Prompts_Separados/` | Los 21 mensajes individuales utilizados por el programa de pruebas. |
-| `Prompts_deposito.txt` | Mensajes reunidos para consultarlos o copiarlos. No es el archivo de entrada del programa de pruebas. |
-| `Rubrica.txt` | Respuestas de referencia y comentarios para evaluar manualmente la calidad de respuesta de los modelos frente a los prompts o mensajes de emergencia. |
-| `Outputs_D2/` | Resultados obtenidos de Qwen, Ministral y Gemma. |
-| `MODELS_AI` | Nombre de los modelos usados. |
+| `Run_Prompts_D3.py` | Ejecuta los mensajes de prueba y guarda las respuestas y los registros de ejecución. |
+| `coordinador.py` | Organiza las llamadas a los agentes, aplica las correcciones solicitadas y prepara la salida final. |
+| `herramientas.py` | Contiene las comprobaciones de formato, citas y operaciones aritméticas. |
+| `agente_1_suministros.txt` | Instrucciones del agente que extrae los artículos solicitados y sus cantidades. |
+| `agente_2_contexto.txt` | Instrucciones del agente que extrae la ubicación, las referencias, la urgencia y los requerimientos operativos. |
+| `agente_3_auditor.txt` | Instrucciones del auditor que revisa las extracciones y solicita correcciones cuando corresponde. |
+| `traces_legibles.py` | Convierte los registros de ejecución en archivos de texto más fáciles de leer. |
+| `Prompts_separados/` | Los 21 mensajes individuales utilizados para las pruebas. |
+| `Outputs_D3/` | Resultados y registros de cada ejecución. |
+
+## Cómo funciona
+
+Primero se ejecuta el agente de suministros y después el agente de contexto. Ambos reciben el mismo mensaje original.
+
+El agente de suministros identifica qué se solicita y cuánto. También distingue pedidos de ofertas o ayuda ya recibida, y conserva las condiciones y dudas del mensaje.
+
+El agente de contexto identifica dónde se necesita la ayuda, recoge las referencias de acceso y evalúa la urgencia y los requerimientos operativos.
+
+Luego, las herramientas de Python comprueban las extracciones y realizan los cálculos declarados cuando corresponde.
+
+El auditor recibe el mensaje original, las extracciones y los resultados de las herramientas. Compara esta información y decide si aprueba, solicita correcciones o requiere revisión manual.
+
+Si solicita una corrección, el coordinador llama al agente correspondiente con el mensaje original, la observación del auditor y el dato que debe revisar. Después se vuelven a ejecutar las herramientas y la auditoría.
+
+La configuración predeterminada permite **2 rondas de corrección y hasta 6 correcciones por ronda**. Esto permite hasta 3 revisiones del auditor: la inicial y una después de cada ronda.
+
+Finalmente, Python reúne la información disponible y genera la salida.
 
 ## Instalación
 
 Instala Python, Git y [Ollama](https://ollama.com/download).
 
-En particular para la grabación se utiliza Windows, VS Code y Python 3.14.7.
+Para ejecutar los archivos de esta entrega se utiliza Python y su biblioteca estándar. No es necesario instalar el paquete de Python `ollama`.
 
-### 1. Clonar el repositorio
+### 1. Obtener el repositorio
+
+Si todavía no tienes una copia local:
 
 ```bash
 git clone https://github.com/crisICM/Project_GenAI.git
-cd Project_GenAI/Deliverable_2
+cd Project_GenAI/Deliverable_3
 ```
 
+Si ya tienes los archivos, abre una terminal en la carpeta `Deliverable_3`.
 
 ### 2. Iniciar Ollama y descargar el modelo
 
@@ -36,98 +61,160 @@ Mantén abierta la aplicación Ollama. Si el servidor todavía no está funciona
 ollama serve
 ```
 
-Descarga el modelo utilizado en la demostración:
+Descarga el modelo:
 
 ```bash
 ollama pull ministral-3:3b
 ```
 
-## 3 Reproductibilidad del video
+El programa utiliza la dirección local `http://localhost:11434`.
 
-Link del video: https://drive.google.com/file/d/1hzm5N7h-Jtmf-oEKKrAkn3vlxcKA_Y-L/view?usp=drive_link
-Ejecuta los siguientes comandos **desde la carpeta `Deliverable_2`**. 
+## Ejecutar los mensajes de prueba
 
-Dentro de la carpeta se encuentran distintos archivos .py
+Ejecuta los siguientes comandos desde la carpeta `Deliverable_3`.
 
-Run_AI_D1.py: Este permite testear el modelo ministral usando el prompt instruction de la entrega 1. Dentro del mismo código es posible cambiar el modelo a ocupar. 
-
-### 4. Ejecutar la versión base
+Para revisar los nombres y el orden de los mensajes:
 
 ```bash
-python Run_AI_D1.py
+python Run_Prompts_D3.py --listar
 ```
 
-Cuando aparezca `You:`, deberás pegar el prompt con el cual se desea testear el modelo. En el caso particular del video se hizo con el prompt 06 el cual se encuentra en la carpeta "Prompts_Separados"
+Este comando solo muestra la lista; no llama al modelo.
 
-PROMPT 06
-Impecable la gestión municipal, un aplauso por las cero frazadas y las cero linternas que prometieron mandar anoche a Dichato, se nos inundó hasta el techo y todavía estamos alumbrándonos con la pantalla del celular. En la casa del portón verde somos 9 damnificados: 4 lograron rescatar su ropa de cama, así que calculen cuántos quedamos durmiendo en el suelo húmedo. Si el camión municipal llega antes de que oscurezca traigan solo las frazadas que faltan, pero si llegan tarde sumen linternas con pilas porque la matriz de la cancha explotó y no hay luz en toda la cuadra.
-
-
-Espera a que aparezcan `ANSWER:` y el JSON generado, esta será la respuesta del modelo. Escribe `exit` para cerrar la ejecución del código.
-
-### 5. Ejecutar la solución del Deliverable 2
+Para probar los primeros dos mensajes:
 
 ```bash
-python Run_AI_D2.py
+python Run_Prompts_D3.py --limite 2
 ```
 
-Pega **el mismo mensaje**, espera el JSON y escribe `exit`.
-
-Ambos programas muestran las respuestas en la terminal y no las guardan automáticamente. Conservan el historial de conversación hasta que se cierran.
-
-Para probar otro mensaje independiente se puede seguir escribiendo mientras el programa está ejecutandose, esto es útil para probar distintas variaciones de un mismo prompt o distintos.
-
-## Ejecución de los 21 mensajes de prueba (prompts)
-
-Actualmente, `Run_Prompts.py` utiliza **`gemma3:4b`** de forma predeterminada, a diferencia de la demostración interactiva. Pero este se puede cambiar facilmente modificando la linea que indica el modelo a usar.
-
-En particular para probar el mismo modelo del video se sugiere colocar:
-MODELS = ["ministral-3:3b"]
-
-Luego ejecuta:
+Para ejecutar los 21 mensajes:
 
 ```bash
-python Run_Prompts.py
+python Run_Prompts_D3.py
 ```
 
-Esto permitirá ejecutar los 21 prompts que se utilizan para testear, son dados al modelo de forma secuencial de manera que las respuestas son independientes.
+Los mensajes se procesan de forma secuencial. Cada caso se trabaja de manera independiente.
 
-### Dónde se guardan los resultados
+También puedes ejecutar un mensaje específico:
 
-Cada prueba comienza con una conversación nueva.
+```bash
+python Run_Prompts_D3.py --caso "NOMBRE_DEL_ARCHIVO.txt"
+```
 
-Los resultados se guardan en una carpeta nueva:
+Reemplaza `NOMBRE_DEL_ARCHIVO.txt` por el nombre exacto que aparece al ejecutar `--listar`.
+
+Por defecto, el programa espera encontrar 21 archivos TXT en `Prompts_separados/`. Si deseas utilizar una carpeta con otra cantidad de mensajes:
+
+```bash
+python Run_Prompts_D3.py --entradas "Mi_carpeta" --esperados 0
+```
+
+## Configuración utilizada
+
+| Parámetro | Valor predeterminado |
+| --- | --- |
+| Modelo | `ministral-3:3b` |
+| Temperatura | `0.0` |
+| Semilla | `42` |
+| Ventana de contexto | `16384` |
+| Máximo de tokens generados por respuesta | `3072` |
+| Tiempo máximo por llamada | `600 segundos` |
+| Rondas de corrección | `2` |
+| Máximo de correcciones por ronda | `6` |
+
+Las instrucciones de cada agente están en archivos TXT separados. Para revisar o modificar una instrucción, abre el archivo del agente correspondiente.
+
+## Dónde se guardan los resultados
+
+Cada ejecución crea una carpeta nueva dentro de:
 
 ```text
-Outputs_D2/run_YYYYMMDD_HHMMSS/
+Outputs_D3/run_.../
 ```
 
-Esta carpeta contiene:
+| Archivo o carpeta | Contenido |
+| --- | --- |
+| `entradas/` | Copia de los mensajes utilizados. |
+| `fuentes/` | Copia del código y las instrucciones utilizadas en la ejecución. |
+| `salidas_4/` | Respuestas finales con las cuatro claves de la tarea. |
+| `salidas_7/` | Respuestas con información más detallada. |
+| `resultados/` | Resultado completo de cada caso, incluyendo su estado. |
+| `traces/` | Registro técnico de las llamadas, respuestas y eventos del sistema. |
+| `traces_v1/` | Registro en texto para seguir la ejecución de forma más legible. |
+| `resumen.csv` | Resumen de los casos ejecutados. |
+| `resumen.json` | Resumen de la ejecución en formato JSON. |
 
-- Subcarpetas por modelo con las respuestas en archivos `OUTPUT*.txt`.
-- Un archivo `summary.tsv` que relaciona cada respuesta con su mensaje de entrada.
+La salida de cuatro claves contiene:
 
-El resumen registra el estado de validación del JSON, los conteos de tokens, la duración, el motivo de finalización y los errores.
+```json
+{
+  "suministros_solicitados": [],
+  "direccion_objetivo": null,
+  "referencias": null,
+  "urgencia": 1
+}
+```
 
-La numeración de las respuestas continúa entre modelos; consulta `summary.tsv` para identificar sus entradas.
+Los valores dependen del mensaje procesado.
 
-**`status=ok` significa que la respuesta pudo interpretarse como JSON, no que la información extraída sea correcta.**
+## Cómo revisar lo que hicieron los agentes
 
-Se debe evaluar las respuestas utilizando `Rubrica.txt`.
+Para revisar rápidamente una respuesta, abre el archivo correspondiente en `salidas_4/`.
 
-El programa de pruebas ejecuta únicamente la solución; no ejecuta automáticamente la versión base.
+Para entender cómo se obtuvo, abre su registro en `traces_v1/`. Allí puedes seguir los datos recibidos por los agentes, sus respuestas, las comprobaciones de Python, la decisión del auditor y las correcciones realizadas.
+
+Estos archivos omiten detalles técnicos como los esquemas extensos, los tiempos y los conteos de tokens.
+
+**La carpeta `traces_v1` se genera al terminar el lote**, a partir de los registros guardados en `traces/`. Su generación no realiza llamadas adicionales al modelo.
+
+Para generar nuevamente los registros legibles de una ejecución anterior:
+
+```bash
+python traces_legibles.py "Outputs_D3/NOMBRE_DE_LA_EJECUCION"
+```
+
+Reemplaza `NOMBRE_DE_LA_EJECUCION` por el nombre de la carpeta que deseas revisar.
+
+## Cómo interpretar el estado del resultado
+
+- **VALIDADA:** el sistema aprobó la respuesta y no detectó errores pendientes de validación.
+- **PARCIAL:** se entrega la información disponible, pero requiere revisión.
+- **ERROR:** no se pudo obtener una extracción inicial utilizable.
+
+**VALIDADA no significa que toda la información sea correcta.** El auditor también puede pasar por alto errores, por lo que las respuestas deben evaluarse manualmente con el mismo criterio utilizado en las entregas anteriores.
+
+## Reproducibilidad del video
+
+Link del video de la entrega 3: **pendiente de agregar**.
+
+Para repetir un caso mostrado en la demostración:
+
+1. Inicia Ollama y comprueba que el modelo esté descargado.
+2. Abre la terminal en `Deliverable_3`.
+3. Ejecuta `python Run_Prompts_D3.py --listar` para identificar el archivo.
+4. Ejecuta el caso con `--caso`.
+5. Revisa la respuesta en `salidas_4/` y los mensajes intercambiados en `traces_v1/`.
+
+Para comparar las ejecuciones, utiliza el mismo mensaje, modelo, instrucciones y configuración.
 
 ## Solución de problemas
 
 | Problema | Acción |
 | --- | --- |
-| `No module named 'ollama'` | Activa el entorno virtual y ejecuta `python -m pip install ollama`. |
 | No es posible conectarse a Ollama | Inicia la aplicación Ollama o ejecuta `ollama serve`. |
-| No se encuentra el modelo | Descarga la etiqueta exacta indicada en `MODEL` o `MODELS`. |
-| No se encuentra `Instruction_2.txt` | Ejecuta la solución interactiva desde `Project_GenAI/Deliverable_2`. |
-| La respuesta tarda en aparecer | Las llamadas esperan la respuesta completa; la carga inicial del modelo también puede tardar. |
+| No se encuentra el modelo | Ejecuta `ollama pull ministral-3:3b`. |
+| No se encuentran las instrucciones de un agente | Comprueba que los tres archivos `agente_*.txt` estén junto a `coordinador.py`. |
+| El programa indica una cantidad incorrecta de mensajes | Revisa los TXT de `Prompts_separados/`. Para trabajar con otra cantidad, utiliza `--esperados 0`. |
+| No aparece la carpeta `traces_v1/` | Espera a que termine el lote y comprueba que exista `traces_legibles.py`. |
+| La respuesta tarda en aparecer | Cada caso requiere varias llamadas al modelo. La carga inicial y las correcciones pueden aumentar el tiempo. |
+
+## Entregas anteriores
+
+- `Deliverable_1/`: versión base.
+- `Deliverable_2/`: solución con descomposición de la tarea y ejemplos.
+- `Deliverable_3/`: sistema multiagente con herramientas, auditoría y corrección.
 
 ## Referencias de instalación
 
+- [Descarga de Ollama](https://ollama.com/download).
 - [Guía de inicio de Ollama](https://docs.ollama.com/quickstart).
-- [Cliente de Python para Ollama](https://github.com/ollama/ollama-python).
